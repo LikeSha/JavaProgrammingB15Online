@@ -1,0 +1,47 @@
+package day10_AfterSchoolPractice;
+
+public class Calculator_v2 {
+
+    public static void main(String[] args) {
+
+
+        // declare two numbers as int num1 ,num2 and assign values
+        // declare and assign value for char variable called operator +-*/
+        // according to the operator , print the result of the operation
+
+        int num1 = 20 ;
+        int num2 = 30 ;
+        char operator = '+' ;
+
+        switch(operator){
+            case '+' :
+                System.out.println(num1 + num2);
+                break;
+            case '-' :
+                System.out.println(num1 - num2);
+                break;
+            case '*' :
+                System.out.println(num1 * num2);
+                break;
+            case '/' :
+                System.out.println(num1 / num2);
+                break;
+            default:
+                System.out.println("INVALID OPERATOR!!!");
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
