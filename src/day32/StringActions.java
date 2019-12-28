@@ -99,12 +99,15 @@ public class StringActions {
     public static void printStringWithDashInBetween(String name) {
         //String name = "Akbar";
         for (int i = 0; i < name.length(); i++) {
-            System.out.println(name.charAt(i));
-            //if I am not at least index then I print - ( last location : name.length-1)
+            System.out.print(name.charAt(i));
+           // if I am not at last index then I print - ( last location : name.length-1)
             if (i != name.length() - 1) {
                 System.out.print("-");
             }
+
         }
+        System.out.println();
+
     }
 
 

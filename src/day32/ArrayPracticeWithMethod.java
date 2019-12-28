@@ -94,7 +94,7 @@ public class ArrayPracticeWithMethod {
      * create a method that accept 2 String array object
      * and compare the item counts inside these 2 arrays
      * if arr1 is more than print array 1 has more item
-     * if aar2 is more than rint array 2 has more item
+     * if aar2 is more than Print array 2 has more item
      * else print they have same item count
      */
     public static void compare2arraySize(String[] arr1, String[] arr2) {
