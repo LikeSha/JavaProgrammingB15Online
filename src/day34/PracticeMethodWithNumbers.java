@@ -14,7 +14,7 @@ public class PracticeMethodWithNumbers {
          build3DigitNumber(65,6,9) --->> 69
          *
          */
-        // DO NOT TREAT NUMBER AS A STRING
+        // DO NOT TREAT NUMBER AS A STRING// it means do not concatenate the numbers
         // 376 -->> digit1 is 3, digit2 is 7, digit3 is 6,
 
         //int digit1,digit2,digit3 ;
