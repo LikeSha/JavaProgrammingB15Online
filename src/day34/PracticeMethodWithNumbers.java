@@ -1,6 +1,6 @@
 package day34;
 
-public class WarmUp {
+public class PracticeMethodWithNumbers {
 
     public static void main(String[] args) {
 
@@ -58,4 +58,14 @@ public class WarmUp {
 
 
     }
+    /**
+     * String name = "Jon Snow"
+     * name.charAt(0) ;
+     * name.toUpperCase() ;
+     *
+     * Scanner scan = new Scanner(System.in);
+     *
+     * scan.next();
+     */
+
 }
