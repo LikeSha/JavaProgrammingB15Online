@@ -17,7 +17,7 @@ public class MoreMethodPractice {
     }
      /*
      A method that return true only if both monkeys are smiling or not smiling
-     aSmile first money smiled or not
+     aSmile first monkey smiled or not
      bSmile second monkey smiled or not
      true only if both monkeys are smiling or not smiling
       */
@@ -37,12 +37,18 @@ public class MoreMethodPractice {
       // return yes and no instead of true and false
      /*
      A method that return true only if both monkeys are smiling or not smiling
-     aSmile first money smiled or not
+     aSmile first monkey smiled or not
      bSmile second monkey smiled or not
      yes only if both monkeys are smiling or not smiling
 
       */
 
+    /**
+     *                    //  open up " /" then "**" then hit enter , ---->>
+     * @param aSmile
+     * @param bSmile
+     * @return
+     */
     public static String monkeyTrouble2(boolean aSmile, boolean bSmile){
         //TODO : YOUR CODE goes here
         if( (aSmile && bSmile ) || (!aSmile && !bSmile)){

@@ -23,6 +23,8 @@ public class MathActionFromJDK {
         Math.max(10,20);
         System.out.println("max of 10,20 --> " + Math.max(10,20));
 
+
+
         // create 2 login methods
 
         //1, login1 : static void method

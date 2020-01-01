@@ -59,8 +59,17 @@ public class LoginActivity {
         // }else{
              return user.equals("user") && password.equals("abc123") ;
          }
+         // the method already boolean , boolean method return true or false , so
+       // you don't have to us if statement , since its boolean method , you can make your
+        // code shorter .
 
-
+       // if (login2("user", "abc123"))--why we can put this whole method call inside if statement ?
+       // in anther word : what you can put inside parenthesis of if statement ?
+        // answer : 1 , you can put in a boolean . literal boolean value , either true or false .
+        // 2 , you can put a boolean variable which is the result variable what we have result earlier .
+        // 3, any boolean expression that generate a boolean result .such as 7>5 --> generate true
+       // or any method call like this (login2("user", "abc123") that return a boolean result
+       // either true or false .
      }
 
 

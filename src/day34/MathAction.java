@@ -32,6 +32,10 @@ public class MathAction {
         Calculator_V2.calculate('-',10,20);// highlight calculate and press ctrl + shift + i
         // to see inside the method
 
+        // its a void method (Calculator_V2.calculate('-',10,20);) ,
+        // so I don't have to save the result . Its void method , I just called them,
+        // take action, and get done with it . lets run this ....
+
 
     }
 }
