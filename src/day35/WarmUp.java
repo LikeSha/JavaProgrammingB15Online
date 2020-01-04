@@ -44,7 +44,7 @@ public class WarmUp {
          *         CAN NOT HAVE 2 METHODS WITH SAME METHOD SIGNATURE .
          *  fly(100);
          * 	fly(100L); -->> This method call expecting a fly method
-         * 					that accept long paramter
+         * 					that accept long parameter
          * 	class Plane{
          * 		public static void fly(){
          * 			// some code here

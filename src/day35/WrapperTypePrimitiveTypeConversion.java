@@ -10,7 +10,7 @@ public class WrapperTypePrimitiveTypeConversion {
 
         // Integer.valueOf(...) is a method that return Integer Object
         // it has 2 overloaded version one that accept number ,another accept String
-        // BUT BOTH OF RHEM RETURN INTEGER OBJECT
+        // BUT BOTH OF THEM RETURN INTEGER OBJECT
         int num2 = Integer.valueOf("200");// auto-unboxing into 200
 
         // THIS CAN NOT HAPPEN BY ITSELF

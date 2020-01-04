@@ -44,6 +44,9 @@ public class CharacterPractice2 {
 
         }
           System.out.println("sum = " + sum);
+
+
+
     }
 }
 

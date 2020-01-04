@@ -24,7 +24,7 @@ public class StringToIntegerParsing {
          *
          *
          */
-         // int id = Integer.parseInt( empID.split("-")[1]);
+         // int id = Integer.parseInt( empID.split("-")[1]); ---this is one shot solution . easy and fast
         String[] empIDsplit = empID.split("-");
         String idStr        = empIDsplit[1];
         int id              = Integer.parseInt(idStr);
