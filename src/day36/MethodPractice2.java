@@ -21,6 +21,15 @@ public class MethodPractice2 {
         Long[] myNums2 = new Long[5];
         System.out.println("myNums2 = " + Arrays.toString(myNums2));
 
+        int x = 0 ;
+        Integer x1 = null ;
+
+        // ONE THING THAT PRIMITIVE VARIABLES CAN NOT DO IS :
+        //  WE CAN NOT ASSIGN IT TO NULL
+        // ANY NON-PRIMITIVE VARIABLES
+         // CAN ASSIGNED TO NULL VALUE
+         // TO DEFINE, IT'S NOT POINTING TO ANY OBJECT YET
+
 
     }
     // write a static void method to accept a long array.
