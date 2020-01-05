@@ -11,16 +11,18 @@ public class WrapperReview {
          * These classes coming from java.lang package
          * collectively called -->> Primitive Wrapper Classes
          *
-         * It has a lot of static methods build in these classes to work with
+         * It has a lot of static methods built in these classes to work with
          * this type of data
          *
          * 1, parse String into primitive types value
-         * "123"---> 123 Integer.parseInt9("123") ;
+         * "123"---> 123 Integer.parseInt("123") ;
          *
          * // This will not work !
          * //parseMethod accept String will turn it into int
          * //passing character here !!! BAD IDEA!!!!
          * Integer.parseInt('9')
+         *
+         * Integer.parseInt(myChar+"")--->> int 9
          *
          * Are character 9 and int 9 same thing ???
          * '9' == 9 ---->>> FALSE
