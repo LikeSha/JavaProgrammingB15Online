@@ -21,7 +21,17 @@ public class ArrayListRemoveItemPractice {
         // I want to remove item by it's value rather than index
         //lst.remove( new Integer(2)); // this is object  new keyword told us its object
         lst.remove(Integer.valueOf(2));
+
+        // if you try to delete an item that does not exist by value
+        // IT WILL DO NOTHING
+        // lst.remove(Integer.valueOf(112));
+
+        // if you try to delete using the index list don't have
+        // IT WILL throw IndexOutOfBountException
+        // lst.remove(112);
         System.out.println("lst = " + lst);
+
+         // comment out  all lines in one shot " ctrl + "/"  resume it do the same .
 
     }
 }

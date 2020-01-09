@@ -54,6 +54,7 @@ public class TeamMateListPractice {
 
          // print 2 items at a time
          // for example : 1-2 , 2-3 , 3-4 , 4-5 , 5-6 ,....
+        // if you wanna get 3 names print out , teamMates.size()-3.......
         for(int x = 0; x <= teamMates.size()-2 ; x++){
 
             System.out.println(teamMates.get(x) + "---" + teamMates.get(x+1));
