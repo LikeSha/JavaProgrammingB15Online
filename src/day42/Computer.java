@@ -1,25 +1,25 @@
 package day42;
 
 public class Computer {
-       // attributes : brand,ram(1-128), price  make it private
+    // attributes : brand,ram(1-128), price  make it private
     //behavior : runProgram-->print brand is running program with the ram(size)
-       // calculate -->print brand is calculating
+    // calculate -->print brand is calculating
     // add getters and setters to all the fields
     // ram can not be less than 1 more than 128
     // price can not be less than 20
     // toString method
 
-       private String brand;
-       private int ram ;
-       private double price ;
+    private String brand;
+    private int ram;
+    private double price;
 
-       public void runProgram(){
-           System.out.println(this.brand + "brand is running program with the ram size" + ram);
-       }
+    public void runProgram() {
+        System.out.println(this.brand + "brand is running program with the ram size" + ram);
+    }
 
-       public void calculate(){
-           System.out.println(brand + " is calculating");
-       }
+    public void calculate() {
+        System.out.println(brand + " is calculating");
+    }
 
     public String getBrand() {
         return brand;
@@ -35,7 +35,7 @@ public class Computer {
 
     public void setRam(int ram) {
         // valid ram is 1-128
-        if(ram>=1 && ram<=128){
+        if (ram >= 1 && ram <= 128) {
             this.ram = ram;
         }
 
@@ -46,7 +46,7 @@ public class Computer {
     }
 
     public void setPrice(double price) {
-        if(price >20) {
+        if (price > 20) {
             this.price = price;
         }
     }
