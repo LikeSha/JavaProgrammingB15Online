@@ -38,6 +38,8 @@ public class ArrayListMethod {
         System.out.println("sum = " + sum);
 
          // TASK : GET THE MAX OF AVOVE ARRAYLIST ITEMS
+        System.out.println("-----use for loop----------");
+
         long max = lst.get(0);
         for (int i = 0; i <lst.size() ; i++) {
 
@@ -48,5 +50,15 @@ public class ArrayListMethod {
         }
 
         System.out.println("max = " + max);
+
+        System.out.println("--------use for each loop---------");
+
+        for( long each :lst){
+            if(max < each){
+                max= each;
+            }
+        }
+        System.out.println("max = " + max);
+
     }
 }

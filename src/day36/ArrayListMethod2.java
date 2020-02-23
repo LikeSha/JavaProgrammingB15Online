@@ -25,11 +25,11 @@ public class ArrayListMethod2 {
         //lst.add(null) ; // you can add null element into a list
 
         System.out.println("lst = " + lst);
-        // I want to insert 123 between 100L and 150L, basically 2nd and 3rd item
+        // I want to insert 125 between 100L and 150L, basically 2nd and 3rd item
         lst.add(2,125L);
         System.out.println("lst = " + lst);
 
-        System.out.println("ls.get(3) =" +lst.get(3));
+        System.out.println("lst.get(3) =" +lst.get(3));
 
         // updating value at certain index : set method
         lst.set(3,195L);

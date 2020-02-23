@@ -50,6 +50,7 @@ public class ArrayListWithStringPractice {
         List<String> superHeroCopy = new ArrayList<>( superHeros);
         System.out.println("superHeroCopy = " + superHeroCopy);
 
+
         // THIS WILL CREATE A UNMODIFIABLE LIST!!!
         List<String> topics = Arrays.asList("Java","Selenium","Database","API");
         System.out.println("topics = " + topics);

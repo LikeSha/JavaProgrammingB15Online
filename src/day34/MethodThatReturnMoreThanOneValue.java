@@ -11,6 +11,10 @@ public class MethodThatReturnMoreThanOneValue {
         char[] eachChars = sentence.toCharArray();
         String[] eachWords = sentence.split(" ") ;
 
+        // toCharArray and split method return you Array !
+
+
+
         int[] resultArr = returnBoysAndGirlsResult();
         System.out.println(Arrays.toString(resultArr));
 

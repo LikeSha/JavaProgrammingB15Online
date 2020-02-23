@@ -13,7 +13,7 @@ public class MethodWithParameterArray {
  //       System.out.println("after sort nums = " + Arrays.toString(nums));
         System.out.println("before change nums = " + Arrays.toString(nums));
         changeArrayFirstItemTo100(nums);
-        System.out.println("before change nums = " + Arrays.toString(nums));
+        System.out.println("after change nums = " + Arrays.toString(nums));
 
         // when you pass a variable to a method parameter :
          // you are only passing the copy of that variable
@@ -28,7 +28,7 @@ public class MethodWithParameterArray {
           //when you pass a variable to a method parameter :
           // you are only passing the copy of that parameter
 
-         // JAVA IS A PASS BY VALUE LANGUAGE  WHEN IT COMES TO PASSING ARGUMENT TO THE METHOD(INTERVIEW QUESTION)
+         // JAVA IS A PASS BY VALUE LANGUAGE :  WHEN IT COMES TO PASSING ARGUMENT TO THE METHOD(INTERVIEW QUESTION)
 
     }
 

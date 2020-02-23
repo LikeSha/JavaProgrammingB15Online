@@ -13,8 +13,8 @@ public class MethodWithParameter {
         addOneHundred(num);
         System.out.println(num);
 
-        num = addOneHundredAndReturn(num);
-        System.out.println(num);
+        num = addOneHundredAndReturn(num); // this is corresponding to line 39 !!! save the value  then
+        System.out.println(num);   // print it out
 
     }
 
@@ -36,7 +36,7 @@ public class MethodWithParameter {
     public static int addOneHundredAndReturn(int x) {
         x = x + 100;
         //System.out.println( x );
-        return x;
+        return x;  // how do you get the value out of a method so you can save them  ? return it!!!
     }
 
 

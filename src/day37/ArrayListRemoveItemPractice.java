@@ -22,6 +22,7 @@ public class ArrayListRemoveItemPractice {
         //lst.remove( new Integer(2)); // this is object  new keyword told us its object
         lst.remove(Integer.valueOf(2));
 
+
         // if you try to delete an item that does not exist by value
         // IT WILL DO NOTHING
         // lst.remove(Integer.valueOf(112));

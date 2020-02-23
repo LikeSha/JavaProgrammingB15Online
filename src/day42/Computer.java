@@ -14,6 +14,7 @@ public class Computer {
     private double price;
 
     public void runProgram() {
+
         System.out.println(this.brand + "brand is running program with the ram size" + ram);
     }
 

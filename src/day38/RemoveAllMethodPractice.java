@@ -1,0 +1,27 @@
+package day38;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class RemoveAllMethodPractice {
+
+    public static void main(String[] args) {
+
+        ArrayList<Integer> nums1 = new ArrayList<>();
+        nums1.add(100);
+        nums1.add(200);
+        nums1.add(300);
+        nums1.add(400);
+        nums1.add(500);
+        nums1.add(600);
+        System.out.println("nums1 = " + nums1);
+        // I want to remove 100,133
+        // just like addAll method , removeAll method expect another collection List Object to be removed
+       nums1.removeAll(Arrays.asList(100,300));
+        System.out.println("nums1 after removing = " + nums1);
+        nums1.removeAll(Arrays.asList(100,300));
+        System.out.println("nums1 after 2nd removing = "+ nums1);
+        // if you have 3 100 , it will as name said " remove all the 100 in your list "
+
+    }
+}

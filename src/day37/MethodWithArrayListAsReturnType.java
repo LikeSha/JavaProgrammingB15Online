@@ -11,8 +11,13 @@ public class MethodWithArrayListAsReturnType {
         System.out.println( getListFrom1TillFinalNumber(7)     );
         System.out.println( getListFrom1TillFinalNumber(2)     );
         System.out.println( getListFrom1TillFinalNumber(20)    );
+        // why we can directly print it ? because this method returns value ,so we can direct print it
 
         List<Integer> myList = getListFrom1TillFinalNumber(25);
+        // to decide return type just look at the call method data type in this case is
+        // List<Integer>
+        // second option is let IDE do the job for you , just pointing at myList ,and there is an
+        // indication tells you what data type you should choose to store
         System.out.println("myList = " + myList);
     }
     // Create a method that accept a finalNumber as int
