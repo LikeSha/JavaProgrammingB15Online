@@ -60,7 +60,7 @@ public class ClassNote {
      *   All different types of exceptions have its own class to be the blueprint for the
      *   exceptions object happen at run time
      *
-     *   Throwable
+     *   Throwable is the super class type of all the exceptions classes
      *
      *
      *

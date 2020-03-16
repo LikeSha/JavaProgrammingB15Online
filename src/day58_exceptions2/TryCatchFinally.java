@@ -24,6 +24,8 @@ public class TryCatchFinally {
             System.out.println("Exception happened and caught");
         }finally{
             System.out.println("Finally block Runs if there is exception or no exception");
+
+            //NullPointerException is the most seen in tester job
         }
     }
 }

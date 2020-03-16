@@ -7,6 +7,7 @@ public class OutOfMemoryDemo{
 
         List<Integer> nums = new ArrayList<>();
 
+
         for (int i = 1; i >0 ; i++) {
             System.out.println(i);
             nums.add(i);

@@ -5,6 +5,9 @@ public class day12_02_13_2020 {
     /**
      * today we will continue Jira , before start the class I will ask below questions  :
      * Can you describe your scrum team ?
+     * keep in mind : development team only 3 characters : developers ,testers ,and business analysts( BA)
+     * Scrum team including development team , scrum team member is dev team + scrum master, PO
+     *
      * 2. If I give you a requirement , what will be your approach to testing?
      * 3. How you handle if you found a bug?
      * 4. What do you do if the bug is rejected by developers ?
@@ -18,6 +21,16 @@ public class day12_02_13_2020 {
      *
      *Jira--Project Management tool :
      * bug tracking
+     *
+     * who do sprint demo ? Product Owner
+     * what is your sprint cycle ? 2 weeks
+     * who is responsible for peer reviewing in test cases ? my team members responsible for review .
+     * what in the test case ? test case ID
+     *                         test case description
+     *                         pre-condition
+     *                         test data
+     *                         Expected result ..
+     *                         actual result ....
      *
      *
      *
@@ -67,6 +80,9 @@ public class day12_02_13_2020 {
      *
      * General review :
      * SDLC ,AGILE, STLC ,Different gypes of testing , bug lifecycle ,jira.
+     *
+     * static binding = method overlodding
+     * dynamic binding = method  overriding
      *
      *
      */

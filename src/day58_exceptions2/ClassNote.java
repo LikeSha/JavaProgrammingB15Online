@@ -109,7 +109,7 @@ public class ClassNote {
      *  Throwable --- Checked
      *  Exception--- Checked
      *  RuntimeException--- Unchecked
-     *        ArraysIndexOutOfBoundsException --Unchecked
+     *        ArrayIndexOutOfBoundsException --Unchecked
      *        NullPointerException --- Unchecked
      *        ArithmeticException --- Unchecked
      *
