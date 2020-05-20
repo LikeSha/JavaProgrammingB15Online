@@ -83,7 +83,7 @@ public class Day13_March12_2020Asia {
      *
      * production : www.montessoriLover.com
      * After coding :
-     *     www.dev.montessoriLover.com  --development enviornment
+     *     www.dev.montessoriLover.com  --development environment
      *     www.QA.montessoriLover.com
      *
      *     test scripts == code
@@ -131,26 +131,33 @@ public class Day13_March12_2020Asia {
      *     register
      *     login
      *     logout   must based on logical order
+     *     logon the home page
+     *     profile pictures
+     *     2 games picture
+     *       a button about to start game
      *
      *
      *
      *     =====================================
      *     1 point = 1 day
      *     1. a developer --->gave 5 points ==5 days
-     *           3 days dveloping + 2 days to test
+     *           3 days developing + 2 days to test
      *           Both developing + testing
      *     2. A tester --->3 points
      *           Both developing and testing
      *
      *   ===================================================
      *   VyTrack--->company
-     *          1. they have a company where they rent/borrow ars, truck
+     *          1. they have a company where they rent/borrow cars, truck
      *          2.IT-Company
      *             developers + testers
      *   ============================================================
      *   Homework :
      *     1. each person choose 1 user story and create a ticket on Jira ( just take your 1 minute)
      *     if you have more than 14 ppl in your group, its ok to duplicated
+     *
+     *     after you have all 14 user stories on the backlog ( product backlog, whenever you
+     *     create a ticket it will in the product backlog)
      *
      *     2. conduct grooming meeting
      *      1. Prioritize those user stories
