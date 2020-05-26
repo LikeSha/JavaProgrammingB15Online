@@ -13,17 +13,17 @@ public class Nov10HomeworkPractice {
         System.out.println(" I was born in  " + myBirthYear);
         System.out.println( " I am " + myAge + " now");
         System.out.println( " My Family Number is " + myFamilyMember);
-        System.out.println( " I am linving in California and my area code is " +  myAreaCode);
+        System.out.println( " I am living in California and my area code is " +  myAreaCode);
 
         int myBirthYear$ = 1975;
         int myAge$ = 45;
-        int myFamilymember$ =4;
+        int myFamilyMember$ =4;
         int myMonitorCount$ = 4;
         int myAreaCode$ = 92129;
 
         System.out.println("I was born in " + myBirthYear$);
         System.out.println(" I am " + myAge$);
-        System.out.println(" My family number is " + myFamilymember$);
+        System.out.println(" My family number is " + myFamilyMember$);
         System.out.println( " I am living in California and my area code is " + myAreaCode$);
 
         int myWorkYear = 20;
