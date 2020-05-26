@@ -1,6 +1,6 @@
 package day02;
 
-public class AaboutMe {
+public class AboutMe {
 
 
     public static void main(String[] arg){
