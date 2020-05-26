@@ -14,7 +14,7 @@ public class EscapeCharacter {
 
         System.out.println(   "Hello  \n  B15");
 
-        // what is the equivilent of println and print , using one of the above
+        // what is the equivalent of println and print , using one of the above
 
         System.out.print("This is regular print \n");
         System.out.println("This is println ");
