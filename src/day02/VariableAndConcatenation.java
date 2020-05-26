@@ -13,7 +13,7 @@ public class VariableAndConcatenation {
 
         System.out.println( "The hour of Coding is  "  + hourOfCoding   );
 
-        // creat a variable for your birth year
+        // create a variable for your birth year
         // create a variable for your age
         // create a variable for your family member count
         // create a variable for monitor count
@@ -23,6 +23,16 @@ public class VariableAndConcatenation {
         ///   my birth year is : yourBirthYearVariable
         ///   and so on
 
+        int birthYear = 1975;
+        int age = 44;
+        int familyNumber = 4;
+        int monitorCount = 3;
+        int areaCode = 92129;
+        int desiredSalary = 96000;
+
+        System.out.println("My birth year is " + birthYear + " and my age is " + age + " , " +
+                "my family number is " + familyNumber + '\n' + ". I have " + monitorCount + " monitors"
+         + " and my area code is " + areaCode + ". My desired salary is " + desiredSalary);
 
 
 

@@ -30,15 +30,19 @@ public class VariableIntro {
         // name your favorite number
         // name your classmate count
         int favoriteNumber = 100;
-//        int FavoriteNumber = 100;
-//        int FavoriteNumber = 100;
+//        int favoritenumber = 100;
+//        int Favoritenumber = 100;
  //       int Favorite_number = 100;
 
-       // int FavoriteNumber = 100; Variable name can not be reused!!!!!!
+        // int FavoriteNumber = 100; Variable name can not be reused!!!!!!
+
+        int classmatesCount = 300;
+
+
 
 
         int nextnumberfrom9 = 10;
-        int populationofbattch15now = 300;
+        int populationofbatch15now = 300;
 
         //int 9to5 = 95;   //  NUMBER CANNOT COME FIRST IN ANY NAME !!
 
