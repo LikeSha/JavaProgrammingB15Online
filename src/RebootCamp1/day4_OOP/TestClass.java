@@ -7,6 +7,7 @@ public class TestClass {
         Teachable.print();
         ClassOne c = new ClassOne();
         c.print2();
+
     }
 
 
