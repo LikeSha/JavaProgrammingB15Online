@@ -16,9 +16,10 @@ public class VariableIntro {
         corollaMileage = 5000;
 
 
-        int TVsize = 67;
+        int TVSize = 67;
         // Names in Java is extremely Case Sensitive!!!!!!!
-        //System.out.println( TVsize);
+        //System.out.println( TVSize);
+        //White space does not matter,however spaces between words DOES MATTER!!
 
 
         System.out.println(  offerCnt );
@@ -28,12 +29,12 @@ public class VariableIntro {
         // TASK 1:
         // name your favorite number
         // name your classmate count
-        int favoritenumber = 100;
-        int Favoritenumber = 100;
+        int favoriteNumber = 100;
+//        int FavoriteNumber = 100;
 //        int FavoriteNumber = 100;
  //       int Favorite_number = 100;
 
-       // int Favoritenumber = 100; Variable name can not be reused!!!!!!
+       // int FavoriteNumber = 100; Variable name can not be reused!!!!!!
 
 
         int nextnumberfrom9 = 10;
