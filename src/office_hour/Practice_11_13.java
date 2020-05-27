@@ -1,19 +1,9 @@
 package office_hour;
 
-import org.w3c.dom.ls.LSOutput;
 
 public class Practice_11_13 {
 
     public static void main(String[] args) {
-
-
-
-
-
-
-
-
-
 
 
         // if we go over the rang of the type can hold, it does not compile
@@ -58,33 +48,7 @@ public class Practice_11_13 {
         // char myNine = '99' ; /// storing 99 as character will not work if in single quote
 
 
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
