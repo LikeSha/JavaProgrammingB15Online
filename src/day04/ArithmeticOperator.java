@@ -12,11 +12,11 @@ public class ArithmeticOperator {
 
         // arithmetic operator between two numerical data type
         // the final result will be larger data type
-        System.out.println( 5 + 3.0d); // 8
-        System.out.println( 5 - 3.0d); // 2
-        System.out.println( 5 * 3.0d); // 15
-        System.out.println( 5 / 3.0d); // 1
-        System.out.println( 5 / 3.0f); // 1
+        System.out.println( 5 + 3.0d); // 8.0D
+        System.out.println( 5 - 3.0d); // 2.0D
+        System.out.println( 5 * 3.0d); // 15.0D
+        System.out.println( 5 / 3.0d); // 1.666667D
+        System.out.println( 5 / 3.0f); // 1.6666666F
 
         // store above number in variables
         // and replace above statement with variables instead

@@ -18,7 +18,8 @@ public class AmazonPractice {
         char dollar = '$';
         float price = 79.99f;
 
-        System.out.println(" I saw fire" + "\t" + model + version + " hands-free with"+productName + " for" + " "+ dollar +price);
+        System.out.println(" I saw fire" + "\t" + model + version +
+                          " hands-free with"+productName + " for" + " "+ dollar +price);
 
     }
 }
