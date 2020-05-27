@@ -32,5 +32,18 @@ public class ScannerIntro {
         System.out.println("You age is : " + age);
 
 
+
+
+
+
+//        Scanner scan = new Scanner(System.in);
+//
+//        System.out.println("Enter your first name please : ");
+//
+//        String firstName = scan.next();
+//
+//        System.out.println("You have entered : " + firstName);
+
+
     }
 }
