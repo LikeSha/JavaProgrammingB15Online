@@ -55,7 +55,7 @@ public class Practice_11_13 {
 
 
         //char myNine = '9'; /// storing 9 as character will work
-        // char myNine = '99' ; /// stroing 99 as character will not work if in single quote
+        // char myNine = '99' ; /// storing 99 as character will not work if in single quote
 
 
 

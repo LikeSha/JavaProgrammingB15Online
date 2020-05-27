@@ -41,7 +41,7 @@ public class Practice_11_12 {
            int _123abc = 78;
            int $12_ = 78;
            int $_ = 78;
-           //  int offer count =78 ;  spjace can not be used
+           //  int offer count =78 ;  space can not be used
            // int offer%count = 78 ;  only $ and _ can be used
 
            int gameScore = 100;

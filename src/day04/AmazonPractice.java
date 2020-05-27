@@ -4,7 +4,7 @@ public class AmazonPractice {
 
     public static void main(String[] args) {
 
-//         String productNmae Amazon Fire
+//         String productName Amazon Fire
 //         String model HD
 //         int version   8
 //         float price  79.99
