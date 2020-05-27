@@ -12,22 +12,24 @@ public class ScannerIntro {
         // Step 1 : Use Scanner class to create scanner object
         // that have this functionality
         Scanner scan = new Scanner(System.in);
+
         // ask user to enter name
         System.out.println("Enter your first name please :");
 
         // capture what user typed on keyboard in console for name
         // scan.next() is capturing single word that user entered
-
         String firstName = scan.next();
+
         // print the result of what we save d from user input
-        System.out.println("You have enterd : " + firstName);
+        System.out.println("You have entered : " + firstName);
 
         // ask question from user before entering
         System.out.println("What is your age: ");
-        // capture what user typed on keyboard in console for age
 
+        // capture what user typed on keyboard in console for age
         //scan.nextInt() is capturing single number that user entered
         int age = scan.nextInt();
+
         // print the result of users age
         System.out.println("You age is : " + age);
 
