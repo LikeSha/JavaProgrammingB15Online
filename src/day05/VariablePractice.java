@@ -9,7 +9,7 @@ public class VariablePractice {
         Block comment , everything in between will be seen as comment
 
         whole numbers             : byte, short, int, long
-        fractional numbers        : float , doulbe
+        fractional numbers        : float , double
         logical                   : boolean (true, false)
         character                 : char (single character in single quote)
 
@@ -38,8 +38,9 @@ public class VariablePractice {
         int speedLimit = 65;
         int currentSpeed = 75;
         int overTheLimit = currentSpeed - speedLimit;
-        System.out.println(" speed limit is " + speedLimit + " and your speed is " + currentSpeed + " you" +
-                        " are driving " + overTheLimit + " mph more than speed Limit");
+        System.out.println(" speed limit is " + speedLimit + " and your speed is " + currentSpeed +
+                        "you are driving " + overTheLimit + " mph more than speed Limit");
+
 
     }
 
