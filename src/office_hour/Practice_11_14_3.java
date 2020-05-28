@@ -19,7 +19,7 @@ public class Practice_11_14_3 {
 
         //this is bad !!! "A" is String ( double quotes considered as String)
         ////char grade5 = "A";
-        //this is bad !!! '  ' is for har, ' ' is for String
+        //this is bad !!! '  ' is for char, "" is for String
         //String firstLetter = ' K '
 
 
