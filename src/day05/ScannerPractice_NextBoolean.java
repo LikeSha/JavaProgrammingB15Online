@@ -18,5 +18,7 @@ public class ScannerPractice_NextBoolean {
         System.out.println("We are recording " + isRecording );
 
 
+
+
     }
 }

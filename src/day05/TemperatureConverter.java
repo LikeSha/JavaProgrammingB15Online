@@ -2,7 +2,7 @@ package day05;
 
 import java.util.Scanner;
 
-public class TemperatureCoverter {
+public class TemperatureConverter {
 
     public static void main(String[] args) {
 
@@ -17,8 +17,15 @@ public class TemperatureCoverter {
         // fahrenheit 80 is 23 in celsius
         System.out.println(" fahrenheit " + fahrenheit + " is " + celsius + " in celsius");
 
-
-
+//        Scanner scan = new Scanner(System.in);
+//
+//        System.out.println("what is the temperature in Fahrenheit ? ");
+//
+//        double fahrenheit = scan.nextDouble();
+//        double celsius = (5.0 / 9) * (fahrenheit - 32);
+//
+//
+//        System.out.println(fahrenheit + " fahrehheit is equal to " + celsius + " celsius ");
 
     }
 }
