@@ -50,6 +50,15 @@ public class TimeConverter {
 
         System.out.println("One day equals " + minutesPerDay + " minutes");
 
+        //Task 4 :
+
+        System.out.println("what is your hourly wage ? ");
+
+        int hourlyWage = scan.nextInt();
+        int yearlySalary = hourlyWage*2080;
+
+        System.out.println("Your hourlyWage is " + hourlyWage + " and your yearly salary is " + yearlySalary);
+
 
 
 
