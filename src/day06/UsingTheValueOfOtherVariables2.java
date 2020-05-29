@@ -2,7 +2,7 @@ package day06;
 
 import java.util.Scanner;
 
-public class UsingTheValueOfTheVariables2 {
+public class UsingTheValueOfOtherVariables2 {
 
     public static void main(String[] args) {
 

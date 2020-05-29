@@ -2,7 +2,7 @@ package day06;
 
 import jdk.swing.interop.SwingInterOpUtils;
 
-public class UsingTheValueOfTheVariables {
+public class UsingTheValueOfOtherVariables {
 
     public static void main(String[] args) {
 
