@@ -14,7 +14,9 @@ public class CompoundOperator3Remainder {
         // I want to divide the balance by 500 and keep the remainder in my pocket
         //bankBalance = bankBalance % 500 ; 570 divided by 500 , reminder is 70;
 
-        System.out.println("I want to divide the balance by 500 and keep the remainder in my pochet ");
+        bankBalance = bankBalance % 500;
+
+        System.out.println("I want to divide the balance by 500 and keep the remainder in my pocket ");
         System.out.println("the remainder is : "+ bankBalance);
 
     }
