@@ -1,6 +1,6 @@
 package day06;
 
-import jdk.swing.interop.SwingInterOpUtils;
+
 
 public class UsingTheValueOfOtherVariables {
 
