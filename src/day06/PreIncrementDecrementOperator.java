@@ -1,13 +1,13 @@
 package day06;
 
-public class PreIncrementDecreamentOperator {
+public class PreIncrementDecrementOperator {
 
     public static void main(String[] args) {
 
 
-       // initializing ( giving value ) offerCount value to 2
-       int offerCount = 2 ;
-       // increasing the number by one using normal way ;
+        // initializing ( giving value ) offerCount value to 2
+        int offerCount = 2 ;
+        // increasing the number by one using normal way ;
         //offerCount = offerCount + 1 ;
 
         // Since increasing or decreasing a value is v ery special
