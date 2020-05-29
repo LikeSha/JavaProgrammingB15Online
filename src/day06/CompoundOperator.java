@@ -15,7 +15,7 @@ public class CompoundOperator {
 
         studentOnLine = studentOnLine -3 ;
 
-        System.out.println(" 3 people left the clas " + studentOnLine);
+        System.out.println(" 3 people left the class " + studentOnLine);
         // studentOnLine = studentOnLine *2
 
         studentOnLine = studentOnLine + studentOnLine ;

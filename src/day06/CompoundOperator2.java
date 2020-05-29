@@ -16,12 +16,13 @@ public class CompoundOperator2 {
         // studentOnLine = studentOnLine + 5
         studentOnLine += 5;
 
+
         System.out.println("5 people joined the class" +  studentOnLine);
 
         //studentOnLine = studentOnline - 3 ;
         studentOnLine -= 3;
 
-        System.out.println(" 3 people left the clas " + studentOnLine);
+        System.out.println(" 3 people left the class " + studentOnLine);
 
         // studentOnLine = studentOnLine * 2
         studentOnLine *= 2;
