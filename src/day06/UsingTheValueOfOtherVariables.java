@@ -27,8 +27,8 @@ public class UsingTheValueOfOtherVariables {
 
         String YourOrder = " Gucci Bag ";
         String myOrder = YourOrder ;
-        System.out.println("Your Order is " + YourOrder );
-        System.out.println("My order is " + myOrder );
+        System.out.println("Your Order is " + YourOrder + "\n" + "My order is " + myOrder );
+
 
 
 
