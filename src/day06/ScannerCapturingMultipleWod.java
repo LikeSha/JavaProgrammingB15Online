@@ -9,7 +9,7 @@ public class ScannerCapturingMultipleWod {
         Scanner blabla = new Scanner(System.in);
 
         //System.out.println("What is your name ?");
-        //nextline method of Scanner is used to capture whole line
+        //nextLine method of Scanner is used to capture whole line
 
        // String name = blabla.nextLine();
 
@@ -30,8 +30,10 @@ public class ScannerCapturingMultipleWod {
         System.out.println("You have entered " + cityAndState);
 
         System.out.println("What is your street address ?");
-        String streetAdress = blabla.nextLine();
-        System.out.println("Your street address is " + streetAdress);
+        String streetAddress = blabla.nextLine();
+        System.out.println("Your street address is " + streetAddress);
+
+
 
 
 
