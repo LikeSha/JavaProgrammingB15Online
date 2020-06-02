@@ -34,9 +34,7 @@ public class EmailCreator {
          */
 
 
-
-
-       System.out.println("Enter your first name , last name , company separated by space :");
+        System.out.println("Enter your first name , last name , company separated by space :");
         String firstName = " Astrit";
         String lastName = "Enver";
         String company = "Verizon";
