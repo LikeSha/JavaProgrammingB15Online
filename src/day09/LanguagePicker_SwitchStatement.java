@@ -2,7 +2,7 @@ package day09;
 
 import jdk.swing.interop.SwingInterOpUtils;
 
-public class LanguagePicker_SwithStatment {
+public class LanguagePicker_SwitchStatement {
 
     public static void main(String[] args) {
         System.out.println("Welcome to Cybertek call Center ");
