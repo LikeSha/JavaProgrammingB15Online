@@ -10,10 +10,9 @@ public class JustIfStatement {
         Scanner scan = new Scanner(System.in );
 
         System.out.println("What is your current speed , dear driver : ");
-
         int currentSpeed = scan.nextInt();
 
-        System.out.println("Wha is speed limit ");
+        System.out.println("What is speed limit ");
         int speedLimit = scan.nextInt();
 
         if(currentSpeed >= speedLimit){
