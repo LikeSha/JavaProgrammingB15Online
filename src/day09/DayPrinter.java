@@ -11,11 +11,11 @@ public class DayPrinter {
         Create a variable called dayCode as int
         * if the dayCode is 1---Monday
         * if the dayCode is 2---Tuesday
-          if the dayCode is 2---Wensday
-          if the dayCode is 2---Thursday
-          if the dayCode is 2---Friday
-          if the dayCode is 2---Saturday
-          if the dayCode is 2---Sunday
+          if the dayCode is 3---Wednesday
+          if the dayCode is 4---Thursday
+          if the dayCode is 5---Friday
+          if the dayCode is 6---Saturday
+          if the dayCode is 7---Sunday
           if none of the above just print unknown day
          */
 

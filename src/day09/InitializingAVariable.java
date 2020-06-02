@@ -12,7 +12,7 @@ public class InitializingAVariable {
         // System.out.println(num)
         String name = "";
 
-       // System.out.println(num);
+       // System.out.println(name);
 
 
     }
