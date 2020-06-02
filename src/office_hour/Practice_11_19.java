@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Practice_11_19 {
 
-    public static <Scnaner> void main(String[] args) {
+    public static void main(String[] args) {
 
         //In this assignment you will write a program to create a shopping list and prices.
 

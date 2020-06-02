@@ -2,7 +2,7 @@ package day09;
 
 import java.util.Scanner;
 
-public class EveOddFinder {
+public class EvenOddFinder {
 
     public static void main(String[] args) {
 
