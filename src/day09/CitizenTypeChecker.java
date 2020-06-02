@@ -15,9 +15,9 @@ public class CitizenTypeChecker {
         int age = 66 ;
 
         if(age > 65) {
-            citizenType = " Senior";
+            citizenType = "Senior";
         }else {
-            citizenType = " Not Senior";
+            citizenType = "Not Senior";
 
 
             // what can you do inside each part of if statement inside curly braces--ANYTHING YOU CAN DO : ASSIGN A VALUE ,
