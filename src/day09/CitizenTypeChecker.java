@@ -16,9 +16,8 @@ public class CitizenTypeChecker {
 
         if(age > 65) {
             citizenType = " Senior";
-        }else{
-            citizenType = " Not Senior" ;
-
+        }else {
+            citizenType = " Not Senior";
 
 
             // what can you do inside each part of if statement inside curly braces--ANYTHING YOU CAN DO : ASSIGN A VALUE ,
