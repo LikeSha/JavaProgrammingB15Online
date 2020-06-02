@@ -5,6 +5,7 @@ import jdk.swing.interop.SwingInterOpUtils;
 public class LanguagePicker_SwitchStatement {
 
     public static void main(String[] args) {
+
         System.out.println("Welcome to Cybertek call Center ");
         System.out.println(" Please select your language option from 1-7");
 
@@ -35,7 +36,7 @@ public class LanguagePicker_SwitchStatement {
                 greeting = " Unknown";
                 break;
             default :
-                System.out.println(" UNKNOW LANGUAGE");
+                System.out.println(" UNKNOWN LANGUAGE");
 
 
 
@@ -44,7 +45,6 @@ public class LanguagePicker_SwitchStatement {
              greeting = greeting + ", SDET";
 
         System.out.println("This is how the greeting message you get " + greeting);
-
 
 
 
