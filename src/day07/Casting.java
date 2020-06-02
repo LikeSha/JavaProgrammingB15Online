@@ -21,9 +21,9 @@ public class Casting {
         // Create a long variable and store int
         long earthToMoon = 10000L ; // -->> 10000L
         // Create an int variable and try to store to above long value
-        int earthToMoon_blabla = (int) earthToMoon;
+        int earthToMoon_int = (int) earthToMoon;
 
-        System.out.println(earthToMoon_blabla);
+        System.out.println(earthToMoon_int);
 
 
 
