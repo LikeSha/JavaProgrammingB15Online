@@ -43,8 +43,8 @@ public class EmailCreator {
         String email = firstName + "_" + lastName + "@" + company + ".com";
         // firstName_lastName@company.com Astrit_Enver@Verizon.com
 
-        System.out.println("My name is " + firstName  +  lastName + " and I work for " +
-                " " + company + " and my email is " + email );
+        System.out.println("My name is " + firstName  + " " + lastName + " and I work for " +
+                company + " and my email is " + email );
 
 
 

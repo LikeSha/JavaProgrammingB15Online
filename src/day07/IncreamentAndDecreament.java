@@ -4,18 +4,6 @@ public class IncreamentAndDecreament {
 
     public static void main(String[] args) {
 
-        /*
-        *
-         */
-
-
-
-
-
-
-
-
-
 
         int apple = 10;
         System.out.println("original apple is " + apple );

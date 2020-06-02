@@ -24,7 +24,7 @@ public class CoinConverter {
         // now I want to try to calculate dime for same money
         // how to reset the value for cent 126 so I can calculate again
         int dime = cent%10 ; // --->>126 10-->>12 and remainder is 6
-        // howm much penny I have after getting dime 126%10-->> 6
+        // how much penny I have after getting dime 126%10-->> 6
         int penny2 = cent % 10; ///--->> 6
         System.out.println( dime);
         System.out.println( penny2);
