@@ -10,7 +10,7 @@ public class Day1_SoftSkill1 {
        //Review SDLC
 
         // Functionally --- is the ability of the system to do the work for which it was intended --key reason
-        //of the system.
+        //of the system.  ITS THE PURPOSE OF THE SYSTEM
         //Feature --- A distinguishing character of a software item.
         // Module---is a standalone piece of code that provides specific and tightly coupled functionality.
        // Test Environment --A testing environment is a setup of software and hardware for the testing teams to
@@ -24,7 +24,7 @@ public class Day1_SoftSkill1 {
             // ask them about functionality and go to test application.Scrum manager don't know tech .
             // Answer :
 
-            // Who assign                                         Answer : team leader
+            // Who assign requirements ( user stories) to testers  ? Answer : team leader
 
             // hotfix : hot fix - if smthg happened during production, and needs to be fixed right away
               // google hotfix : The term hotfix is generally used when client has found an issue within
@@ -64,15 +64,15 @@ public class Day1_SoftSkill1 {
                 sprint 1-->10 functionalities
                 sprint 2--> 5 new functionalities
 
-                // minor regression -->> is happened at end of sprint.
+                // minor regression -->> is happened at end of each sprint.
 
                 // is re-testing same as regression testing ?
-                      re-tesing : fix bugs( specific functionalities fixed )
+                      re-testing : fix bugs( specific functionalities fixed )
                       regression testing ( when testing whole production )
 
-                 realease == deploy == push the code
+                 release == deploy == push the code
 
-                 // how's your regresssion ? our regression is 65% automated and
+                 // how's your regression ? our regression is 65% automated and
                     rest of them are done by manual .
 
                     // How often you do your regression ?

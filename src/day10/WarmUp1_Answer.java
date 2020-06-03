@@ -10,7 +10,7 @@ public class WarmUp1_Answer {
         // Create a variable called myAnswer as String withe value of empty String
         // Create a variable called myNumber and assign any value
         // If the number can be divided by 5 without remainder , Assign myAnswer value to Fizz Number
-        // If not assign the value to not a Fizz Number
+        // If not ,assign the value to not a Fizz Number
 
         // Outside if else statement :
         // Print my number is <>, It is <value of myAnswer here>

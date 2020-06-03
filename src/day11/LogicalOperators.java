@@ -15,7 +15,7 @@ public class LogicalOperators {
         // This is used to check both conditions are true at the same time
 
         // Think about login example
-        // only when your username is right and your password is right at the same tiem
+        // only when your username is right and your password is right at the same time
         // then you will be able to login
 
         /*              true        true
@@ -93,7 +93,7 @@ public class LogicalOperators {
         System.out.println(    true || false  || false );
                                     // true && false--> false
         System.out.println(    true && false  && false );
-                               // false || fasle->false || true-->true
+                               // false || false->false || true-->true
         System.out.println(    num==50 ||    num ==51 ||    num==55     );
 
         // check num is more than 50 and num is not 52 or num equal to 57
