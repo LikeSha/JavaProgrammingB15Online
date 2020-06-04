@@ -16,6 +16,12 @@ public class LoginTest_V2 {
 
         System.out.println( userNameCorrect2);
 
+        String name = "salik";
+        boolean nameCheker = name.equals("salik");
+        System.out.println(nameCheker);
+        boolean nameCheker2 = name.equalsIgnoreCase("SAliK");
+        System.out.println(nameCheker2);
+
 
     }
 }
