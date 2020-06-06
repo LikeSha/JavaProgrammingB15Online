@@ -12,6 +12,8 @@ public class TestStringStartWithOrEndWith {
         System.out.println( name.startsWith("Mac"));
 
 
+
+
         // check if a String end with another string
 
         System.out.println(   name.endsWith("e"));

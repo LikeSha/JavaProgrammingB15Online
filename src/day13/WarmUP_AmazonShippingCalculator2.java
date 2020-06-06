@@ -25,7 +25,7 @@ public class WarmUP_AmazonShippingCalculator2 {
 
         }else{
 
-            System.out.println("print good job stay home coding !!!");
+            System.out.println(" good job stay home coding !!!");
         }
 
 
