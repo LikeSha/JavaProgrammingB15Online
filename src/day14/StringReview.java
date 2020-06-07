@@ -37,13 +37,16 @@ public class StringReview {
         //shortcut to print variable value in nice format soutv + tab
        System.out.println("gotPumpkin = " + gotPumpkin);
 
+
+
         // startsWith endsWith
         // check whether a string start with another string
         // check whether a string end with another string
         // and return true or false result
         
         boolean startedWithI = str.startsWith("I");
-        System.out.println("starte dWith I = " + startedWithI);
+        System.out.println("started With I = " + startedWithI);
+
 
         boolean endWithPumpkin = str.endsWith("Pumpkin");
         System.out.println("end With Pumpkin = " + endWithPumpkin);
