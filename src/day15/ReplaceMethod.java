@@ -20,17 +20,17 @@ public class ReplaceMethod {
 
         // what if I want to replace space from everywhere
 
-        message2 = message.replace("Thanks Giving", "Thanksgiving");
+        message2 = message2.replace("Thanks Giving", "Thanksgiving");
         System.out.println("message2 = " + message2);
 
 
         // remove all the space
-        message2 = message.replace(" ", "");
+        message2 = message2.replace(" ", "");
         System.out.println("message2 = " + message2);
 
         String message3 = "TOMORROW IS OFF NO" ;
         // how do we remove NO !
-        System.out.println( message2.replace("NO",""));
+        System.out.println( message3.replace("NO",""));
 
 
 

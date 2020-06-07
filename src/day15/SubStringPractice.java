@@ -47,6 +47,10 @@ public class SubStringPractice {
         String secondToLast = movie.substring(5);
         System.out.println("secondToLast = " +secondToLast );
 
+        System.out.println("####################################################");
+
+        System.out.println(movie.substring(staringPoint));
+
         //with this in mind : TASK
         // YOU KNOW THE INDEX ALREADY
         // reverse lord of the ring -->> ring of the lord
@@ -58,6 +62,8 @@ public class SubStringPractice {
 //       String reverse3 = movie.substring(8,11);
 //        String reverse4 = movie.substring(0,4);
 //        System.out.println(reverse1 + " " + reverse2 + " " + reverse3 + " " + reverse4 );
+
+        System.out.println("------------------------------------------------------");
 
         // below is teacher example :
         String wordRing = movie.substring(12);

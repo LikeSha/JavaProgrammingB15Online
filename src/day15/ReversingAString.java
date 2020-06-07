@@ -15,7 +15,7 @@ public class ReversingAString {
                 + " " + name.charAt(1) + " " + name.charAt(0));
 
          // VERY VERY IMPORTANT QUESTION : WHAT IS THE INDEX OF LAST CHARACTER ????
-        //ANSWER: YOU FIRST ASK INTERVIEWRER : HOW MANY CHARACTER DO YOU HAVE ? I HAVE 5 CHARACTER
+        //ANSWER: YOU FIRST ASK INTERVIEWER : HOW MANY CHARACTER DO YOU HAVE ? I HAVE 5 CHARACTER
         //(HELLO) ,WHAT IS MY LAST INDEX ? MY LAST INDEX IS ALWAYS ALWAYS 1 LESS  THAN MY
         // CHARACTER COUNT !!!
         //THEY WILL ASK THIS KIND OF QUESTION IN INTERVIEW !!!!!
@@ -37,6 +37,8 @@ public class ReversingAString {
         System.out.println("LAST CHAR IS " + lastChar);
 
         System.out.println("last char in one shot " + name.charAt( name.length()-1));
+
+
 
         // this is repl question 64 ?
 

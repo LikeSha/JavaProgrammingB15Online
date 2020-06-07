@@ -27,5 +27,6 @@ public class StringCaseInsensitiveCheck {
          // is not make sense !
 
 
+
     }
 }
