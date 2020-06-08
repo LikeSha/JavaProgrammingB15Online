@@ -19,7 +19,7 @@ public class StringPractice {
 
         //Check if tabTitle start with your searchKeyword and end with -Google Search
         //If so print the test has passed , if not print test has failed
-        //(Assume you don't know tab title is already correct in real world,
+        //(Assume you don't know tab title is already correct in real world,rea
         //we will capture it with automation
         Scanner scan = new Scanner(System.in) ;
         System.out.println("Enter the keyword to search");
