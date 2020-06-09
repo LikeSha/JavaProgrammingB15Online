@@ -6,7 +6,7 @@ public class WhileLoopPractice {
 
     public static void main(String[] args) {
 
-     // Count 1 to 5 then count 5 to 1
+        // Count 1 to 5 then count 5 to 1
         //if I use ( counter <=5) as condition I will have these
         //-->> iteration 1: 1<=5 true
                // print 1   counter = 2

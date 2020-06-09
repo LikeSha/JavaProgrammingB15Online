@@ -17,12 +17,14 @@ public class OddEvenWithinRange {
         System.out.println("-----------");
 
         int cnt2 = 1 ;
+
         while( cnt2 <= 50){
 
             System.out.print(cnt2 + " ");
             cnt2 += 2 ;
         }
         System.out.println("-----------");
+
         int cnt3 = 0 ;
 
         while( cnt3 <= 50){

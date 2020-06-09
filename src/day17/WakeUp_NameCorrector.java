@@ -36,6 +36,12 @@ public class WakeUp_NameCorrector {
         //then make it lowercase
         //eventually concatenate them
 
+        String nameUpperFirstChar = name.toUpperCase().substring(0,1);
+        String nameRest = name.toLowerCase().substring(1);
+        String nameConcate = nameUpperFirstChar + nameRest;
+
+        System.out.println(nameConcate);
+
 
 
 
