@@ -19,7 +19,7 @@ public class PrintNameWithOddIndexes {
         // starting from 0 till right before the count of characters
 
         while( x < name.length()){// x <= name.length()-1
-            if(x%2 == 1){ // or x%2 !=1
+            if(x%2 ==1){ // or x%2 !=1
                 System.out.println(name.charAt(x));
             }
             ++x ;
