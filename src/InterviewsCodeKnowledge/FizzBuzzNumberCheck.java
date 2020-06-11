@@ -30,5 +30,16 @@ public class FizzBuzzNumberCheck {
         // top to last ! Therefore ,
         // check the most complicated condition FIRST !
 
+        System.out.println("------------FizzBuzz number For Loop 0-100----------------");
+
+        for (int i = 0; i < 100; i++) {
+            if(i % 5 ==0 && i % 3 == 0){
+                System.out.println(i + " is FizzBuzz numbers from 0 to 100");
+            }
+        }
+
+
     }
+
+
 }

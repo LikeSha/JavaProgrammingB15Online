@@ -16,7 +16,23 @@ public class SkipCouting {
 
 
         }
+        System.out.println();
+        System.out.println("__________skip county by 2 __________________________________________________________");
+        // skip counting by 2
+        // starting from 0-100
 
+        for (int i = 0; i < 100; i+=2) {
+            System.out.print(i + " ");
+        }
+         // skip counting by 3
+        //starting from 0-100
+
+        System.out.println();
+        System.out.println("____________skip counting by 3 ______________________________________________");
+
+        for (int i = 0; i < 100; i+=3) {
+            System.out.print(i + " ");
+        }
 
     }
 }

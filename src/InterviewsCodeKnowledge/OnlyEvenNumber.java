@@ -18,6 +18,31 @@ public class OnlyEvenNumber {
             --num;
         }
 
+        System.out.println("------------Even number For Loop from 0-100-----------");
+
+        for (int i = 0; i < 100; i++) {
+            if(i % 2 ==0){
+                System.out.print(i + " ");//the short cut for generating for loop is : fori + Enter or tab
+            }
+        }
+
+        System.out.println();
+        System.out.println("-----------Odd number For Loop from 0-100-----------------");
+
+        for (int i = 0; i < 100; i++) {
+            if(i % 2 !=0){
+                System.out.print(i + " ");
+            }
+        }
+
+        System.out.println();
+        System.out.println("------------FizzBuzz number For Loop 0-100----------------");
+
+        for (int i = 0; i < 100; i++) {
+            if(i % 5 ==0 && i % 3 == 0){
+                System.out.println(i + " is FizzBuzz numbers from 0 to 100");
+            }
+        }
 
 
     }
