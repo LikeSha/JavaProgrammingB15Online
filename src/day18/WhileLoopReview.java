@@ -9,7 +9,7 @@ public class WhileLoopReview {
         int x = 10 ;
 
         while (x > 5) {
-            System.out.println(x +" TIS MORE THAN 5");
+            System.out.println(x +" ITS MORE THAN 5");
             --x ;
         }
 

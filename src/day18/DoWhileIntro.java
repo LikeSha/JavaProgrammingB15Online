@@ -32,7 +32,7 @@ public class DoWhileIntro {
         do{
             System.out.println(x);
             ++x ;
-        }while( x<=5);// semicolon ; is mandatory !! in dowhile program
+        }while( x<=5);// semicolon ; is mandatory !! in do while program
 
         System.out.println("------------------------");
         // count from 5 to 1 :
@@ -46,7 +46,7 @@ public class DoWhileIntro {
         // WHILE LOOP VS DO WHILE LOOP
 
         /* while loop check the condition first then enter the statement
-        * do while loop will take the action ate lease once then check the condition
+        * do while loop will take the action at lease once then check the condition
         *
         * DO WHILE LOOP ALWAYS RUN AT LEAST ONE ITERATION
         * WHILE LOOP MIGHT NOT EVEN RUN !!
