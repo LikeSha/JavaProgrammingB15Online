@@ -34,7 +34,8 @@ public class TryWithResources {
         }catch(Exception e){
             System.out.println("caught exception");
         }
-
+        //so, if we create a connection outside the try block in the same class, the autoClosable  will not close it, right?
+        //
 
 
 
