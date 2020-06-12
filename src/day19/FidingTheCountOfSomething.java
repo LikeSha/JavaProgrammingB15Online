@@ -15,7 +15,7 @@ public class FidingTheCountOfSomething {
 
             if (num % 15 == 0) {
                 System.out.println(num);
-                //counter = counter + 1 ;
+                //counter = counter + 1 ;  counter +=1;
                 ++counter;
             }
             }
