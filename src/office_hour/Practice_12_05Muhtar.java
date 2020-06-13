@@ -1,8 +1,37 @@
 package office_hour;
 
-public class Practice_12_05 {
+public class Practice_12_05Muhtar {
 
     public static void main(String[] args) {
+
+
+
+        /*
+           Review Topic : Loop Practice
+                          While & do-while loops
+
+           Loops : repeated action. repeats the steps in loops body for multiple times
+                   For loop, While loop, do-while loop
+
+           while loop :
+                      while ( Condition){
+                      statements;
+                      }
+
+                   while loop gets executed as long as the condition is true.
+                   only stops executing when the condition becomes false
+                   while loop is considered as a repeated if statement.
+
+                   ANY FOR LOOP CAN BE CONVERTED TO WHILE LOOP
+
+
+                      if(condition){
+                         statements;
+                      }
+
+         */
+
+
 
         // if statement
         int a = 9 ;
@@ -11,9 +40,11 @@ public class Practice_12_05 {
             System.out.println("Hello Batch 15");
             a-- ;
         }
+
          /* for loop : repeated action
-            for ( initialization ; condition; iterator){
-                  mandatory        mandatory
+            for ( initialization ; condition; iterator){ // iterator is NOT MANDATORY
+                  mandatory        mandatory             // HOWEVER IF YOU DON'T GIVE
+                                                         //ITERATOR, WILL BE LOGICAL ERROR
 
                   statements ;
             }
@@ -52,30 +83,26 @@ public class Practice_12_05 {
         }
 
 
-        System.out.println("-------------------------------");
+        System.out.println("--------for loop -----------------------");
 
         // TASK : 10-20
         for (int i = 10; i <= 20 ;) {
             System.out.println(i);
-            i++ ; // iterator only can be given either inside parenthesis or the bottome of
+            i++ ; // iterator only can be given either inside parenthesis or the bottom of
                  // the body  , can not place right under the line " for (int i = 10; i <= 20 ;)!!
                  //for (int i = 10; i <= 20 ;)
                 // System.out.println(i);
                 // i ++ ----->> good
-
-
-
-
         }
 
+        System.out.println("------------while loop------------------------------");
         // while loop :
         int j = 10 ;                              //int j = 10 ;
         while( j <= 20){                         // while( j <= 20){
             System.out.println(j);               // j++ ;
             j ++ ;                               //  System.out.println(j);
-
-
-          }
+            // iterator must be placed under the print .
+        }
 
             // do while loop :
             /* do{
@@ -92,6 +119,7 @@ public class Practice_12_05 {
 
              */
         System.out.println("------do while loop---------------------");
+
         do{
             System.out.println("HELLO BATCH 15");
         }while(9 > 10);
@@ -100,9 +128,8 @@ public class Practice_12_05 {
 
         int z = 10 ;
         do{
-
-            System.out.println(z);// if you put z++ on the line 103 ,it will printed from 11 not 10
-            ; z++;                    // so you must put z++ ; under line 104 to meet requirement
+            System.out.println(z);// if you put z++ on the line 130 ,it will printed from 11 not 10
+             z++;                // so you must put z++ ; under line 131 to meet requirement
 
         }while(z <= 20);
 
