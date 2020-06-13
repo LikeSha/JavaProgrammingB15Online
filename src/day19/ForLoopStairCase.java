@@ -20,6 +20,9 @@ public class ForLoopStairCase {
         String star = "";
 
         for(int i = 1 ; i <=8 ; i++){
+            // initialization : run once  i=1
+            // condition checking : each and every time i<=8
+            // increment/decrement: after each Iteration i++
 
             star = star + "* ";
               //star += "* ";

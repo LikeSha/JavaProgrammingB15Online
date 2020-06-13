@@ -13,12 +13,12 @@ public class Repl064_PrintMiddleOne {
         oak ==> a
         javav ==> v
         My logic : print wordl.length()/2 ;
-                - Single character, print that character 3 times
+               if  - Single character, print that character 3 times
       # ==> ###
         q ==> qqq
         my logic : loop it
         2. When word has even number of characters and:
-        - 4 or more characters, print middle 2
+         if- 4 or more characters, print middle 2
         java ==> av
         apples ==> pl
      #$%^&* ==> %^

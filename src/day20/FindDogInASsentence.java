@@ -8,7 +8,7 @@ public class FindDogInASsentence {
 
         //our approach is
         //doing through the sentence 3 character at a time
-        //then if 3 character s happen to be a dog , we print out the index
+        //then if 3 characters happen to be a dog , we print out the index
         //012345678901234567890123456789012345678901234
         //I LIKE Dog, Dogs are cute , Dogs are friendly
         // this is one of repls questions
@@ -29,6 +29,9 @@ public class FindDogInASsentence {
                 System.out.println("Bingo !!! AT " + x);
             }
 
+//            if(msg.substring(x,x+3).equalsIgnoreCase("dog")){
+//                System.out.println("dd");
+//            }
 
         }
 

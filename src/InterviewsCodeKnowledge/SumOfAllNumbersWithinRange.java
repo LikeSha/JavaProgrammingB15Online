@@ -7,6 +7,9 @@ public class SumOfAllNumbersWithinRange {
 
         // THIS IS THE MOST IMPORTANT AND POPULAR INTERVIEW QUESTION!
 
+        // ALSO DAY 20 ENTIRE CLASS VERY IMPORTANT , SUCH AS ,SUM OF ODD NUMBERS
+        // SUM OF EVEN NUMBERS......
+
         // This question exactly same as ForLoopStarCase ..overlapping stars make
         // all stars looks like building up a stair.
 

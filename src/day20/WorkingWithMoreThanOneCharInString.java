@@ -9,10 +9,10 @@ public class WorkingWithMoreThanOneCharInString {
        //                01234567
         // for example : Gokyuzum
         /*
-          Go
-          ky
-          uz
-          um
+          Go  01
+          ky  23
+          uz  45
+          um  67
            */
 
         String name = "Gokyuzum";
