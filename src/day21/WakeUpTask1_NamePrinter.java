@@ -47,7 +47,7 @@ public class WakeUpTask1_NamePrinter {
        // for (int x = 0; x < charCount ; x++) {
         for (int x = 0; x <= lastCharIndex ; x++) {
 
-           // System.out.println(myName.charAt(x)) + "->");
+           // System.out.println(myName.charAt(x) + "->");
             System.out.print(myName.substring(x, x+1) + "->" );
         }
         System.out.println("-------------------");

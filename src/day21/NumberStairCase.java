@@ -3,10 +3,10 @@ package day21;
 public class NumberStairCase {
 
     /*1234
-          1234
-          1234
-          1234
-          1234
+          1234           // count from 1 to 4
+          1234           // count from 1 to 4
+          1234           // count from 1 to 4
+          1234           // count from 1 to 4
 
 
           1             // count from 1 to 1
@@ -38,22 +38,22 @@ public class NumberStairCase {
             //       }
 //        System.out.println();
 
-//        for (int x = 1 ; x <= 2 ; x++){
+//        for (int y = 1 ; y <= 2 ; y++){
             //           System.out.print(x + " ");
             //       }
             //       System.out.println();
 
-            //       for (int x = 1 ; x <= 3 ; x++){
+            //       for (int y = 1 ; y <= 3 ; y++){
             //           System.out.print(x + " ");
             //       }
             ///       System.out.println();
 
-            //       for (int x = 1 ; x <= 4 ; x++){
+            //       for (int y = 1 ; y <= 4 ; y++){
 //            System.out.print(x + " ");
             //       }
             //       System.out.println();
 
-            //       for (int x = 1 ; x <= 5 ; x++){
+            //       for (int y = 1 ; y <= 5 ; y++){
             //           System.out.print(x + " ");
             //       }
             //       System.out.println();

@@ -23,22 +23,21 @@ public class NameBreaker {
             // if(name.substring(x.x+1).equalsIgnoreCase(anotherString:"l")){
                 System.out.println("FOUND IT!!");
                 break;
-
-
-                //  teachers solution :
-                // String name = "Nursultan" ;
-                //// for( int x = 0 ; x < name.length() ; x ++){
-                //    char currentChar = name.charAt(x);
-                // System.out.println ( currentChar )
-                // if(currentChar == 'l') {
-                //  System.out,println ( "FOUND IT!!")
-                //  break ;
-          //  }
-                // System.out.println( currentChar) ;
-
-
             }
             System.out.println( currentChar);
+
+
+
+            //  teachers solution :
+            // String name = "Nursultan" ;
+            //// for( int x = 0 ; x < name.length() ; x ++){
+            //    char currentChar = name.charAt(x);
+            // System.out.println ( currentChar )
+            // if(currentChar == 'l') {
+            //  System.out,println ( "FOUND IT!!")
+            //  break ;
+            //  }
+            // System.out.println( currentChar) ;
 
         }
     }
