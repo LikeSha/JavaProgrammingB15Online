@@ -5,15 +5,15 @@ public class ArrayCreation2 {
     public static void main(String[] args) {
         
 
-       // int num ;        // we are only declaring a variable
-        //    num = 10 ;   // we are assigning a value on a different line
+        //    int num ;        // we are only declaring a variable
+        //    num = 10 ;      // we are assigning a value on a different line
 
 
 
         // Creating an array in second way
 
-        //int[] ages ;                               // we are only declaring a variable
-         //     ages =new int[] {3,5,11,33,57,18};   // we are assigning a value on a different line
+          //int[] ages ;                               // we are only declaring a variable
+         //      ages =new int[] {3,5,11,33,57,18};   // we are assigning a value on a different line
         
         int[] ages = new int[]{3,5,11,33,57,18};
         
@@ -30,7 +30,7 @@ public class ArrayCreation2 {
 
 
         }
-        // below is the simpliest way ,by doint this way
+        // below is the simplest way ,by doing this way
         // if you do it this way : IT MUST HAPPEN IN ONE LINE TOGETHER(LINE35)
         int[] areaCodes = {703,300,954,665} ;
         //int[] areaCodes ;

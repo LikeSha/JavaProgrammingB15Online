@@ -21,7 +21,7 @@ public class Practice_12_09 {
         nums[2] = 25 ;
         nums[3] = 22 ;
         // print info about array
-        //toString() -method ,that returns huamn readable information array
+        //toString() -method ,that returns human readable information array
         System.out.println(Arrays.toString(nums));// this is readable for human ,its not new
                                                  // variable , it just print out what inside
                                                 // array then human can read it
@@ -36,12 +36,12 @@ public class Practice_12_09 {
         System.out.println("Last value in array; " + nums[nums.length-1]);
         //how to find middle value ?
         System.out.println("Middle value is : " + nums[nums.length/2]);
-        int[] newNums = new int[]{1,3,4,5,7} ;
+        int[] newNums = new int[]{-45,1,3,456,4,5,7} ;
         System.out.println("Middle value is : " + newNums[newNums.length/2]);
         // how to find biggest number ?
-        //lets find that 1st value is the largest one
+        //lets infer that 1st value is the largest one
         int max = newNums[0];
-        int secondMax = max ;
+        int secondMax = newNums[0] ;
         int min = newNums[0] ;
 
         for (int index = 0; index <newNums.length ; index++) {
