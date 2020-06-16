@@ -9,6 +9,7 @@ public class LoopControlStatement {
 
         //loop through each and every letter
         //1, print every other letter
+        //means : skip a letter each time you go through the letter
         // I struggle with -->>Isrgl ih
         // USE CONTINUE FOR THIS TASK
         //2, when you reach second a break loop
@@ -29,7 +30,7 @@ public class LoopControlStatement {
         }
 
 
-      // Task 2
+      // Task 2 when you reach letter a break the loop
         for (int idx = 0 ; idx < charCount ; idx++){
 
             String currentChar = msg.substring(idx,idx+1);
@@ -41,6 +42,7 @@ public class LoopControlStatement {
 
 
         }
+
         System.out.println("--------TASK 1 AND 2 COMBINED----------");
         // Task 1 and 2 combined
         for (int idx = 0 ; idx < charCount; idx++){
@@ -50,7 +52,7 @@ public class LoopControlStatement {
            }
             // this is storing each character as String
             String currentChar = msg.substring(idx,idx+1);
-           // this is checking the currentChar is J or j
+           // this is checking the currentChar is A or a
            if(currentChar.equalsIgnoreCase("a")){
                 break;
             }

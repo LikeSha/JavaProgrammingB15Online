@@ -20,7 +20,10 @@ public class ArrayPractice {
         prices[4] = 65.123 ;
         // what happen if I go over the range
         // RUN TIME ERROR !!!
-       // prices[5] = 165.3 ; // when you print it out ,it will show " run time error
+       // prices[5] = 165.3 ; // when you print it out ,it will show "ArrayindexOutOFBoundsException
+        // ArrayindexOutOFBoundsException is one of RunTime error
+        //compile error means your code has problem, when you typing code , the compiler can
+        //not figure out what are they
 
         System.out.println(prices[0]);
         System.out.println(prices[1]);
@@ -34,7 +37,7 @@ public class ArrayPractice {
         // then print out each character
 
         char[] nameChars = new char[5] ;
-        // What default value fo we get for har array
+        // What default value of we get for char array
         // we get a char represented by ascii code 0
         System.out.println("<" + nameChars[0] + ">");
         nameChars[0] = 'S' ;

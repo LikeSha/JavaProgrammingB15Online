@@ -18,12 +18,19 @@ public class LoopingThroughAnArray {
 //        System.out.println(  scores[2]    );
 //        System.out.println(  scores[3]    );
 
-       // how do we ge the size of any array object
+       // how do we get the size of any array object
         // array object has a property called length
         // arrayVariable.length will give you the count of items
 
         int itemCount = scores.length ;
         int lastItemIndex = itemCount-1 ;
+
+
+        //How do I diffcienated the property and the method ? the parenthesis (). if you have parenthesis
+        // that is called method , if no parenthesis ,its property
+        // String.length(). <-- method
+        // Array.length <-- property
+        //method is action , property is something describes the object
 
         //for ( int x = 0 ; x <= lastItemIndex ; x++){
         //for ( int x = 0 ; x <= itemCount-1 ; x++){
@@ -40,7 +47,7 @@ public class LoopingThroughAnArray {
         String name = "Jon Snow" ;
         int charCount = name.length();// orange color is " property " always think what is pink M
         // length(). in array is property ( property without parenthesis () ) String does not
-        // have length)_ property  Muhammet Fatih Arslan 1:30 PM
+        // have length_ property  Muhammet Fatih Arslan 1:30 PM
         //string.length();going and calculating the length.
         // array.length it already knows just showing the info. That's what I get
 
