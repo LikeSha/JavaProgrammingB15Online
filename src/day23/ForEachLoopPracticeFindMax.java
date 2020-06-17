@@ -18,7 +18,7 @@ public class ForEachLoopPracticeFindMax {
          * then go through each number and compare the number
          * if the number you are comparing is more than what is on the paper
          * delete that number and replace with bigger number
-         * keep doing this until you dont have any more number left.
+         * keep doing this until you don't have any more number left.
 
 
 
@@ -39,7 +39,7 @@ public class ForEachLoopPracticeFindMax {
 
         long[] salaries2 = new long[]{-100000L, -200000L,-150000L,-115000L,-60000L};
         long max2 = 0 ;  //  salaries[0] ;
-        // YOU CAN NOT PICK SOMETHING THAT YOU DONT HAVE INSIDE ARRAY AS INITIAL VALUE
+        // YOU CAN NOT PICK SOMETHING THAT YOU DON'T HAVE INSIDE ARRAY AS INITIAL VALUE
 
 
         }
