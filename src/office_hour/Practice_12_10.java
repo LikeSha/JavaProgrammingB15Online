@@ -7,7 +7,7 @@ public class Practice_12_10 {
 
     public static void main(String[] args) {
 
-        // everying in java represent numbers
+        // everything in java represent numbers
         // in string ,appl watemelon .....toyota, honda ...all represent numbers.
         // bmw
         // 012

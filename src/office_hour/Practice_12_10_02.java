@@ -12,7 +12,7 @@ public class Practice_12_10_02 {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Please enter 3 laguages that you know ");
+        System.out.println("Please enter 3 languages that you know ");
 
         String l1 = scan.next();
         String l2 = scan.next();

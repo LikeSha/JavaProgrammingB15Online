@@ -31,13 +31,13 @@ public class WarmUp_Array {
 
         // 3rd and shortest way
         // THIS MUST HAPPEN IN ONE LINE , WE CAN NOT DECLARE FIRST AND ASSIGN LATER
-        int[] nums3 ={11,2,34,53,6,3};
+        int[] nums3 ={11,2,34,53,6,3,78};
 
         for (int x = nums.length-1;x >= 0 ; x--){
 
             System.out.println("index " + x + " : " + nums[x]);
         }
-        // find out last idex so we can do array reversely printed
+        // find out last index so we can do array reversely printed
         int arraySize = nums.length;
         int lastItemIndex = arraySize-1 ;
 
@@ -46,6 +46,8 @@ public class WarmUp_Array {
 
         int middleItemIndex = arraySize/2 ;
         System.out.println("middle item value = " + nums[middleItemIndex]);
+
+        // find the sum of numbers
 
         int sum= 0 ;
         for (int x = 0; x < arraySize ; x++) {
@@ -56,6 +58,31 @@ public class WarmUp_Array {
 
         }
         System.out.println("sum = " + sum);
+
+        // find the max number
+
+        int max = nums[0];
+        for (int i = 0; i <arraySize ; i++) {
+            if(nums[i]>max){
+                max=nums[i];
+            }
+        }
+        System.out.println("max = " + max);
+
+        // find minimum number
+
+        int min = nums[0];
+        for (int i = 0; i <arraySize ; i++) {
+            if(nums[i]<min){
+                min=nums[i];
+            }
+        }
+        System.out.println("min = " + min);
+
+        // find average number is :
+
+        int averageNumber = sum/arraySize;
+        System.out.println("averageNumber = " + averageNumber);
 
 
 
