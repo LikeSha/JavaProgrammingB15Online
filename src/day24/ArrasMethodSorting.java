@@ -40,7 +40,7 @@ public class ArrasMethodSorting {
         System.out.println("after sorting nameChars2 = " + Arrays.toString(nameChars2));
 
         System.out.println("--------------String sorting--------------");
-
+        //ONLY FIRST CHARACTER MATTER WHEN SORTING A STRING ARRAY
         String[] superHeros = {"Superman" , "Batman" , "Wonder Woman" , "Aquaman" , "Cyborg" ," Flash" ,"100" , "9", "09"} ;
         System.out.println("before sorting superHeros = " + Arrays.toString(superHeros));
         Arrays.sort(superHeros);
@@ -53,7 +53,7 @@ public class ArrasMethodSorting {
         // Arrays.sort(fiveSwitchOnOffs) ; DOES NOT WORK FOR BOOLEAN ARRAY
 
         //Arrays.sort(arrObject) does not return a value that we can store
-        // it only takes action to
+        // it only takes action to RESHUFFLE THE INDEX OF ORIGINAL ARRAY OBJECT TO KEEP IT IN SORTED ORDER
 
 
 

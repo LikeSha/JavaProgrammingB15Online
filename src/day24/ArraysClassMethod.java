@@ -58,6 +58,8 @@ public class ArraysClassMethod {
         System.out.println("PricesString = " + pricesString);
 
         // we are looping over a String not an array so we stop after at last character finishes
+        //// FOR EACH LOOP CAN ONLY BE USED FOR ARRAY(collection type)
+
         for (int i = 0; i < pricesString.length() ; i++) {
             System.out.println("character at index " + i + " is " + pricesString.charAt(i));
 

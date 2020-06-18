@@ -39,7 +39,7 @@ public class Day5_Dec26_2019 {
 
          * SCRUM :
          *
-         * / Scrum team : including 3 parts : development team , product owner and scrum master
+         * / Scrum team(roles) : including 3 parts : development team , product owner and scrum master
          *
          * Development team : including :developers,testers ,business analyst , data base analyst
          *
@@ -55,7 +55,7 @@ public class Day5_Dec26_2019 {
          *
          *============================================================================
          * Interview questions:
-         * 1, what kind of Agile methodology did you sue in your previous project ?
+         * 1, what kind of Agile methodology did you use in your previous project ?
          * 2, Can you describe me your scrum team/ development team ?
          * 3 ,What is your challenge in scrum ?
          * 4 , How long your sprint ?

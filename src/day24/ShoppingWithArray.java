@@ -12,7 +12,7 @@ public class ShoppingWithArray {
     public static void main(String[] args) {
 
         //String[] groceryItems = new String[6];
-        //{String[] groceryItems = new String[6]{"apple","banana","grape","strawberry","blueberry","kiwi"} ;
+        //String[] groceryItems = new String[6]{"apple","banana","grape","strawberry","blueberry","kiwi"} ;
         String[] groceryItems = {"apple", "banana", "grape", "strawberry", "blueberry", "kiwi"};
         // print everything in one line with arrow
 
