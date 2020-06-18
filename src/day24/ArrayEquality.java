@@ -37,7 +37,14 @@ public class ArrayEquality {
         isS3S4Equals = Arrays.equals(scores3, scores4);
         System.out.println("AFTER SORTING : is score3 has same content as score4  = " + isS3S4Equals);
 
+        // find out location 7 in score 1 array
 
+//        String scores1String = Arrays.toString(scores1);
+        for (int i = 0; i <scores1.length ; i++) {
+            if(scores1[i]==7){
+                System.out.println("7 is located " + i);
+            }
+        }
 
 
     }
