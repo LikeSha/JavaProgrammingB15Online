@@ -26,7 +26,7 @@ public class CheckArrayIsSortedOrNot2 {
             if(! (nums[x] < nums[x+1])) {
 
                 System.out.println("ARRAY IS NOT SORTED , NO POINT CHECKING THE REST ");
-               // isSortedAlready = false ;
+ //               isSortedAlready = false ;// this line can comment out , because its not important
                 break ;
 
 
@@ -34,7 +34,7 @@ public class CheckArrayIsSortedOrNot2 {
 
         }
 
-
+ //       System.out.println("isSortedAlready = " + isSortedAlready);// this line can comment out , because its not important
 
 
     }

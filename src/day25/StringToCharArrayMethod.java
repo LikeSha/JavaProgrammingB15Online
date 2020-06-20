@@ -62,7 +62,7 @@ public class StringToCharArrayMethod {
 
         }
 
-        System.out.println("count = " + count);
+        System.out.println("My mame has letter \"a\" count = " + count);
 
         // what if you want to sort all characters of your name
         // in alphabetical order ?
