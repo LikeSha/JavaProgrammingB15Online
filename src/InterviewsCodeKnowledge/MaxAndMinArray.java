@@ -19,13 +19,13 @@ public class MaxAndMinArray {
 
         for (int index = 0; index <nums.length ; index++) {
             if(nums[index]>max){
+                if(nums[index] > secondMax && nums[index] !=max ){
+                    secondMax = nums[index];
+                }
                 max = nums[index];
             }
 
 
-            if(nums[index] > secondMax && nums[index] !=max ){
-                secondMax = nums[index];
-            }
 
             if(nums[index] < min){
                 min = nums[index];

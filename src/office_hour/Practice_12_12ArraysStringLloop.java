@@ -17,8 +17,8 @@ public class Practice_12_12ArraysStringLloop {
          *
          *  How do I retreave data from array :
          *          variableName[index]
-         *            example : int[] arr - {1,2,3}
-         *                            arr[2]==>> 3
+         *            example : int[] arr = {1,2,3}
+         *            retrive data :  arr[2]==>> 3
          *  Array is immutable and Array size is fixed ! without initializing array size we can not use it
          *
          *  initializing the size of the array :
@@ -56,6 +56,7 @@ public class Practice_12_12ArraysStringLloop {
         // System.out.println(arr2[0]); // this will give you compile error because no size
 
         String[] names = new String[5];
+        System.out.println(Arrays.toString(names));
         names[2] = "Hasan";
         names[4] = "Parvin";
         System.out.println(Arrays.toString(names));
@@ -74,7 +75,7 @@ public class Practice_12_12ArraysStringLloop {
         System.out.println(Arrays.toString(scores));
 
         String[] chars = "ABCD".split("");
-        System.out.println(Arrays.toString(chars)); // A,B,C,D
+        System.out.println(Arrays.toString(chars)); // [A,B,C,D]
 
         //str.toCharArray() : Assign the String to char array .return char array
         char[] chars2 = "vald".toCharArray();
