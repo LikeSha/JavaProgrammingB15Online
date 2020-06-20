@@ -149,6 +149,9 @@ public class PrintOutUniqueValue {
 
         System.out.println(a + " " + b);
 
+        // Assignment : write program that can decide two numbers without / operator and
+        // remainder operator
+
 
 
 
