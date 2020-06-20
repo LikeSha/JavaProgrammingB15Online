@@ -22,6 +22,7 @@ public class MaxAndMinArray {
                 max = nums[index];
             }
 
+
             if(nums[index] > secondMax && nums[index] !=max ){
                 secondMax = nums[index];
             }
@@ -35,6 +36,32 @@ public class MaxAndMinArray {
         System.out.println("Second max number is " + secondMax);
         System.out.println("Mininum number is " + min);
 
+
+        /*
+           another solution for find max :
+           another solution is to use continue statement to find max
+             int max = nums[0];
+             for(int eachNum : nums){
+               if(eachNum < max ){
+                  continue;
+             }
+             max = eachNum;
+
+
+
+
+         finding the second max solution :
+          after finding out the max number, then you use for each loop
+          to find out the second max :
+
+           float SecondMax = prices[0];   // store the second max number
+
+        for (float eachPrice : prices) {
+            if (eachPrice > SecondMax && eachPrice < max) {
+                SecondMax = eachPrice;
+            }
+        }
+         */
 
 
     }

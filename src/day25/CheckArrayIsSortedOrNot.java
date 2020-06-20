@@ -46,7 +46,8 @@ public class CheckArrayIsSortedOrNot {
         // plain english logic to see a set of 7 number is sorted or not
         //you copy this 7number in another container
         //sort the number and check whether it will has same order as original number
-        //why did we
+        //why did we copy? because if we directly sort original 7 items, we will lose order
+        // and there be nothing to compare with
 
     }
 

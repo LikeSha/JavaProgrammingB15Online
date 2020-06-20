@@ -52,7 +52,7 @@ public class Practice_12_11_FruitTask {
      */
 
     public static void main(String[] args) {
-        //                                               length-3              length-2        length-1
+        //                                               length-3    length-2   length-1
         String fruits[] = {"apple", "banana", "grape", "strawberry", "blueberry", "kiwi"};
         // index:               0       1        2         3              4         5
         // length-3  ==>3
@@ -107,7 +107,7 @@ public class Practice_12_11_FruitTask {
         System.out.println("======================================");
 
         float[] prices = {1.99f, 0.99f, 4.65f, 3.89f, 3.88f, 2.88f};
-        // index:                0,       1,         2,       3,         4,       5
+        // index:          0,     1,    2,       3,    4,       5
 
         float max = prices[0]; // 4.65
 
