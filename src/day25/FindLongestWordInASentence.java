@@ -31,9 +31,18 @@ public class FindLongestWordInASentence {
         System.out.println("longestWord = " + longestWord);
 
 
+        System.out.println("------second method  compare first word to one by one , to get longest word----");
 
-        // second method  compare first word to one by one , to get longest word
         String longestttWord = allWords[0];
+
+        for (int i = 0; i < allWords.length; i++) {
+            if(allWords[i].length()>longestttWord.length()){
+                longestttWord=allWords[i];
+
+            }
+        }
+        System.out.println("longest word is  = " + longestttWord);
+
 
     }
 }
