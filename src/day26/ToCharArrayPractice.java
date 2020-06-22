@@ -5,7 +5,7 @@ public class ToCharArrayPractice {
     public static void main(String[] args) {
 
         // 2 additional String methods related to array
-        // toCharArray9()  , another is split(bySomething)
+        // toCharArray()  , another is split(bySomething)
 
         String survey = "Complete B15 Online 1 Month Survey" ;
 
@@ -26,7 +26,7 @@ public class ToCharArrayPractice {
             x++ ;
 
         }
-        System.out.println("---------------below is for each loop version----------");
+        System.out.println("---------------below is for loop version----------");
         for (int i = 0; i < surveysChars.length ; i++) {
 
             System.out.println("each char is :" + surveysChars[i]);

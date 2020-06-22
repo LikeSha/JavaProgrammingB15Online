@@ -8,7 +8,7 @@ public class StringSplitPractice {
 
         String students = "Abbos, Zulyar,Zhibek,Hasan,Muge, Orhan,Susan" ;
             // first get all the name into String array called namesArray
-        // Spell the name of each person in this format
+          // Spell the name of each person in this format
           // A-b-b-o-s ......
           // Z-u-l-y-a-r-
 

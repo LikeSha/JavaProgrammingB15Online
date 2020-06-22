@@ -20,6 +20,8 @@ public class SwappingValues {
 
 
         System.out.println("name1 = " + name1);
+
+
         System.out.println("name2 = " +name2 );
 
         // Swap the value of first item and last item
