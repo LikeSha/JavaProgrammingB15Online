@@ -19,7 +19,7 @@ public class StringSplitPractice {
         String[] namesArrays =  students.split(",") ;
 
         System.out.println(Arrays.toString(namesArrays));
-        System.out.println("Length of namesArrays1 is " + namesArrays.length);
+        System.out.println("Length of namesArrays is " + namesArrays.length);
         int studentCount = namesArrays.length ;
 
         for (int x = 0; x < studentCount ; x++) {
