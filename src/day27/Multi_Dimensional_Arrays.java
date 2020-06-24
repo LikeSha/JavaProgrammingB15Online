@@ -14,9 +14,11 @@ public class Multi_Dimensional_Arrays {
          * Multi-dimensional array : an array that contain array(s)
          *      N dimensional Array MUST contains (N-1) dimensional arrays
          *      ex: 2 dimensional array : contains 1 dimensional arrays
-         *  int[][] arr2D = {  {1,2,3},{4,5,6}  } // in this curley braces you can only store one single dimensional array
+         *  int[][] arr2D = {  {1,2,3},{4,5,6}  } // in this curly braces you can only store one single dimensional array
 
          */
+
+        // to create a main method , 2 ways : main + ENTER or psvm + ENTER
         int[] arr1D = {1,2,3} ;
         // [index num of elements]
          // arr1D[1] ===>2
@@ -56,3 +58,4 @@ public class Multi_Dimensional_Arrays {
 
     }
 }
+
