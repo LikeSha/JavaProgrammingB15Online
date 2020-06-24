@@ -1,8 +1,29 @@
 package InterviewsCodeKnowledge;
 
+import java.util.Arrays;
+
 public class MaxAndMinArray {
 
     public static void main(String[] args) {
+
+        /*
+        // Array.sort(variableName) : sorts the array in ascending order ,
+
+        // this method use to find out largest number in an array.
+
+        Arrays.sort(numbers) ;
+
+        int largestNumber = numbers[numbers.length -1 ] ;
+        int minNumber = numbers[0] ;
+        System.out.println("Minimum number is " + minNumber );
+        System.out.println("Largest number is " + largestNumber);
+
+        // write  a program that can find the minimum numbers from an
+        // int array  // find out largest and minimum number is interview
+        //question !
+
+      */
+
         // to print out human readable array , do this :
        // System.out.println(Arrays.toString(nums));
 
