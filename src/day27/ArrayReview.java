@@ -5,10 +5,28 @@ import java.util.Scanner;
 
 public class ArrayReview {
 
+    /* Array : a variable that allows us to store multiple values
+    Array MUST be converted to String to print
+
+    declaration :
+           Data-Type[] variableName = {data1,data2,....}
+           each of the data, the data type must same with Data-Type
+           String array is String , int array is int.....
+
+            regular variable:
+           we can only store one single value   int a = 10;
+           array variables : int[] arr = {1,2,3};
+                            index:        0 1 2
+         Array MUST be converted to String to print
+
+         retrieve data : arrName[indexNumber]  ==> return the element of that index number
+         EX: arr[2] ===> returns number 3
+
+     */
+
+
     public static void main(String[] args) {
 
-
-        // Array MUST be converted to String to print
 
         int num =10 ;
         int[] arr = {10,20,30,40,50,60};
@@ -23,11 +41,7 @@ public class ArrayReview {
 
         }
 
-
-
-
-
-        //Array.toString()
+        //Array.toString(VariableName)
        String str = Arrays.toString(arr) ;
         System.out.println(str);
 
@@ -59,7 +73,7 @@ public class ArrayReview {
         System.out.println("Minimum number is " + minNumber );
         System.out.println("Largest number is " + largestNumber);
 
-        // write  a program that can fin the minimum numbers from an
+        // write  a program that can find the minimum numbers from an
         // int array  // find out largest and minimum number is interview
         //question !
 
