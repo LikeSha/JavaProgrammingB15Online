@@ -42,6 +42,7 @@ public class Multi_Dimensional_Arrays_Practice {
             }
         }
 
+        System.out.println();
 
         System.out.println("=================print out each and every even numbers===================================");
         // print out each and every even numbers
