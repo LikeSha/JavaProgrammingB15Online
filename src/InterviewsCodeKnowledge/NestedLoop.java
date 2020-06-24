@@ -35,6 +35,7 @@ public class NestedLoop {
             }
         }
 
+        System.out.println();
         // print out each and every even numbers
 
         System.out.println("print out each and every even numbers : ");
@@ -52,6 +53,7 @@ public class NestedLoop {
             }
         }
 
+        System.out.println();
         System.out.println("=============print out 2 dimensional array using for each loop========= ");
 
         int[][] arr2D = {{10, 20, 30}, {40, 50, 60, 70, 80, 90, 100}};
@@ -68,6 +70,37 @@ public class NestedLoop {
             }
 
 
+        }
+
+        System.out.println();
+        // 3d array nested loop ,print out each and every element
+        System.out.println("-------------3d array nested loop ,print out each and every element ---------");
+
+        int[][][] arr3D = {{{1,2,3},{4,5,6}}   , {{7,8,9}, {10,11,12}}};
+
+        for (int i = 0; i < arr3D.length; i++) {//each index of 2d array
+            for (int j = 0; j <arr3D[i].length ; j++) {//each index number of 1d array
+                for (int k = 0; k <arr3D[i][j].length ; k++) {// each index number of the array
+                    System.out.print(arr3D[i][j][k] + " ");// returns values
+
+
+
+                }
+
+            }
+
+        }
+
+        System.out.println();
+        // convert above for loop to for each loop
+        System.out.println("--------convert above for loop to for each loop------------");
+
+        for(int[][] each2DArray : arr3D){
+            for(int[] each1DArray : each2DArray){
+                for(int eachElement: each1DArray){
+                    System.out.print( eachElement + " ");
+                }
+            }
         }
 
 

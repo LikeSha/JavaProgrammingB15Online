@@ -21,6 +21,7 @@ public class ArraysPractice_3dArray {
             }
 
         }
+        System.out.println();
         System.out.println("=====Assignment :  convert the nested loops above to the nested for each loop====");
 
             for(int[][] each2dArray : arr3D){
@@ -47,7 +48,7 @@ public class ArraysPractice_3dArray {
             // int[] a = {1, 2, 3} ;
            // index :     0  1  2
 
-        // retrive :
+        // retrieve :
         /** variableName[indexNum]
          * exp : arr[2] ==>3
          * Array's size is fixed

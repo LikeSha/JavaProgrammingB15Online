@@ -57,6 +57,64 @@ public class MaxAndMinArray {
         System.out.println("Second max number is " + secondMax);
         System.out.println("Mininum number is " + min);
 
+        System.out.println("--------------2 dimensional array find max ------------");
+
+        int[][] numbers = { {12,11,10,19} , {19,20,15}} ;
+
+        // find out the max number from above 2d arrays
+        int max1 = numbers[0][0] ; // assume that first element is the max
+
+        for (int i = 0; i < numbers.length ; i++) {// checks each single dimensional array
+            for (int j = 0; j <numbers[i].length; j++) {// check each elements in single dimensional array
+                if(max1 < numbers[i][j]){// compares index 0 of teh array with each indexes
+                    max1 = numbers[i][j] ;
+                }
+            }
+
+        }
+        System.out.println("max1 = " + max1);
+
+        // solution 2  using for each loop to find out the max number
+        System.out.println("===solution 2 using for each loop to find out the max number=======");
+
+        int max2 = numbers[0][0];
+
+        for( int[] each1DArray : numbers) { // variable each1DArray represents each single dimensional array
+            // in numbers
+
+            for( int eachInt : each1DArray){
+                if(max2 < eachInt){
+                    max2 = eachInt ;
+                }
+            }
+        }
+        System.out.println("max2 = " + max2);
+
+        System.out.println("============find out the minimum number in 2 dimensional array===========");
+
+        int min1 = numbers[0][0];
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = 0; j < numbers[i].length ; j++) {
+                if(min1 >numbers[i][j]){
+                    min1 = numbers[i][j];
+                }
+
+            }
+
+        }
+        System.out.println("min1 = " + min1);
+
+//        System.out.println("=======finding the longest words ============================================");
+//        String[] developersTeam = {"Vladislav" , "Hasan" , "Tolkun" , "Abide"} ;
+//        String[] testersTeam = {"Zhibekchach" , "Mohammed Sohrabi" ,"Nursultan"} ;
+//        String[] businessAnalysistTeam = {"Lisa" , "Ershad","Naila"} ;
+
+        //       String[][] scrumTeam = {}
+
+
+
+    }
+
 
         /*
            another solution for find max :
@@ -135,4 +193,3 @@ public class MaxAndMinArray {
 
 
 
-}
