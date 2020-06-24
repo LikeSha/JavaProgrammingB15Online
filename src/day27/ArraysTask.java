@@ -6,7 +6,7 @@ public class ArraysTask {
 
     public static void main(String[] args) {
 
-        // write  a program that can fin the minimum numbers from an
+        // write  a program that can find the minimum numbers from an
         // int array  // find out largest and minimum number is interview
         //question !
 
@@ -19,7 +19,7 @@ public class ArraysTask {
 
         for (int i = 0; i <scores.length ; i++) {
 
-            if(min > scores[i]){
+            if(scores[i]<min){
                 min = scores[i] ;
             }
 
