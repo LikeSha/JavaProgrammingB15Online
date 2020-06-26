@@ -35,7 +35,7 @@ public class FillingUpArrayValueEvenNumber {
                continue;
            }
         }
-        System.out.println("these are all even numbers of this array " + numbers);
+        System.out.println("these are all even numbers of this array " + Arrays.toString(numbers));
 
 
 
