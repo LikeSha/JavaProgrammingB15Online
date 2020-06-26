@@ -9,7 +9,7 @@ public class MentorStructureAndMarketingProcessPlacement {
          // But how ?  Two important factors : technical strong ; interview skill strong
         // Cybertek success structure : technical team, interview team
         // interview market team : mentors , resume team, reference team
-        //who is mentor ? assigned to certain number of students around 14 ppl, graduated from cybertec,currently working in
+        //who is mentor ? assigned to certain number of students around 14 ppl, graduated from cybertek,currently working in
         // an IT company
         // YOU are gonna learn SDLC Agile , Monday evening java class .
         // student engagement , student evaluation

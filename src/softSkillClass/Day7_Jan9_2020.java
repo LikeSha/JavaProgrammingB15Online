@@ -12,9 +12,15 @@ public class Day7_Jan9_2020 {
 //     *                                                                  2, what I will do today ?
 //     *                                                                  3,what's in my way ?( my impediment )
 
-//      Sprint planning : discuss about user stories give a point for each user story and priorityze them and
-//      "Sprint Goal" then move them to sprint back log.
+//      Sprint planning : discuss about user stories give a point for each user story and prioritize them and
+//      discussing about "Sprint Goal" then move them to sprint back log.
     // sprint goal means : how many user stories you wanna work on now
+
+    // sprint review meeting / also known as sprint demo meeting : demonstrate our work to client and get
+    // some feedback , normally this meeting takes about 1 hour
+
+    // sprint Retro meeting : in this meeting we discussing about : what went well ,what is not going well,
+    //how do we improve for the next sprint.
 //     *
 //     what is Requirement ?
 //     *
@@ -32,19 +38,19 @@ public class Day7_Jan9_2020 {
 //     *   UNIT TESTING , JUST SAY TESTING SINGLE CODE , WHEN YOU TALK ABOUT BLACKBOX TESTING AND WHITEBOX TESTING
 //     *   , FOR EXAMPLE , WHITE BOX TESTING JUST TEST CODE ITSELF, MOST TIME DONE BY
 //     *   DEVELOPER HIMSELF BECAUSE THEY NEED TO TEST CODE BEFORE HE
-//     *   RELEASE TO YOUR TEST ENVIORNMENT . TESTERS MOST OF TIME WORKING ON BLACK BOX TESTING BECAUSE I ONLY
-//     *   WORK ON FRONTEND APPLICATIONS . THAT MEANS WE ONLY TESTING THE UI ( USER INTERFACE) WHEN YOU ANSWER ,
+//     *   RELEASE TO YOUR TEST ENVIRONMENT . TESTERS MOST OF TIME WORKING ON BLACK BOX TESTING BECAUSE I ONLY
+//     *   WORK ON FRONT-END APPLICATIONS . THAT MEANS WE ONLY TESTING THE UI ( USER INTERFACE) WHEN YOU ANSWER ,
 //     *   YOU MUST BE FLUENTLY .
 //     *
-//     *   SMOKE TESTING ,REGRESSION TESTING ALSO BLACK BOX TESTING WHEN WE DO BLACKBOX TESTING ,WE DONT
-//     *   TEST ANYThING RELATED TO THE CODE ,IT JUST FRONTEND
+//     *   SMOKE TESTING ,REGRESSION TESTING ALSO BLACK BOX TESTING WHEN WE DO BLACK BOX TESTING ,WE DON'T
+//     *   TEST ANYThING RELATED TO THE CODE ,IT JUST FRONT-END
 //     *
-//     *   CHECK THE DEFINATION OF FRONTEND AND BACKEND TESTING IN GURU99.COM
+//     *   CHECK THE DEFINITION OF FRONTEND AND BACKEND TESTING IN GURU99.COM
 //     *
 ////     *   QUESTION : WHAT IS YOUR WEAKNESS ? WHAT IS YOUR STRENGTH
 //     *
 //     * 2, Sprint planning : discuss about user stories
-//     * give a point for each user story and priorityze them and " Sprint Goal " then move them to sprint back log
+//     * give a point for each user story and prioritize them and " Sprint Goal " then move them to sprint back log
 //     * 3, Sprint review/ demo : what is demo meaning ? its demonstrate our work to client and get some feedback
 //     * who is doing demo ? Developers and testers do in most cases , demo normally 1 hour
 //     *
@@ -55,7 +61,7 @@ public class Day7_Jan9_2020 {
 //     * As a user I can login through a social media account(this is user story )
 //     * Acceptance Criteria :
 //     * 1,Verify that user can login through Facebook
-//     * 2,..................................Linkedin
+//     * 2,..................................LinkedIn
 //     * 3....................................Twitter
 //     * 4,...................................Email
 //     *
@@ -69,16 +75,23 @@ public class Day7_Jan9_2020 {
 //     * positive testing we need positive test data : ex, login functionality : valid user name and valid password
 //     * Negative testing we need negative test data: ex, invalid username and invalid password
 //     *
-//     * SMPT---EMAIL VERIFICATION PROTOCOL (Simple Mail Transfer Protocol)
+//     * SMTP---EMAIL VERIFICATION PROTOCOL (Simple Mail Transfer Protocol)
 //     *
-//     * you dont need to ask your team how many points for user story if you at work .if user story too big
+//     * you don't need to ask your team how many points for user story if you at work .if user story too big
 //     * you need to break it down.
 //     *
 //     * What is team capacity ?
 //     * team have 5 testers ,
 //     * one tester work 8 hours = 1 point per day
-//     * 2 week sprint , 10 days - 2days( eating ,meeeting ...) = 8days ( 1 point per day ,total 8 points)
-//     * whole team ( 5 testers ) ==>> 5*8 40 points ,per day
+//     * 2 week sprint , 10 days - 2days( eating ,meeting ...) = 8days ( 1 point per day ,total 8 points)
+//     * whole team ( 5 testers ) ==>> 5*1=5 points ,per day  so 8 days whole team points is 5x8=40 points(one sprint)
+
+    // This 40 points is my team capacity  Therefore, when we give points to each user story should be
+    // realistic and careful ,because the team capacity is 40 points, our total user story points can not be
+    //exceed the team capacity . ( this case we have 5 testers, if we have 4 testers ,the capacity would be 32 points)
+    // in another word : the velocity should not exceed the capacity . velocity == the total points of user stories
+    //
+
 //     *
 //     * sprint backlog:
 //     *
@@ -94,7 +107,7 @@ public class Day7_Jan9_2020 {
 //     *
 //     * team capacity is 40
 //     * sprint backlog , the velocity should be less than capacity (40)
-//     * velocity-- the total points of user stories)
+//     * velocity-- the total points of user stories
 
 //
 //     *Describe your typical day at work?

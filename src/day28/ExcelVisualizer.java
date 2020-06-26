@@ -32,8 +32,8 @@ public class ExcelVisualizer {
          // to store this in another array object
          int[][] sheet = new int[][]{ row1, row2, row3, row3, row5, row6    };
 
-         //                        0  1         0  1  2           0  1
-         int[][] myExcel = {     { 10,27  },  { 87,99,100   },   { 90,45   },   };
+         //                        0  1         0  1  2             0  1
+         int[][] myExcel = {     { 10,27  },  { 87,99,100   },   { 90,45   }   };
          //                         0             1                 2
 
          // tell me how to print 100 and 90 from this array

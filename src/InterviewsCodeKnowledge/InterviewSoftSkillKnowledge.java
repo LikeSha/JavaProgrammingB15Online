@@ -334,6 +334,29 @@ public class InterviewSoftSkillKnowledge {
      *
      *
      *
+     *  // IF YOU INTRODUCE YOUR TEAM IN INTERVIEWS , JUST SAY YOUR TEAM HAVE 4 OR 5 TESTERS FOR SAFE SENARIOS.
+     * WHEN YOU ANSWER ANY TESTING QUESTION, MUST SPEAK UP THE KEY WORDS ,FOR EXAMPLE ,IF YOU TALK ABOUT
+     * UNIT TESTING , JUST SAY TESTING SINGLE CODE , WHEN YOU TALK ABOUT BLACKBOX TESTING AND WHITEBOX TESTING
+     * FOR EXAMPLE , WHITE BOX TESTING JUST TEST CODE ITSELF, MOST TIME DONE BY
+     * DEVELOPER HIMSELF BECAUSE THEY NEED TO TEST CODE BEFORE HE
+     * RELEASE TO YOUR TEST ENVIRONMENT . TESTERS MOST OF TIME WORKING ON BLACK BOX TESTING BECAUSE I ONLY
+     * WORK ON FRONT-END APPLICATIONS . THAT MEANS WE ONLY TESTING THE UI ( USER INTERFACE) WHEN YOU ANSWER ,
+     * YOU MUST BE FLUENTLY .
+     *
+     * What is team capacity ?
+     * * team have 5 testers ,
+     *  * one tester work 8 hours = 1 point per day
+     *  * 2 week sprint , 10 days - 2days( eating ,meeting ...) = 8days ( 1 point per day ,total 8 points)
+     * * whole team ( 5 testers ) ==>> 5*1=5 points ,per day  so 8 days whole team points is 5x8=40 points(one sprint)
+     *
+     * This 40 points is my team capacity  Therefore, when we give points to each user story should be
+     *  realistic and careful ,because the team capacity is 40 points, our total user story points can not be
+     * exceed the team capacity . ( this case we have 5 testers, if we have 4 testers ,the capacity would be 32 points)
+     * in another word : the velocity should not exceed the capacity . velocity == the total points of user stories
+     *
+     *
+     *
+     *
      *
      *
      */
