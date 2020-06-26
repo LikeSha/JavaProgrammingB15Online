@@ -47,6 +47,7 @@ public class Practice_12_16 {
 //
  //         /// Find oldest student and print his name
        // 1st print only ages values
+        //Integer.parseInt - convert string into int
         String oldestPersonName = students[0][1]; // lets infer 1st person is oldest
         int ageOfOldestPerson = Integer.parseInt(students[0][2]); // lets infer that 1st person is the oldest one
         for(String[] row : students){
