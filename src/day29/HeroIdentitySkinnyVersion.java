@@ -38,6 +38,14 @@ public class HeroIdentitySkinnyVersion {
         System.out.println("hero1 = " +hero1);
         System.out.println("heroX = " + heroX);
 
+       // below are using replace method
+
+        //String heroX = hero1.replace(fullName,stars)
+        // System.out.println("hero1 = " +hero1);
+        //System.out.println("heroX = " + heroX);
+
+
+
 
     }
 }
