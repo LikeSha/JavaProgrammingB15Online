@@ -10,13 +10,14 @@ public class MethodPractice {
        // alternatively call using class name
         MethodPractice.sayHelloWorld7Times();
         // you can call static method of other class using calssname.methodname(...)\
-        //MethodIntro.sayHello();
+        MethodIntro.sayHello();
 
         calculateMathProblem();
 
 
     }
     // CAN NOT CREATE 2 METHODS WITH SAME EXACT METHOD HEADER
+    //method header is entire line 27 called method header
     //EVEN THOUGH IT HAS DIFFERENT THING INSIDE .
     //public static void sayHelloWorld7Times(){
     //    System.out.println("DO SOMETHING DIFFERENT")
