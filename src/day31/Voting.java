@@ -14,7 +14,8 @@ public class Voting {
         checkEligibility(yourAge);
 
         // can not access the method parameter outside the method
-
+        // therefore : if you do this its not working : System.out.println(age); the method checkEligibility()
+        // can not see this variable "age"
 
     }
 
