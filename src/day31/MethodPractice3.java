@@ -11,7 +11,7 @@ public class MethodPractice3 {
 
         countDownFrom20tillOne();
 
-        printOddNumbers1t0100();
+        printOddNumbers1to100();
 
         spellName();
 
@@ -26,7 +26,7 @@ public class MethodPractice3 {
       }
 
 
-         public static void printOddNumbers1t0100(){
+         public static void printOddNumbers1to100(){
 
              for (int i = 0; i <= 100 ; i++) {
                  if(i%2==1){
