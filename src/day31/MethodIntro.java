@@ -15,7 +15,7 @@ public class MethodIntro {
          * Scanner scan = new Scanner(System.in) ;
          *
          * String name = scan.next() ; // we are using object to calling it " scan ",  " scan " is not
-         * that object itself, it is something that represent tha object , in another word ,
+         * that object itself, it is something that represent that object , in another word ,
          * it is dog lish  , that tv remote , pointer ....
          *  we are using an object to calling "next(),nextInt(_)
          * int age = scan.nextInt()
@@ -67,7 +67,7 @@ public class MethodIntro {
 
  //       MethodIntro.sayHello();// Optional if you are in same Class
         System.out.println("Begin");
-        sayHello();
+        MethodIntro.sayHello();
         System.out.println("-----------");
         sayHello();
         System.out.println("THE END");
