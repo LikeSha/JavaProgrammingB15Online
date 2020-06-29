@@ -269,7 +269,6 @@ public class CarInventory {
         for (String eachCar : cars) {
 
             if (eachCar.toLowerCase().startsWith("chevrolet")) {
-                ;
                 chevroletCount++;
             }
             if (eachCar.toUpperCase().contains("CIVIC")) {
@@ -298,12 +297,12 @@ public class CarInventory {
 
 
         System.out.println("=====Task 2 : print all location of civic in this array=====");
-        // Task 2 : print all location of civic in this array
+        // Task 2 : print all location of Honda-Civic in this array
         for (int x = 0; x < cars.length; x++) {
 
 
             //if(cars[x].contains("Civic"))
-            if (cars[x].contains("Honda-Civic")) {
+            if (cars[x].equals("Honda-Civic")) {
                 System.out.println("Civic found at location : " + x);
 
             }

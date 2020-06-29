@@ -4,6 +4,8 @@ public class RemoveDuplicatesFromAString {
 
     public static void main(String[] args) {
 
+         // this topic video is on java programming office hour Dec 12,2019 ArraysStringLoop
+
         // TASK :
         // 1, write a program using while loop, that calculates the sum of the even numbers
         // between 0-20

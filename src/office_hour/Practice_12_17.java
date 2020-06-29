@@ -17,7 +17,7 @@ public class Practice_12_17 {
        String word = "java";
 
        // replace j-->c
-        System.out.println("After replace " + word.replace("j","c"));
+        System.out.println("After replace it changed to  " + word.replace("j","c"));
 
         System.out.println(word) ; // java
         System.out.println("word"); // word-> this is just a pint something ,its different from the above
@@ -40,7 +40,7 @@ public class Practice_12_17 {
 
         System.out.println((2+3) +(3+5));
             //         0123456789012345678
-        String book = "Learn java in 1 day" ;
+        String book = "Learn java in 1 day,java is fun" ;
         System.out.println("first j index " + book.indexOf("j"));
         System.out.println("last j index " + book.lastIndexOf("j"));
 

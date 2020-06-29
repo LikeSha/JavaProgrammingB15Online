@@ -7,7 +7,7 @@ public class SplitPractice {
     public static void main(String[] args) {
         /**
          * What does split do ?
-         *   it will split the string into multiple part a
+         *   it will split the string into multiple part
          *
          * What do I need to provide when calling it ?
          *   We need to provide the separator
