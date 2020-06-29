@@ -30,7 +30,7 @@ public class MethodPractice2 {
         count1to10();
         //System.out.println();
         count1to10();
-        // optionally you can call using calssname.methodName();
+        // optionally you can call using classname.methodName();
         MethodPractice2.count1to10();
 
 
