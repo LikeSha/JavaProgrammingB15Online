@@ -26,13 +26,13 @@ public class Calculator_V2 {
                    System.out.println("Addition result is " + (num1+num2));
                    break ;
                case'-' :
-                   System.out.println("Addition result is " + (num1-num2));
+                   System.out.println("substraction result is " + (num1-num2));
                    break ;
                case'*' :
-                   System.out.println("Addition result is " + (num1*num2));
+                   System.out.println("multiplication result is " + (num1*num2));
                    break ;
                case'/' :
-                   System.out.println("Addition result is " + (num1/num2));
+                   System.out.println("division result is " + (num1/num2));
                    break ;
                default:
                    System.out.println("INVALID OPERATOR");

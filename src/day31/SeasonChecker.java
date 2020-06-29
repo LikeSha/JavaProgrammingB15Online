@@ -4,6 +4,11 @@ public class SeasonChecker {
 
     public static void main(String[] args) {
 
+        // a String variable declared and assigned vale inside main method
+        //It can be accessible in main method
+       // String season = "Winter";
+
+
         decideSeasonAction("Winter");
         decideSeasonAction("Summer");
 
