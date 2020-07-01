@@ -18,7 +18,7 @@ public class StringActions {
          printFullNameInformation
          * create a method that has 2 String parameter called firstName,lastName
          and print "Your first name is firstName , Your last Name is lastName
-         print " your full name lenth is lengthOfTheFullName"
+         print " your full name length is lengthOfTheFullName"
          compareNameCharacterCount
          * create a method that has 2 String parameter called name1,name2
          if name 1 has more characters

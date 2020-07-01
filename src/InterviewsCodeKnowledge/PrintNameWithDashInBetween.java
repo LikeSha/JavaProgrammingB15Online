@@ -43,6 +43,20 @@ public class PrintNameWithDashInBetween {
                 System.out.print(name3.charAt(i) + "-");
             }
         }
+          // method 4
+
+        System.out.println("-------------------method 4--------------------------");
+
+        String name4 = "salik";
+        for (int i = 0; i < name4.length(); i++) {
+            System.out.print(name.charAt(i));
+            // if I am not at last index then I print - ( last location : name.length-1)
+            if (i != name4.length() - 1) {
+                System.out.print("-");
+            }
+
+        }
+        System.out.println();
         
     }
 }
