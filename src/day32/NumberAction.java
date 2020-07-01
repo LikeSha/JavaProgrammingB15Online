@@ -80,9 +80,10 @@ public class NumberAction {
      }
            // instead of contDownByEvenNumberFrom50to0
            // now count Down by EvenNumber from x to y
+          //contDownByEvenNumberFromXtoY();
 
          public static void contDownByEvenNumberFromXtoY(int x, int y){
-            // if x=6 y = 10  ,you dont even enter the loop,because the condition is false
+            // if x=6 y = 10  ,you don't even enter the loop,because the condition is false
              // 6 IS NOT GREATER THAN 10 SO CAN NOT COUNT DOWN FROM 6 TO 10 ! order is MATTER !
              for (int i = x; i >= y ; i--) {
 
