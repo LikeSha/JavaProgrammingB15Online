@@ -23,7 +23,8 @@ public class Day8_01_16_2020 {
      * velocity =<capacity
      * grooming meeting : give point for each user story
      * sprint planning : give a point + prioritize user stories and create sprint backlog.
-     * if user stories deserve 2 points I give 3 points to avoid I loose point ( to avoid disadvantage for me in a team )
+     * if user stories deserve 2 points I give 3 points to avoid I loose point
+     * ( to avoid disadvantage for me in a team )
      *
      * right now we are at sprint 5 ,:           1 week              2 week
      * sprint planning should be done in somewhere of sprint 4

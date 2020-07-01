@@ -13,8 +13,9 @@ public class Practice_12_19 {
 
          output:
          true
+
          2. Write a program that will remove all the duplicates from a string
-         Do it withg Arrays only
+         Do it with Arrays only
 
 
          3. given the array of names:
@@ -82,25 +83,59 @@ public class Practice_12_19 {
             */
            System.out.println("=============================================");
            for (int i = 0; i < 4 ; i++) {
-               System.out.println(i);
-
                if(i==2)
                    continue;
 
+               System.out.print(i);
 
            }
+
 
            System.out.println("================================");
            for (int i = 0; i < 4 ; i++) {
-               System.out.println(i);// 0 1
-
                if(i==2)
                    break; // exits the loop IMMEDIATELY
+               System.out.print(i);// 0 1
 
 
            }
-                 //System.out.println(i);// 0 1
+
+           //System.out.println(i);// 0 1
        }
+
+
+        /* /**1. write a program that can check if a string is build out of the same letters as another string
+         Ex: input:
+         str1 = "abc";
+         str2 = "cba";
+
+         output:
+         true
+        */
+
+        String str1 = "abc", str2 = "cba"; // expected result : true
+        // first we need to convert string to array, there are two methods to convert a String to Array:
+        //1, split();  , 2, toCharArray();
+
+        char[] arr1 = str1.toCharArray(); // [a,b,c];
+        Arrays.sort(arr1); // arr1: [a,b,c];
+
+        char[] arrr2 = str2.toCharArray();// [c,b,b]
+        Arrays.sort(arr2);// [b,b,c]
+
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arrr2));
+
+        // we can use Arrays.equals() to compare to arrays
+        System.out.println(Arrays.equals(arr1,arrr2)); // but this is two arrays ,not String ,so we need to
+        // convert arrays ( arr1, and arr2) to String then do comparasion.
+
+        // now lets convert arr1 arr2 back to String , by using Arrays.toString();
+        str1 =  Arrays.toString(arr1); // str1 got reassigned value
+        str2 = Arrays.toString(arrr2); // str2 also got reassigned value
+
+        // now lets compare these two String str1 and str2 ,to see if they are same
+        System.out.println(str1.equals(str2));
 
     }
 }
