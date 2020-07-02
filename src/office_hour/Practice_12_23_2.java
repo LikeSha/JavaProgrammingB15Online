@@ -18,10 +18,23 @@ public class Practice_12_23_2 {
         System.out.println("result = " + result);
     }
 
+    /**
+     * void means --don't give anything back
+     * @param num1
+     * @param num2
+     */
+
     public static void add(int num1 ,int num2){
         System.out.println(num1 + num2);
     }
 
+
+    /**
+     * int, it's a type of method output
+     * @param num1
+     * @param num2
+     * @return  sum of num1 and num2
+     */
     public static int addWithReturn(int num1,int num2){
         return num1 + num2 ;
     }
