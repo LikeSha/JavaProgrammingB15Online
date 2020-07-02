@@ -21,7 +21,10 @@ public class Practice_12_23 {
         for(int i =str.length()-1;i>=0;i--){
             reversedString+=str.charAt(i);
         }
-        return reversedString ;
+        return reversedString ;// this is the output of the code
+        // if your method signature is String type String reverseString(String str)
+        // then you must return String variable . if you put return 1 ;
+        // it will show compiler error.
     }
 
 
