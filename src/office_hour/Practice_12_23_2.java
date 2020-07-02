@@ -5,6 +5,15 @@ public class Practice_12_23_2 {
     public static void main(String[] args) {
 
         add(5,10);// doesn't give you anything back
+//        int result = add(5,10);// this one compile error ,because the method
+        //is " void method " it means it does't promise you return anything.
+        // in other word, it does't give us any output.
+        // method gives you return , so you can store the result to a variable
+        //for future re-use ,but if it is void method ,and does'nt give
+        //return ,so you can not store the result to any variable.
+
+//        System.out.println(add(5,10)); //it shows compiler error
+
         int result = addWithReturn(5,10); // gives something back
         System.out.println("result = " + result);
     }
