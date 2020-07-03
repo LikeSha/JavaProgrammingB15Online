@@ -79,6 +79,9 @@ public class PracticeMethodWithNumbers {
      *
      *    public static void printName(String name){
      *        System.out.println("Your name is "+ name);
+     *
+     *        // if the method we are in different class,
+     *        we call the method : ClassName.methodName(...)
      *    }
      */
 
