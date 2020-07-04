@@ -10,7 +10,7 @@ public class Day9_Jan_23_2020 {
      * team--> PO,Scrum master , scrum team.
      * my tester team can finish user stories .
      * who build product log ? PO
-     * How long is sprint cycle ?
+     * How long is sprint cycle ? 4 weeks
      * Who accept all user stoRIes ? po
      * can you talk about scrum meeting ?
      * explain the definition " ready" ?
@@ -41,9 +41,19 @@ public class Day9_Jan_23_2020 {
      * Interview question :If I give you a requirement how you test ? what is your approach testing that requirement ?
      * Requirement = User Story
      *
+     * My approach is :
+     * 1, analyze requirement;
+     * 2, create test plan ,mostly done by team lead or testers
+     * 3, create test case ;
+     * 4, set up environment;( test environment, dev environment ,production environment..)
+     * 5, execute test;
+     * 6, Test cycle closure ( close test )
+     *
+     *
      * STLC STEP 2 : Test plan creation -- is for project ONLY DO ONE TIME .
      *      STEP 6 : TEST CYCLE CLOSURE -- ONLY DO ONE TIME
-     *      other steps all repeated .
+     *      other steps all repeated . every single user story we need to repeat above test
+     *      processure ( not including step 2 and 6 )
      * letsdotesting.com
      *
      * 1.User should be able to login page really quickly ( you should ask BA to update how quickly because this
@@ -81,5 +91,9 @@ public class Day9_Jan_23_2020 {
      * 6.which
      *
      * WIP--Working In Progress
+     *
+     * which tools use for manual tesing ?  we are using jiraXray, we created test cases through
+     * jira , and upload our screen shots or recordings if our test cases are failed ,we open a
+     * bug and assign it to developers . this is the main tool that we are using for manual testing.
      */
 }
