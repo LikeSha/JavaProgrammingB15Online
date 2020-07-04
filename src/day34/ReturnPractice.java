@@ -5,7 +5,7 @@ public class ReturnPractice {
     public static void main(String[] args) {
 
         // what is return keyword is used
-        //
+
 
         // break VS return
         // break -->> loop : break out of the loop
