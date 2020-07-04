@@ -9,7 +9,9 @@ public class MethodThatReturnMoreThanOneValue {
         String sentence = "I Love Java";
 
         char[] eachChars = sentence.toCharArray();
+//        System.out.println(eachChars);
         String[] eachWords = sentence.split(" ") ;
+
 
         // toCharArray and split method return you Array !
 
