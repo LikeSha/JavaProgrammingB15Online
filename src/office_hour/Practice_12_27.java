@@ -6,7 +6,7 @@ public class Practice_12_27 {
 
         /**
          * Practice topic : Methods
-         * methods: grouping a series fo statements together to perform a specific action
+         * methods: grouping a series of statements together to perform a specific action
          *
          *
          */

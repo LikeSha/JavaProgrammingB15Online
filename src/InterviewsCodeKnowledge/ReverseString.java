@@ -73,8 +73,19 @@ public class ReverseString {
         // reversing of stringbuilder
         System.out.println("reverse = " + sb.reverse());
 
+        System.out.println();
 
+        System.out.println("-------another method : substring method : ---------");
+
+        String a = "ABCDEFG";
+        for (int i = a.length() - 1; i >= 0; i--) {
+            System.out.print(a.substring(i, i + 1));
+        }
     }
+
+
+
+
 
 
     }
