@@ -37,6 +37,13 @@ public class CharacterPractice2 {
                 // parseInt only accept String
                 // so we need to pass String by adding "" to each
                 int eachNum = Integer.parseInt(each+"");
+                // or we can use below 3 line of code to get int , first we need to convert chart to String
+                // then, we store to int by using parseInt( paresInt can only convert String to int)
+                // last we sum up all numbers.
+//                String strChar = Character.toString(each);
+//                int eachNumber = Integer.parseInt(strChar);
+//                sum+=eachNumber;
+
                 // now we can numerically add the number to sum
                 sum = sum + eachNum;
 
