@@ -102,7 +102,7 @@ public class Practice_12_27_Part2 {
           boolean result = !operators.equals("-") || !operators.equals("+") || !operators.equals("*")
            || !operators.equals("/") || !operators.equals("%");
 
-          if(!result){
+          if(result){
               System.out.println("Invalid operator");
               return ;
           }

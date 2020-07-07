@@ -20,7 +20,7 @@ public class StringToIntegerParsing {
          * many useful static methods it provide already
          * parseInt is a static method of Integer class
          * It will turn a String that has only numbers and return int result
-         * if we have any non-numerical character -->> It will throw NumberFormaException
+         * if we have any non-numerical character -->> It will throw NumberFormatException
          *
          *
          */
