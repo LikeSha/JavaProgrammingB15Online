@@ -355,6 +355,28 @@ public class InterviewSoftSkillKnowledge {
      * in another word : the velocity should not exceed the capacity . velocity == the total points of user stories
      *
      *
+     * Interview question :If I give you a requirement how you test ? what is your approach testing that requirement ?
+     *      * Requirement = User Story
+     *      *
+     *      * My approach is :
+     *      * 1, analyze requirement;
+     *      * 2, create test plan ,mostly done by team lead or testers
+     *      * 3, create test case ;
+     *      * 4, set up test environment;
+     *      * 5, execute test;
+     *      * 6, Test cycle closure ( close test )
+     *
+     *      STLC   STEP 2 : Test plan creation -- is for project ONLY DO ONE TIME .
+     *      *      STEP 6 : TEST CYCLE CLOSURE -- ONLY DO ONE TIME
+     *      *      other steps all repeated . every single user story we need to repeat above test
+     *      *      processure ( not including step 2 and 6 )
+     *
+     *
+     *      which tools use for manual tesing ?  we are using jiraXray, we created test cases through
+     *      * jira , and upload our screen shots or recordings if our test cases are failed ,we open a
+     *      * bug and assign it to developers . this is the main tool that we are using for manual testing.
+     *
+     *
      *
      *
      *
