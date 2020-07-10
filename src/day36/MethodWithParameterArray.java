@@ -26,7 +26,7 @@ public class MethodWithParameterArray {
 
         //THIS IS WHAT WE CALLED PASS-BY-VALUE
           //when you pass a variable to a method parameter :
-          // you are only passing the copy of that parameter
+          // you are only passing the copy of that variable
 
          // JAVA IS A PASS BY VALUE LANGUAGE :  WHEN IT COMES TO PASSING ARGUMENT TO THE METHOD(INTERVIEW QUESTION)
 
