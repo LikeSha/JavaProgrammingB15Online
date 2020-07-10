@@ -2,7 +2,7 @@ package InterviewsCodeKnowledge;
 
 import day12.SeasonChecker;
 
-public class PrintOutUniqueValue {
+public class FindingUniqueValue {
 
     public static void main(String[] args) {
 

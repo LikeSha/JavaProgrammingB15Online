@@ -22,9 +22,27 @@ public class ArrayListIntro {
         ArrayList<Double> lst4 = new ArrayList<>(); // new ArrayList<>();
 
         // OPTIONALLY YOU CAN CREATE IN THIS WAY
-        // List is more general data bype compared to ArrayList is more concrete data type
+        // List is more general data type compared to ArrayList is more concrete data type
         //ArrayList is one type of list
         // Just like Dog is one type of Animal
         List<String> myLst = new ArrayList<>();
+
+        // COLLECTION framework
+        // List :
+        // Set : Collection of unique items
+        // Map : Collection of Key value pair
+        // Queue : Collection of FIFO and LIFO
+
+        /**
+         * Interview question :  ArrayList VS Array
+         *
+         * ArrayList                                                  Array
+         *
+         * can store only objects                           Can store primitives and objects
+         *
+         * can be resized                                   Has defined size and CANNOT be changed
+         *
+         * can be printed directly to display elements      can NOT be printed directly to display elements,Need Arrays.toString() method
+         */
     }
 }
