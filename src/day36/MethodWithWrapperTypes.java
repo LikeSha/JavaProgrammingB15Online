@@ -58,7 +58,7 @@ public class MethodWithWrapperTypes {
       }
 
     /**
-     *
+     * This method will print the doubled value of what user passed
      * @param x
      */
     public static void printTheDoubledValue(int x){

@@ -2,7 +2,7 @@ package office_hour;
 
 import java.util.Arrays;
 
-public class Practice_12_30 {
+public class Practice_12_30Muhtar {
 
 
 

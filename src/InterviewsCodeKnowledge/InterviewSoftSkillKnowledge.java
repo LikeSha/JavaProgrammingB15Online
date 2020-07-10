@@ -376,6 +376,41 @@ public class InterviewSoftSkillKnowledge {
      *      * jira , and upload our screen shots or recordings if our test cases are failed ,we open a
      *      * bug and assign it to developers . this is the main tool that we are using for manual testing.
      *
+     *       soft skill
+     *
+     *        Interview questions :  when you answer questions ,you should give example ,not only recite wikipedia.
+     *      * what is epic ?
+     *      * what is the best test approach  for regression ? automation is the best approach
+     *      * How to test umbrella ?
+     *      * how do you test coffee machine ?
+     *      * what is requirement document ?  BA prepare it .
+     *      * can you explain different test level ? or testing hirachy .
+     *      * answer : unit testing , component testing ,integration testing ,system testing ,acceptance testing
+     *      * how you point user stories in your team ? based on 3 rules : complexity,   doubt,
+     *      * black box ,white box testing conducted by whom ?
+     *      * can you describe advantage and disadvantage of agile method ?
+     *      * what type of testing only conducted by manually but not automation ? answer : some test cases can only test one time
+     *      * this kind of testing , and dynamic functional testing can be done manually .
+     *
+     *
+     *
+     *
+     *      1. Can you please walk me through with your sprint?
+     *      2. What is the difference between SDLC and STLC?
+     *      3. What is your main responsibilities?
+     *      4. different between test case and test scenario?
+     *      test case should low level discription ,step by step ,its like a document,need to specify each steps.
+     *      what is expected result, what is actual result .... when you talk about test case ,you should include
+     *      all the steps to explain it .
+     *      test scenario compare with test case ,
+     *      is a high level descriptions, we don't write it step by step,it could be one word or one sentence.
+     *
+     *     5. What tools do you using for test case design? We use JiraXray. and Excel.
+     *     6. if I give you user stories , what is the approach you test them?  This question bascially you
+     *     just need to answer the step of STLC
+     *     7.How do you know you covered all the requirement? RTM
+     *     --RTM  Requirement Tracebility Matrix showing the relationship between Requirements and Test cases
+     *
      *
      *
      *
