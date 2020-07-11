@@ -16,7 +16,7 @@ public class Day11_02_06_2020 {
      * test scenario is a collection of test cases . test scenario written in JIRA
      * Test Case Is A Set Of Steps In Order To Validate Test Scenario
      *
-     * tell me about your sprint ? how many team member you have ?
+     * tell me about your sprint ? how many team member you have ? this answer just listen Daria video in this class
      *
      * can you talk about testing cycle ?
      *
