@@ -34,7 +34,8 @@ public class RemoveDuplicatesFromAString2 {
 
     public static void main(String[] args) {
 
-       /* /**1. write a program that can check if a string is build out of the same letters as another string
+
+        /* /**1. write a program that can check if a string is build out of the same letters as another string
          Ex: input:
          str1 = "abc";
          str2 = "cba";
@@ -113,5 +114,36 @@ public class RemoveDuplicatesFromAString2 {
         }
 
         System.out.println(result);
+
+        // use substring method to find out unique
+
+        System.out.println("-------------Solution 3 using substring method to find out unique----------");
+
+        String strstr = "AAABBBDDDEEE"; // expected result ABDE
+        String resultUnique = "";//store non duplicates
+
+        for (int i = 0; i < strstr.length(); i++) {
+            if(!resultUnique.contains(strstr.substring(i,i+1))){
+                resultUnique+=strstr.substring(i,i+1);
+            }
+
+        }
+
+        System.out.println("resultUnique = " + resultUnique);
+
+
+        System.out.println(removeDuplicates("ddjjuuddyydd"));
+
+    }
+
+    // below is System.out.println("--- write a return method that accepts a String and removes duplicate values from the String----");
+    public static String removeDuplicates(String str5){
+        String resultX = "";
+        for (int i = 0; i < str5.length(); i++) {
+            if(resultX.contains(str5.substring(i,i+1))){
+                resultX+=str5.substring(i,i+1);
+            }
+        }
+        return resultX;
     }
 }
