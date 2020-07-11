@@ -411,6 +411,20 @@ public class InterviewSoftSkillKnowledge {
      *     7.How do you know you covered all the requirement? RTM
      *     --RTM  Requirement Tracebility Matrix showing the relationship between Requirements and Test cases
      *
+     *     ======================================================================================================
+     *     SOFTSKILL CALSS DAY 11 02/06/2020 THE INTERVIEW QUESTION ANSWERS VERY GOOD !  NEED TO REPEATED WATCH!
+     *
+     *     test case and test scenario difference ?
+     *      *
+     *      * test case is documentation ,that include test case ID, Test case description,pre conditions,test steps,test data,
+     *      * and expected result, actual result ,and pass/fail ,test case is a low-level
+     *      *
+     *      * test scenario is a high-level document, it including more detail about each user story, for example : if I wanna
+     *      * test a specific functionality of an app, lets say : log in function, it considered test scenario.
+     *      *
+     *      * test scenario is a collection of test cases . test scenario written in JIRA
+     *      * Test Case Is A Set Of Steps In Order To Validate Test Scenario
+     *
      *
      *
      *

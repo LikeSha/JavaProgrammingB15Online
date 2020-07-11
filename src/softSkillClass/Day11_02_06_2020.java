@@ -7,6 +7,15 @@ public class Day11_02_06_2020 {
      *
      * test case and test scenario difference ?
      *
+     * test case is documentation ,that include test case ID, Test case description,pre conditions,test steps,test data,
+     * and expected result, actual result ,and pass/fail ,test case is a low-level
+     *
+     * test scenario is a high-level document, it including more detail about each user story, for example : if I wanna
+     * test a specific functionality of an app, lets say : log in function, it considered test scenario.
+     *
+     * test scenario is a collection of test cases . test scenario written in JIRA
+     * Test Case Is A Set Of Steps In Order To Validate Test Scenario
+     *
      * tell me about your sprint ? how many team member you have ?
      *
      * can you talk about testing cycle ?
