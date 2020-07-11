@@ -53,7 +53,7 @@ public class Day11_02_06_2020 {
      *
      * 1. how do you handle if you found a bug ?
      * During test execution , testers are reporting mismatches as defects to developers through templates
-     * or using tools, we are suing Jira-Xray tool
+     * or using tools, we are using Jira-Xray tool
      *
      *  ANSWER : ( see today's power point page 25 ) when I found a brand new bug , I reproduce bug couple of times
      *  with different test data ,if the bug still exist ,
@@ -77,7 +77,8 @@ public class Day11_02_06_2020 {
      *  it is the bug not high priority or its not related to current sprint functionality , developers can deffer the
      *  bug .they can put it into backlog again and later on they create task to fix it .
      *
-     *
+     * regression test purpose is : make sure that all existing and new functionalities working as expected.
+     * Re-testing purpose is : only focus on specific funtionality and make sure that bug is fixed.
 
      *
      * 2.what tool are you using for bug report ? we are using Jira-Xray

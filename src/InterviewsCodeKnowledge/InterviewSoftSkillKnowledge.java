@@ -426,6 +426,40 @@ public class InterviewSoftSkillKnowledge {
      *      * test scenario is a collection of test cases . test scenario written in JIRA
      *      * Test Case Is A Set Of Steps In Order To Validate Test Scenario
      *
+     *    1. how do you handle if you found a bug ?
+     *    During test execution , testers are reporting mismatches as defects to developers through templates
+     *    or using tools, we are using Jira-Xray tool
+     *
+     *    ANSWER : ( see today's power point page 25 ) when I found a brand new bug , I reproduce bug couple of times
+     *    with different test data ,if the bug still exist ,
+     *    then I write my bug report and assigned it to developers ,
+     *    and that moment the bug status changed to be " open " , then developers analyze the bug I sent to them,
+     *    (when I assigned to them ,I also provided more details: like what test cases I was using ,what test data,
+     *    under what environment I found that bug , and then they confirmed whether it is a valid bug or not .
+     *    If it is a valid bug ,the developers try to fix it., once it fixed , developer assigned it to testers,
+     *    then testers retest it ,why retest it ? because you don't know if the bug still exist
+     *    even developers fixed the bug ,I have to double check it is fixed or not ,
+     *    if after retest and I found bug is fixed ,then I close the bug , If
+     *    it not fixed , means still existing in same place ,I have to reopen it and assigned it back to developers
+     *    then the entire process going through this loop again .
+     *
+     *    If the bug I sent to developers is not a valid bug , then developers will reject the bug , if this happened ,
+     *    there are two common situations : one is Not a bug , the other one is duplicated bug , so if you bug
+     *    got rejected , you need to CANCEL this bug ,NOT CLOSE bug .
+     *
+     *    The other situation is , if the bug is a valid bug , but not got fixed in right after you report ,
+     *    it just deferred ,it just postponed to the next release or the future sprint. what kind of bug deferred ?
+     *    it is the bug not high priority or its not related to current sprint functionality , developers can deffer the
+     *    bug .they can put it into backlog again and later on they create task to fix it .
+     *
+     *
+     *    what is difference between retest and regression test ?
+     *
+     *    the only difference are purpose ! their purpose are different :
+     *
+     *    regression test purpose is : make sure that all existing and new functionalities working as expected.
+     *    Re-testing purpose is : only focus on specific funtionality and make sure that bug is fixed.
+     *
      *
      *
      *
