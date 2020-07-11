@@ -5,31 +5,31 @@ import java.util.Arrays;
 public class RemoveDuplicatesFromAString2 {
 
 
-    /**1. write a program that can check if a string is build out of the same letters as another string
-     Ex: input:
-     str1 = "abc";
-     str2 = "cba";
-
-     output:
-     true
-
-     2. Write a program that will remove all the duplicates from a string
-     Do it with Arrays only
-
-
-     3. given the array of names:
-     String[] names = { "Ahmed", "John", "Eric", "Ahmed", "Hassan"};
-
-     write a program that can remove all the names named Ahmed from the array
-
-     Ex:
-
-     names = { "Ahmed", "John", "Eric", "Ahmed", "Hassan"};
-     System.out.println( Arrays.toString(names) );
-
-     output:
-     [John, Eric, Hassan]
-     *
+    /**
+     * 1. write a program that can check if a string is build out of the same letters as another string
+     * Ex: input:
+     * str1 = "abc";
+     * str2 = "cba";
+     * <p>
+     * output:
+     * true
+     * <p>
+     * 2. Write a program that will remove all the duplicates from a string
+     * Do it with Arrays only
+     * <p>
+     * <p>
+     * 3. given the array of names:
+     * String[] names = { "Ahmed", "John", "Eric", "Ahmed", "Hassan"};
+     * <p>
+     * write a program that can remove all the names named Ahmed from the array
+     * <p>
+     * Ex:
+     * <p>
+     * names = { "Ahmed", "John", "Eric", "Ahmed", "Hassan"};
+     * System.out.println( Arrays.toString(names) );
+     * <p>
+     * output:
+     * [John, Eric, Hassan]
      */
 
     public static void main(String[] args) {
@@ -58,14 +58,14 @@ public class RemoveDuplicatesFromAString2 {
         System.out.println(Arrays.toString(arr2));
 
         // we can use Arrays.equals() to compare two arrays
-        System.out.println(Arrays.equals(arr1,arr2)); // but this is two arrays ,not String ,so we need to
+        System.out.println(Arrays.equals(arr1, arr2)); // but this is two arrays ,not String ,so we need to
         // convert arrays ( arr1, and arr2) to String then do comparasion.
 
         // now lets convert arr1 arr2 back to String , by using Arrays.toString();
-       str1 =  Arrays.toString(arr1); // str1 got reassigned value
-       str2 = Arrays.toString(arr2); // str2 also got reassigned value
+        str1 = Arrays.toString(arr1); // str1 got reassigned value
+        str2 = Arrays.toString(arr2); // str2 also got reassigned value
 
-       // now lets compare these two String str1 and str2 ,to see if they are same
+        // now lets compare these two String str1 and str2 ,to see if they are same
         System.out.println(str1.equals(str2));
 
        /* TASK 2. Write a program that will remove all the duplicates from a string
@@ -80,9 +80,9 @@ public class RemoveDuplicatesFromAString2 {
         String s2 = ""; // we store non duplicated characters in it
 
         for (int i = 0; i < s1.length(); i++) {
-            String eachChar = ""+s1.charAt(i);//a--first iteration is a
-            if(!s2.contains(eachChar)){
-                s2+=eachChar; // we only concat the character if that that character is not exist in s2
+            String eachChar = "" + s1.charAt(i);//a--first iteration is a
+            if (!s2.contains(eachChar)) {
+                s2 += eachChar; // we only concat the character if that that character is not exist in s2
                 //after first iteration ,since its a ,so we check the condition : if(!s2.contains(eachChar))
                 // is true or no, we found , s2 DOES NOT contains a ,so the condition is true ,
                 //so the next line of code executed : s2+=eachChar . Now s2 becomes a !
@@ -107,9 +107,9 @@ public class RemoveDuplicatesFromAString2 {
         // to check and each element, we use for each loop, array using for each loop to check !
 
         String result = ""; // to store all non duplicated String objects of the array
-        for(String each : eachChar){
-            if(!result.contains(each)){
-                result+=each;
+        for (String each : eachChar) {
+            if (!result.contains(each)) {
+                result += each;
             }
         }
 
@@ -123,8 +123,8 @@ public class RemoveDuplicatesFromAString2 {
         String resultUnique = "";//store non duplicates
 
         for (int i = 0; i < strstr.length(); i++) {
-            if(!resultUnique.contains(strstr.substring(i,i+1))){
-                resultUnique+=strstr.substring(i,i+1);
+            if (!resultUnique.contains(strstr.substring(i, i + 1))) {
+                resultUnique += strstr.substring(i, i + 1);
             }
 
         }
@@ -133,17 +133,60 @@ public class RemoveDuplicatesFromAString2 {
 
 
         System.out.println(removeDuplicates("ddjjuuddyydd"));
+        System.out.println(frequency("ddjjdddiiidd",'d'));
 
     }
+
+
 
     // below is System.out.println("--- write a return method that accepts a String and removes duplicate values from the String----");
     public static String removeDuplicates(String str5){
         String resultX = "";
         for (int i = 0; i < str5.length(); i++) {
-            if(resultX.contains(str5.substring(i,i+1))){
+            if(!resultX.contains(str5.substring(i,i+1))){
                 resultX+=str5.substring(i,i+1);
             }
         }
         return resultX;
+
+
+}
+
+
+            /*
+             2. write a return method called Frequency that accepts String and char,
+                the method will return the total number of ocuurence of the given char in the given string
+                Ex:
+                Frequency("AAABBB", 'A') ==> 3
+             */
+
+
+
+             public static int frequency(String str,char ch){
+                  // "ABCABC"  'A'
+                  int count = 0; // count how many time the char is occured in str
+
+                  char[] arr = str.toCharArray();// ['A','B','C','A','B','C']
+                  for(char each:arr){
+                      if(each==ch){
+                          count++;
+                      }
+                  }
+                  return count;
+
+              }
+
+    // Task 3, frequencyOfChars("AAABBBCCC") ==> A3B3C3
+    // FIRST step we gonna remove the duplicated character ==> ABC
+    // THEN --------------------------------------------> A3B3C3
+    public static void frequencyOfChars(String str) { // users gonna be pass me arguments . "AAABBBCCC"
+        String nonDup = removeDuplicates(str); // ABC
+
+        for (int i = 0; i < nonDup.length(); i++) {
+            int count = frequency(str, nonDup.charAt(i));// 3
+            System.out.print("" + nonDup.charAt(i) + count);
+            // 'A' + 3
+        }
+
     }
 }
