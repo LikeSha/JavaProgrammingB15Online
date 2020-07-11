@@ -413,6 +413,7 @@ public class InterviewSoftSkillKnowledge {
      *
      *     ======================================================================================================
      *     SOFTSKILL CALSS DAY 11 02/06/2020 THE INTERVIEW QUESTION ANSWERS VERY GOOD !  NEED TO REPEATED WATCH!
+     *      tell me about your sprint ? how many team member you have ? this answer just listen Daria video in this class
      *
      *     test case and test scenario difference ?
      *      *
