@@ -46,6 +46,9 @@ public class ListPracticeWithLoop {
 
         // insert 100 right after 34 : WE DO NOT KNOW WHERE IS 34 :
 
+        lst2.add(lst2.indexOf(34) + 1,100);
+        System.out.println("lst2 = " + lst2);
+
 
 
     }
