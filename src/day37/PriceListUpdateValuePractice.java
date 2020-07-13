@@ -37,7 +37,7 @@ public class PriceListUpdateValuePractice {
         priceList.set(priceList.size()-1,sumOfFirst2Items);
         System.out.println("New priceList  = " + priceList);
 
-        // give 40% off to second price, so our new price should e 40% les than original price which is 60%
+        // give 40% off to second price, so our new price should be 40% less than original price which is 60%
         priceList.set(1,priceList.get(1) * 0.6);
         System.out.println("After 40% off second item value is " + priceList.get(1));
 
