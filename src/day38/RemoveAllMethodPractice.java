@@ -15,7 +15,7 @@ public class RemoveAllMethodPractice {
         nums1.add(500);
         nums1.add(600);
         System.out.println("nums1 = " + nums1);
-        // I want to remove 100,133
+        // I want to remove 100,300
         // just like addAll method , removeAll method expect another collection List Object to be removed
        nums1.removeAll(Arrays.asList(100,300));
         System.out.println("nums1 after removing = " + nums1);

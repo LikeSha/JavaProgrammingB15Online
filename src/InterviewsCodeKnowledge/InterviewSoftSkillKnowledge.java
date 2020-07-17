@@ -469,14 +469,14 @@ public class InterviewSoftSkillKnowledge {
      *   think that is not a bug . for example ,I am testing an application, lets say amazon . the applicants can
      *   choose multiple options from drop down list , I found it that actually users can select the options at
      *   the same time so that they don't have to waste their time to select one by one in drop down list . which is
-     *   like user friendly . so I just come up with that idea as an end  user perspective : when I click the
+     *   like user friendly . so I just come up with that idea as an end user perspective : when I click the
      *   drop down list ,there are many options ,I can simply select those options at the same time and then move on.
      *   but the system does not want me to select at one time , means select everything like multiple options
      *   at one time ,the system only allows me to select option one by one , I select one ,and open drop down manu
      *   again ,and select second one ... So I opened a bug ,the developer rejected ! this is the example I am
      *   sharing . in developers perspective is : this is not in requirement so this is not a bug . that is happening
      *   a lot in real work environment . but as tester , I am always thinking in end user perspective ,  I think that
-     *   should be fixed otherwise its not like user friendly. So what I do is : I have to crate a task in Jira,
+     *   should be fixed otherwise its not like user friendly. So what I do is : I have to create a task in Jira,
      *   I have to assign it to the Product Owner , my team lead , I email them and CC my team members and explain
      *   why I am thinking this is a bug .after discussion ,the PO maybe will change the requirement and let the
      *   developers fix the bug .
