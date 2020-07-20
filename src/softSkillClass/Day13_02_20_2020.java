@@ -19,7 +19,8 @@ public class Day13_02_20_2020 {
      *
      *
      * 2.Can you list the report types generated on Jira ?
-     * answer 2 :  As a tester the team lead generate those reports .
+     * answer 2 :  As a tester the team lead generate those reports . I can just go to check those reports if
+     * I need anything. As a tester, most of time ,we are not generate those reports.
      *
      * whos creating user story in jira ? product owner created and assign to testers .
      * 3.what is the importance of labeling issue ?
@@ -28,6 +29,8 @@ public class Day13_02_20_2020 {
      *
      * 4.What add ons your team using for Jira? Jira -> Xray, Zephyr(add on) ( when interview dont talk about Zephyr )
      * because jira only only add on we use is Xray.
+     *
+     * whos creating bug ticket in Jira ? we do we are testers .
      *
      * Agenda :
      * Interview session
@@ -48,10 +51,11 @@ public class Day13_02_20_2020 {
      *
      *
      *2. create test plan -->
-     * the purpose of creating test plan : is for organize relevant test cases ,bugs,task, exectuion
+     * the purpose of creating test plan : is for organize relevant test cases ,bugs,task, execution
      * we create test plan for per user story
      * go to your jira project and create test plan--> click on more --select link --> link on more -->
      * select link --> linked to your user story
+     *
      * 3, create test case      test plan stays in backlog
      *
      * test plan : folder
@@ -61,8 +65,8 @@ public class Day13_02_20_2020 {
      * user story assigned you :
      * 1. create test plan and link with particular user story
      * 2,create test and link with test plan
-     * 3.create test exectution link with test plan
-     * 4.exectue it and mark as pass or fail
+     * 3.create test execution link with test plan
+     * 4.execute it and mark as pass or fail
      * 5.if its fail then open a bug
      * 6. create a bug and link test plan
      *
