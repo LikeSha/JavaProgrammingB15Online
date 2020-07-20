@@ -2,13 +2,13 @@ package day39;
 
 public class Car {
 
-    //           year,model, make,color
+    // year,model, make,color
     int year ;
     String model ;
     String make ;
     String color ;
     // or in one short
-    // String model , make ,color
+    // String model , make ,color;
 
     // instance methods are tied to the object
     // it does not have static keyword

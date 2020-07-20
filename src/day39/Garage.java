@@ -38,7 +38,7 @@ public class Garage {
 
         // I WANT TO CHANGE THE COLOR OF HYUNDAI TO THE COLOR OF TOYOTA
 
-        car2.color = car1.color;//car2.color = white;
+        car2.color = car1.color;//car2.color = "white";
 
 
     }
