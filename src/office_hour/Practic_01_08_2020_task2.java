@@ -31,7 +31,7 @@ public class Practic_01_08_2020_task2 {
     /**
      * a method that accept String object and turn it into List<Character>
      * @param name
-     * @return  List<Charcter> that contains each character
+     * @return  List<Character> that contains each character
      */
 
 

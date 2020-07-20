@@ -31,6 +31,7 @@ public class ArrayListPractice {
 
 //         * Task 1 : print only items name
 //        String itemDetail =  "honeiP 6s,449,18.71";
+//        System.out.println("item name = " + itemDetail.split(",")[0]);
 //        System.out.println("item price = " + itemDetail.split(",") [1]);
 //        System.out.println("item monthly = " + itemDetail.split(",") [2]);
 
@@ -146,7 +147,7 @@ public class ArrayListPractice {
 
        // System.out.println(productLst.contains("Dyson"));// false
        // System.out.println(productLst.indexOf("Dyson")); // -1
-      //  System.out.println(productLst.startWith("Dyson")); // compiler error
+      //  System.out.println(productLst.startsWith("Dyson")); // compiler error
          int dysonIndex = 0 ;  // there is only one Dyson
         for (int i = 0; i <productLst.size() ; i++) {
 

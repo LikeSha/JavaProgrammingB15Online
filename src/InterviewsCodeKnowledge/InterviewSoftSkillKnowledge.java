@@ -493,7 +493,7 @@ public class InterviewSoftSkillKnowledge {
      *      * to reproduce bug again ,means retest it ,bug the bug is gone . this is called run time error.
      *      *
      *      * session time out : ( must understand session time out meaning )
-     *      * listen today's video again from : 1.11'52 to 1,15,20'
+     *      * listen today's video again from : 1.11'52 to 1,15,20' Day 11 Feb 6,2020
      *
      *
      *
