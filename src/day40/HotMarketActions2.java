@@ -39,7 +39,7 @@ public class HotMarketActions2 {
         o4.salary = o1.salary + o2.salary + o3.salary ;
         o4.displayOfferDetails();
         o4.turnToFullTime();
-        o4.turnToFullTime();
+        o4.displayOfferDetails();
         o4.changeLocation("DC");
         o4.displayOfferDetails();
 
