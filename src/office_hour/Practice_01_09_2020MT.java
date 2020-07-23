@@ -19,7 +19,7 @@ public class Practice_01_09_2020MT {
          *      ArrayList only supports non primitives
          *    3,  in ArrayList ,you don't have to specified the size ,because ArrayList the size is
          *    automatically adjusted ( dynamic)
-         *    4, ArrayLise does have index number
+         *    4, ArrayList does have index number
          *
          *    Array vs ArrayList :
          *    1, ArrayList only supports non primitives ,Array supports all
@@ -80,13 +80,13 @@ public class Practice_01_09_2020MT {
 
         list.add(1,30); //[10,30,20]
 
-        System.out.println(list.size());// 2
+        System.out.println(list.size());// 3
 
         int num = list.get(1); // unboxing
         System.out.println(num);//30
 
         list.clear(); // []
-        System.out.println(list.size());
+        System.out.println(list.size());//0
 
         List<String> list2 = new ArrayList<>();
         list2.add("A");
@@ -106,7 +106,7 @@ public class Practice_01_09_2020MT {
 
         list2.indexOf("B");//0
         System.out.println(list2.indexOf("B"));   //0
-        System.out.println(list2.indexOf("D")); // -1 the given object is ot exist in ArrayList
+        System.out.println(list2.indexOf("D")); // -1 the given object is not exist in ArrayList
 
         List<Integer> list3 = new ArrayList<>();
         list3.add(1);

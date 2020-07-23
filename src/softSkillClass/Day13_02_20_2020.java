@@ -45,7 +45,7 @@ public class Day13_02_20_2020 {
      *1. crate user story --> amazon , bank, flight
      *  1) discuss with group pick one application (amazon)
      *  2) each team member create new user story ( just write it down first ) one user story for per person .
-     *  assing to yourself
+     *  assign to yourself
      *  select issue type --> enter summary ( name of user story ) --> enter description --> assineee( assign to my link) --click on
      *  "create)
      *

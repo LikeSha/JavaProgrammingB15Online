@@ -21,8 +21,8 @@ public class HotMarketActions {
         o2.displayOfferDetails();
 
         Offer o3 = new Offer();
-        o3.location = "Amazon";
-        o3.company = "Vancouver";
+        o3.location = "Vancouver";
+        o3.company = "Amazon";
         o3.isFullTime = true ;
         o3.salary = 96000 ;
         o3.displayOfferDetails();
