@@ -509,7 +509,7 @@ public class InterviewSoftSkillKnowledge {
      *       meet the dead line in every single sprint.
      *     5.I am also attending sprint planning meeting and give a point for each user story and help
      *       my team to prioritize them
-     *     6.Since I am SDET, I always participate automation team code review meeting.
+     *     6.Since I am SDET, I always participate automation team for code review meeting.
      *
      *
      *
