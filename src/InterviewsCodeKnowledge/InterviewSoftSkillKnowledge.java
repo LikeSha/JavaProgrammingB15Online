@@ -495,6 +495,24 @@ public class InterviewSoftSkillKnowledge {
      *      * session time out : ( must understand session time out meaning )
      *      * listen today's video again from : 1.11'52 to 1,15,20' Day 11 Feb 6,2020
      *
+     *     Tell me about your responsibilities?
+     *
+     *     My main responsibilities for current application is :
+     *
+     *     1.I involved analyzing user stories, AC, and design my test case with all possible scenarios.
+     *     2.Automate,run and maintain my smoke test suite
+     *     3.I also responsible for maintaining, automating test scenarios for regression test suite and make sure
+     *       its tested with all possible scenarios.
+     *     4.As a cross functional team member I peer review manual testers' test cases or test scenarios,
+     *       and give a valuable feed back on them.Our team is super agile team which mean
+     *       we are collaborating with Dev, BA, and helping everyone to reach sprint goal
+     *       meet the dead line in every single sprint.
+     *     5.I am also attending sprint planning meeting and give a point for each user story and help
+     *       my team to prioritize them
+     *     6.Since I am SDET, I always participate automation team code review meeting.
+     *
+     *
+     *
      *
      *
      *
