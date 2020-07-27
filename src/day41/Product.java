@@ -23,7 +23,7 @@ public class Product {
     }
 
     public double getPrice(){
-        return price ;
+        return this.price ;
     }
 
     public void setPrice( double price){

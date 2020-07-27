@@ -75,6 +75,6 @@ public class TV {
                     ", currentChannel=" + currentChannel +
                     '}';
         }
+}
 
-    }
 
