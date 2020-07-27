@@ -9,6 +9,7 @@ public class Product {
     //we are working on
     // we can use it to refer the instance field
     //this.fieldName
+    //this key word only can be used in instance method ( and constructor)
     private String name;
     private double price;
 
