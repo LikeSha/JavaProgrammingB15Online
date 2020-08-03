@@ -59,7 +59,8 @@ public class MovieUtility {
      * The movie <name> is <length> hour long and it genre is <type>
      * @param movieObj the movie object to get information from
      */
-    public static void printMovieInformation(Movie movieObj) { // if you use static means you need an object to call it
+    public static void printMovieInformation(Movie movieObj) { // if you use Non-static means you need an object to call it
+        // static belong to class, instance belong to object.
         //TODO YOUR CODE HERE
         System.out.print("The movie name " +movieObj.getName());
         System.out.print("is " + movieObj.getLength() + " hour long");
