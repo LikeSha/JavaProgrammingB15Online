@@ -25,7 +25,7 @@ public class CyberHouse {
       // we can change default value of the fields
     // by assigning value directly in the template class
      private  static String neighbourhoodName = "Cybertek Ave";
-
+      // constructor can access anything
       public CyberHouse(int houseNum,String design){
           this.houseNum = houseNum;
           this.design = design;
