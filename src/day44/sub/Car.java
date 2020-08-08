@@ -10,7 +10,7 @@ public class Car extends Vehicle {
     //inherit the thing we don't see.
     // so we can change it to "protected String make" to
     //inherit it
-    // private int year is not inherited
+    // private int year is not inherited!
     int mileage;
 
     public static void main(String[] args) {
