@@ -3,6 +3,7 @@ package day44;
 
 // fields and methods that visible to sub class are inherited
 //constructors are not inherited
+// private is not inherited
  public class Train extends Vehicle{
 
 //     String make;
