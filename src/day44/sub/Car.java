@@ -5,7 +5,11 @@ import day44.Vehicle;
 public class Car extends Vehicle {
 
     // String make is not inherited because
-    // it has default access modifier
+    // it has default access modifier ( String make )
+    //default access modifier not seen, we don't
+    //inherit the thing we don't see.
+    // so we can change it to "protected String make" to
+    //inherit it
     // private int year is not inherited
     int mileage;
 
