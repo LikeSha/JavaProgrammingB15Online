@@ -3,6 +3,7 @@ package office_hour.practice01_21_2020;
 public class BoaTeams {
 
     // information --> for teams
+    //instance variables
     int teamSize;
     String teamRoles;
     String teamName;

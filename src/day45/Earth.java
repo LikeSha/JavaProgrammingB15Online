@@ -10,7 +10,7 @@ public class Earth extends Planet {
     // PRACTICAL USAGE OF Super() keyword to all super constructor
     //is to reuse the functionality of super constructor in sub class
     // constructor
-    public Earth(Double gravity, int radius, boolean hasLife, int population) {
+    public Earth(double gravity, int radius, boolean hasLife, int population) {
        super(gravity, radius, hasLife);
 //        this.gravity = gravity;
 //        this.radius = radius;

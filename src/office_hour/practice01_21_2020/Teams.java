@@ -22,6 +22,13 @@ public class Teams {
         BoaTeams team5 = new BoaTeams();
         BoaTeams team6 = new BoaTeams();
 
+        //since all the objects have the same company name, so we can call it static way :
+        // call the variable with class Name + variable name ;  className.staticField
+
+        BoaTeams.companyName = "BOA";
+
+        System.out.println("BoaTeams.companyName = " + BoaTeams.companyName);
+
 
 
     }
