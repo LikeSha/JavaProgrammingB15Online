@@ -2,9 +2,9 @@ package office_hour.Practice_01_22_2020MT;
 
 public class Toyota extends Car {
 
-    @Override // if this annotation undeline is red color ,then
+    @Override // if this annotation underline is red color ,then
     // java is telling you" you are not override !" , so if you wanna
-    // check if you are override sucessfully ,just write this
+    // check if you are override successfully ,just write this
     // annotation to check
     public void start(){
         System.out.println("Push Button and start");

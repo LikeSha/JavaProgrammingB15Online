@@ -12,6 +12,7 @@ public class ClassNote {
      *
      *      method overriding : same method name ,same parameter
      *      rules: 1, Must be overridden in sub class ( inherited relation)
+     *                method overriding can not take place in the same class!
      *             2, return-type, method name,parameter MUST be same
      *             3, Overridden Access modifier MUST same or more visible
      *                public > protected > default
@@ -19,7 +20,13 @@ public class ClassNote {
      *                private ,final method)
      *             5,@Override Must be applicable
      *
-     *  why you can not overidden private access modifier ?
+     *  Interview question : why you can not overidden private access modifier ?
+     *                       Answer: because rule No.1 , method overriding MUST happen in sub class !  MUST inherited relationship.!
+     *                       sub-class means your method at least visible outside of the classes.But the method you have private,
+     *                       it NOT VISIBLE outside of this class.Therefore, you can not overridden private access modifier.
+     *
+     *
+     *
      *
      *      class car{
      *          start(){
