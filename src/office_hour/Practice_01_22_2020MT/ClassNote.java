@@ -8,7 +8,7 @@ public class ClassNote {
      *  visibility level of access modifier ;
      *  public > protected > default > private
      *
-     * Why do we need method overriding ? To provide the different implementations
+     * Why do we need method overriding ? To provide the different implementations(functionality)to the method
      *
      *      method overriding : same method name ,same parameter
      *      rules: 1, Must be overridden in sub class ( inherited relation)
