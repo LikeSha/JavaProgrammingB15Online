@@ -7,8 +7,8 @@ public class ClassNote {
      * How do we call super class's constructor :
      * super(some argument here if needed)
      *
-     * what is the first statement of any constructor by default if
-     * by default it will be always super(); inserted by comiler
+     * what is the first statement of any constructor by default if we don't explicitly call super
+     * by default it will be always super(); inserted by compiler
      *
      * public class Car{
      *     public Car(){

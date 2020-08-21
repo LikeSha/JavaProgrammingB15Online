@@ -33,7 +33,8 @@ public class ClassNote {
      *
      * Static : belong to the class. can be called through the class name
      *          4 features can be static :
-     *             1. static variables ( also called class variables)
+     *             1. static variables ( also called class variables) static variables must be declared outside of any
+     *             block or method
      *             2.static methods.
      *             3.Static Initializer block
      *             4.static class
@@ -56,6 +57,13 @@ public class ClassNote {
      * declaration : Access-Modifier ClassName(Parameter){
      *
      * }
+     *
+     * ANY INSTANCE METHOD OR STATIC METHOD CAN NOT CALL CONSTRUCTOR !
+     * CONSTRUCTOR CAN BE ONLY CALLED BY OTHER CONSTRUCTORS.
+     *
+     * THE difference between method and block:
+     * if it can take any arguments, and pass some parameters ,we call it method , if the method can no pass parameter, but can
+     * execute some specific codes ,that means it is block
      */
         static String name;
         static int  stA = 10;
@@ -74,9 +82,11 @@ public class ClassNote {
         obj1.inB = 200;
         ClassNote obj2 = new ClassNote();
 
+//        static variables : there is only one copy of static variables that's shared by all the objects of the class
         System.out.println(obj1.stA);//20
         System.out.println(obj2.stA);//20
 
+//        instance variable : belong to the object  , each object has its own copy of instance variable
         System.out.println(obj1.inB);//200
         System.out.println(obj2.inB);//0
 

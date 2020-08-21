@@ -110,7 +110,7 @@ package office_hour.practice_01_23_2020MT;
 //Local Variables: decleared within a method or block
 //					cannot be used outside the method or block
 //Constructor: special method.  used for creating object
-//			EVRY CLASS MUST HAVE A Constructor
+//			EVERY CLASS MUST HAVE A Constructor
 //					if we don't create one, compiler will give no-arg constructor
 //			Execution depends on the creation of the object
 //		decleration:
