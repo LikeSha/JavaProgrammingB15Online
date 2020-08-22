@@ -24,7 +24,7 @@ public class Rectangle extends Shape {
     @Override
     public String toString() {
         return "Rectangle{" +
-                "height=" + height +
+                "width=" + width +
                 ", name='" + name + '\'' +
                 ", area=" + area +
                 '}';

@@ -6,11 +6,12 @@ public class ExtremeSport extends Sport {
 //        @Override
 //   can not override
 //     but you can do anything else
-//    or example you can overload it
+//    for example you can overload it
 //    public void doSomething(int x) {
 //       // super.doSomething();
 //        System.out.println("doing extreme sport");
 //    }
+
    @Override
    //this final keyword is
    //blocking sub class of ExtremeSport

@@ -14,7 +14,7 @@ public class FinalVariablesPractice {
         System.out.println(s1.studentID);
         // can not reassign the value because it's final
         // s1 = new Student(102);
-        // s1.studentID = 200; // you can still change internal data attached
+        //s1.studentID = 200; // you can still change internal data attached
         //to the object as long as it's the same object s1 pointing to
         //as long as the address does not change
         System.out.println(s1.studentID);
