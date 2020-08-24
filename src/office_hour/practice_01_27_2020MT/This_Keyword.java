@@ -46,7 +46,7 @@ class Test{
         Test obj = new Test(10);
     }
 }
-public class This_Super_Keyword {
+public class This_Keyword {
 
     int a = 100;
 
@@ -65,7 +65,7 @@ public class This_Super_Keyword {
 //        System.out.println(This_Super_Keyword.a);// you can not call instance variable use static way ,because that
         // instance variable is NOT STATIC VARIABLE . THE ONLY WAY YOU CAN CALL INSTANCE VARIABLE IN A STATIC METHOD IS
         // CREATE AN OBJECT AND CALL IT:
-        This_Super_Keyword obj = new This_Super_Keyword();
+        This_Keyword obj = new This_Keyword();
         System.out.println(obj.a);
 
     }
