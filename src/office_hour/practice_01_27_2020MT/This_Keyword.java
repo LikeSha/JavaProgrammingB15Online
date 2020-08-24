@@ -15,9 +15,16 @@ this : refer to the object instances(from current class)
                               2. constructor can not be called by their names , you can only use this() or super() to call
                               3. constructor call MUST be at the first step in constructor body ( first line of code )
                               4. A constructor cannot call more than one constructor.
+                              5. Constructor cannot call or contain itself
+                              6. super class constructor MUST BE CALLED IN SUB CLASS
+                              7. super class default constructor is called by default in sub class
 
       constructor rules : 1. CONSTRUCTOR CAN NOT BE OVERRIDDEN !! but can be overloaded
                           2. Constructor execution ALWAYS depends on the object
+                          3. Every class must have constructor
+                          4. Constructor name MUST be same with class name
+                          5. Constructor does not have return type and specifier
+                          6. class object MUST be created with existing constructor
 
 super: refer to the object instances( from super class)
        to super keyword, the precondition is : there must be an inheritance relationship
