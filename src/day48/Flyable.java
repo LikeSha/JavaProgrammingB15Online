@@ -5,6 +5,14 @@ package day48;
 //no object can be crated from it
 //it provide guideline for implementing classes
 //it's like signing a contract
+
+/*
+We can achieve abstraction using :
+    abstract class
+    interface
+
+    both of them are abstract type and can not create object out of it !!!!
+ */
 public interface Flyable {
 
     // an interface can only have public static final field
