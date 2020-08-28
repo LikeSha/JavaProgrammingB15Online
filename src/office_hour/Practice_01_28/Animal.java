@@ -4,9 +4,9 @@ public abstract class Animal implements Zoo{
 
     // rules for abstract class :
     //1, NO OBJECT CREATION
-    //2,
+    //2, Abstract method no method body
 
-    // default constructor
+    // default constructor(invisible, unless we write it down)
     public Animal(){
 
     }

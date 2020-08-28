@@ -62,6 +62,7 @@ public interface Bouncible {
 
         // SuperType variableName = new SubType(...) ; THIS WORKS
 
+
         Bouncible k2 = new Kangaroo("Toto",6);
         k2.bounce();
         //System.out.println("k2 = " + k2);
