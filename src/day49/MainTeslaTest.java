@@ -8,8 +8,8 @@ public class MainTeslaTest {
 
        t1.start();
        t1.selfDrive();
-       t1.goForward();
-       t1.charge();
+       t1.goForward();//this one we did not override it ,we just use as it is.
+       t1.charge();//this one we did not override it ,we just use as it is.
        System.out.println("t1 = " + t1);
 
 
