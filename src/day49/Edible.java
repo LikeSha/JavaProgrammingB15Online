@@ -10,6 +10,7 @@ public interface Edible{
     // in interface fields are automatically static final if not defined so
     // public static final field naming convention is ALL-CAPS!!!
     //you can have as many constant as you want
+
     public static final boolean IS_HUMAN_FOOD = true;
 
     //If a method with no-body is not defined public abstract , it's automatically public abstract
