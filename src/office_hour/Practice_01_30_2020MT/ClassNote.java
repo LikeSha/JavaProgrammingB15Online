@@ -7,7 +7,7 @@ public class ClassNote {
      *
      * abstract : not concrete
      *
-     * abstraction ; focusing on the importance/Essentials , without worrying the implementation
+     * abstraction : focusing on the importance/Essentials , without worrying the implementation
      *                                hiding the implementation / functionality details
      *
      * class Car{
@@ -50,6 +50,8 @@ public class ClassNote {
      *                                       2. Interface
      *
      *  Abstract class :  a class that's meant to be inherited ( abstract class cannot be immutable)
+     *
+     *  How can you make a class immutable ? make it a final class ! String class in Java is immutable.
      *
      *     not concrete : can not create object from abstract class
      *

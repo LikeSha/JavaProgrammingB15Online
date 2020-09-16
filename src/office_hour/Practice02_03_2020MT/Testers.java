@@ -28,7 +28,7 @@ public class Testers extends ScrumTeam{
     }
 
     public void foundBug(){
-        System.out.println("Tester " + employeeName + " reported a bug");// you can use this.employee, or only employee
+        System.out.println("Tester " + employeeName + " reported a bug");// you can use this.employeeName, or only employee
                                                               // for calling this variable in this class
     }
 
