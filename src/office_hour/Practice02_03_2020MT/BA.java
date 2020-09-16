@@ -14,11 +14,11 @@ public class BA extends ScrumTeam {
         this.employeeName = employeeName;
         this.salary = salary;
     }
-
+    @Override
     public void Demo(){
         System.out.println("Business Analyst " + this.employeeName + " is doing demo");
     }
-
+    @Override
     public void DailyStandUp(){
         System.out.println("Business Analyst " + this.employeeName + " is attending daily stand up meeting");
     }
