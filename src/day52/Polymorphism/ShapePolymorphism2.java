@@ -10,7 +10,7 @@ public class ShapePolymorphism2 {
 //        printAnyShapeArea(s1);
 //        Shape s2 = new Rectangle("BOOK",10,5);
 //        printAnyShapeArea(s2);
-//        // here we area directly passing the sub classs object
+//        // here we area directly passing the sub class object
 //        // to a method that have Shape as parameter type
 //        printAnyShapeArea(new Square("Bob",6));
 //
