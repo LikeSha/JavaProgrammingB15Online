@@ -104,7 +104,7 @@ public class Account implements Transferable,Comparable<Account> {
     public boolean isPalindrome(){
 
         // first store into temp and replace all the space and make it lowercase
-        //WE DO NOT WANT TO ACTUALLY CHANGE HE NAME OF THE ACCOUNT SO WE JUST WORK WITH IT'S COPY
+        //WE DO NOT WANT TO ACTUALLY CHANGE THE NAME OF THE ACCOUNT SO WE JUST WORK WITH IT'S COPY
         String nameCopy = this.name.toLowerCase().replace(" ","");
         //we need to reverse the value then check whether they are still same String or not
         String reverseResult = "";
