@@ -43,7 +43,7 @@ public class TestDevice {
         d3.price = 374;
         d3.call(); // this method will be called from Device
         // you can not use anything from Iphone
-        // d3 after you have call() in Iphone class ,it calls from
+        // d3 after you have call() in Iphone class ,it calls from Iphone class
 
 
 
