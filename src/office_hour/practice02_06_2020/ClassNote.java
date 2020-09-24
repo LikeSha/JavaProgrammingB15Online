@@ -42,5 +42,7 @@ public class ClassNote {
           }
 
           Zoo Has Tiger
+
+           IMPORTANT CONCEPT IN POLYMORPHISM : The reference type decides what can be called !
      */
 }
