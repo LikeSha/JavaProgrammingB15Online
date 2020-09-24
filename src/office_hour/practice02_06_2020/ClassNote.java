@@ -9,6 +9,17 @@ public class ClassNote {
 
    if the super class/super-type is reference to sub class object
 
+       classA extends classB
+            sub            super
+
+       for this case : the regular way to create class object is :
+
+        classA             obj     =       new classA();
+        reference type     name            object
+
+        classB            obj     =        new classB();
+        classB            obj2    =        new classA();<--- Polymorphism concept classB reference child class
+
    IS-A relationship: Inherited relation
 
       example: class A extends B
@@ -29,5 +40,7 @@ public class ClassNote {
           class Zoo{
               Tiger obj = new Tiger();
           }
+
+          Zoo Has Tiger
      */
 }
