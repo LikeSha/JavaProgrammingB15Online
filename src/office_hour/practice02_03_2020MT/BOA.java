@@ -1,4 +1,4 @@
-package office_hour.Practice02_03_2020MT;
+package office_hour.practice02_03_2020MT;
 
 public class BOA {
 
