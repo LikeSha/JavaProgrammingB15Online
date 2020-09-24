@@ -44,5 +44,20 @@ public class ClassNote {
           Zoo Has Tiger
 
            IMPORTANT CONCEPT IN POLYMORPHISM : The reference type decides what can be called !
+
+           the second important concept : if the method called existing in both types, which one executed ?
+           THe object type method got executed!
+
+           public final void method1(){
+        System.out.println("method 1 from States class");//final method CAN NOT BE OVERRIDDEN ,BUT CAN BE OVERLOADED!
+    }
+
+}
+
+if you overridden ,the object class got executed , if you overloaded ,the reference type
+                      // get executed.
+IF A METHOD IS PRESENTED IN BOTH REFERENCE AND OBJECT ,
+
+                      ANY METHOD CAN BE OVERLOADED!
      */
 }

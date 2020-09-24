@@ -1,5 +1,9 @@
 package office_hour.practice02_06_2020;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Test {
 
     public static void main(String[] args) {
@@ -22,6 +26,27 @@ public class Test {
         States obj3 = new California();
         obj3.tax();// if the methods existing in both reference type and object class, which one gonna be return
 //                   this method? The answer is : ONLY THE OVERRIDDEN ONE ! --> California();
+        obj3.method1();// this method executed from States class, the reference type
+                      // if you overridden ,the object class got executed( California class) ,
+        //   if you overloaded ,the reference type get executed.( States class)
+
+        List<Kentucky> list = new ArrayList<>();// list ONLY support object !
+        list.addAll(Arrays.asList(new Kentucky()));
+        list.get(0);// the first object is Kentucky. list only support object !
+
+        String name1 = list.get(0).stateName;
+        System.out.println(name1);
+
+        /*
+         List<States> list = new ArrayList<>();// list ONLY support object !
+        list.addAll(Arrays.asList(new Kentucky(),new California()));
+        list.get(0);// the first object is Kentucky. list only support object !
+
+        String name1 = list.get(0).stateName;
+        System.out.println(name1);
+         */
+
+
 
 
     }
