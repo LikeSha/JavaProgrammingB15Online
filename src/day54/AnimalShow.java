@@ -29,6 +29,7 @@ public class AnimalShow {
         // refer a dog object as a IndoorPet
         //it can only play
         IndoorPet p1 =d1;
+        p1.play();
 
     }
 }
