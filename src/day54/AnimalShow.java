@@ -18,11 +18,13 @@ public class AnimalShow {
 
         Animal a1 = d1;// refer a dog object as an Animal, it can do only those things
           // Animal can do, only the speak method in this case.
+        a1.speak();
 
         // refer a dog object as an Object
         // it can do only those thing object can do
         //for example toString ,hasCode and others
         Object o1 = d1;
+//        o1.speak();// hover over the speak method ,it says: "cast qualifier to day54.dog"
 
         // refer a dog object as a IndoorPet
         //it can only play
