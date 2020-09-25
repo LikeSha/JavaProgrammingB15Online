@@ -16,6 +16,9 @@ public class AnimalShow {
         d1.speak();
         d1.play();
 
+        Animal a1 = d1;// refer a dog object as an Animal, it can do only those things
+          // Animal can do, only the speak method in this case.
+
         // refer a dog object as an Object
         // it can do only those thing object can do
         //for example toString ,hasCode and others

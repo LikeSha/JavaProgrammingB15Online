@@ -46,6 +46,8 @@ public class Test {
         System.out.println(name1);
          */
 
+        States[] arr = {new Kentucky(),new California()};
+
 
 
 

@@ -7,7 +7,7 @@ public class ClassNote {
 
     Polymorphism: ability of the object in many forms
 
-   if the super class/super-type is reference to sub class object
+   if the super class/super-type is reference to sub class(non-abstract) object
 
        classA extends classB
             sub            super
@@ -56,8 +56,15 @@ public class ClassNote {
 
 if you overridden ,the object class got executed , if you overloaded ,the reference type
                       // get executed.
-IF A METHOD IS PRESENTED IN BOTH REFERENCE AND OBJECT ,
+IF A METHOD IS PRESENTED IN BOTH REFERENCE AND OBJECT , THE OVERRIDDEN ONE GETS EXECUTED
 
                       ANY METHOD CAN BE OVERLOADED!
+
+     Can Interface be a super type to a class ? Yes it can .
+     class extends class only
+     class implements interface(s) only.
+     interface extends interface
+
+     if interface/super class is reference ,the object must be created from non-abstract sub class.
      */
 }
