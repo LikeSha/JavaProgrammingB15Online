@@ -6,7 +6,7 @@ public class Automation {
 
         System.out.println("----Running on Chrome");
         WebDriver c1 = new ChromDriver();
-        //interview question : please explain line 7 !
+        //interview question : please explain line 8 !
         //answer : ITS POLYMORPHISM METHOD !!!
         c1.openBrowser();
         c1.navigateTo("www.cybertekshcool.com");
