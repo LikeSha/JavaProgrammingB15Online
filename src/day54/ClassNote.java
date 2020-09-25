@@ -32,7 +32,7 @@ public class ClassNote {
      *        void closeBrowser();
      *
      * Create 2 implementing classes
-     *        Chrome
+     *        ChromeDriver, FireFoxDriver
      *
      *
      *
