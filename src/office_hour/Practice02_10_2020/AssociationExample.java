@@ -39,6 +39,10 @@ class School{
         this.allStudentsList.addAll(listOfStudent);
     }
 
+    public String toString(){
+        return "" + allStudentsList;
+    }
+
 }
 
 public class AssociationExample {
@@ -69,7 +73,13 @@ public class AssociationExample {
         cybertek.AddNewStudent(students);
 
         System.out.println(cybertek.allStudentsList);
-        System.out.println(cybertek.schoolName);//Cybertek
+//        System.out.println(cybertek.schoolName);//Cybertek
+
+        for(Student eachStudent:cybertek.allStudentsList){
+            System.out.println(eachStudent);
+        }
+
+        System.out.println(cybertek);
 
 
     }
