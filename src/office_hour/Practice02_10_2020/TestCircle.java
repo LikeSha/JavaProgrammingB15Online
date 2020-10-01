@@ -9,15 +9,21 @@ class Circle{
     }
 
     @Override
-    public boolean equals(Object o){
+    public boolean equals(Object o){ // checks if two circles has same radius or not
 
 //        Object o1 = new Circle(3.4);
 //        Object o2 = new String();
-        if( o instanceof Circle)
-            if(radius == ((Circle) o).radius)
-            return true;
+        if( o instanceof Circle) {//checks if o is Circle object or not
+            if (radius == ((Circle) o).radius)//checks if two circles have same radius or not
+                return true;
+        }
         return false;
     }
+    /*
+    instanceof :
+       syntax :
+          referenceName instanceof className
+     */
 
 }
 
