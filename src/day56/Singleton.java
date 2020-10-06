@@ -30,6 +30,6 @@ public class Singleton {
     }
 
     private Singleton(){
-        System.out.println("DO NOT CALL");
+        System.out.println("NO ARG CONSTRUCTOR BEING CALLED!!");
     }
 }
