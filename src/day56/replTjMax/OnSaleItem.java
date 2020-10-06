@@ -32,4 +32,12 @@ public class OnSaleItem extends Item {
         super(name, quantity, catalogNumber, price);
         this.discount = discount;
     }
+
+    public double getDiscount() {
+        return discount;
+    }
+
+    public void setDiscount(double discount) {
+        this.discount = discount;
+    }
 }
