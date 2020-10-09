@@ -24,6 +24,8 @@ public class ClassNote {
                                   exception code;
                               }catch(Exceptionclass name){
                                 statements;
+                              }finally{
+                                statements; // always run
                               }
 
               How to create custom unchecked exception? by inheriting the RuntimeException class !!!!
