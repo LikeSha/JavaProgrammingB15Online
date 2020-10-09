@@ -14,7 +14,7 @@ public class ClassNote {
      * Exception--> Exception event , situation
      *
      * In Java , Exceptions are ERRORs that happen during runtime.
-     * Lets say you have code with 200 lines , that is running and ate line 105 some exception happens.
+     * Lets say you have code with 200 lines , that is running and at line 105 some exception happens.
      *
      * 2 options :
      *  -- you let your code to fail and stop
