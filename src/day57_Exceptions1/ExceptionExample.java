@@ -54,7 +54,7 @@ public class ExceptionExample {
            //           --> normally caused by environment where application is running
          //   Exceptions :
          //           --> possible to recover from them ( we can HANDLE them)
-        //            -->
+        //            --> Caused by programmer's code
 
 
         //Throwable has 2 types:
