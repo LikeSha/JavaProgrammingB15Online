@@ -57,7 +57,7 @@ public class ExceptionExample {
         //            --> Caused by programmer's code
 
 
-        //Throwable has 2 types:
+        //Exception has 2 types:
         //      -->Checked exceptions:
         //           are exceptions that programmer MUST handle, otherwise code will not compile
         //           Exceptions that is checked by compiler during compile time
