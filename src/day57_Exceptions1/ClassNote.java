@@ -34,8 +34,8 @@ public class ClassNote {
      *    }
      *
      *  public static void main(String[] args) {         COMPILE ERROR!
-     *           system.out.println("Hello World!");      system is unknow !
-     *             }
+     *           system.out.println("Hello World!");      system is unknown !
+     *             }                                      System -->S should be uppercase letter
      *          }
      *
      *public static void main(String[] args) {               NO COMPILE ERROR!                                          RUNS SUCCESSFULLY
