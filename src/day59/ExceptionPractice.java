@@ -22,7 +22,7 @@ public class ExceptionPractice {
             // below will narrow down the catch block to
             //only catch StringIndexOfOutOfBoundsException and take action accordingly
         }catch( StringIndexOutOfBoundsException e){
-            //etMessage is a method coming from Exception class and provide some more details about exception object
+            //getMessage is a method coming from Exception class and provide some more details about exception object
             System.out.println("Message from getMessage method " + e.getMessage());
             System.out.println("Something unusual happen!!");
         }
