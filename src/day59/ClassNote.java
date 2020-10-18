@@ -9,7 +9,7 @@ public class ClassNote {
      *   if we pass String -->exception at run time
      *
      *   String str = "a";
-     *   str.charAt(0)--> exception at run time
+     *   str.charAt(100)--> exception at run time
      *
      *   String str2 = null
      *   str2.charAt(0) --> exception at run time
