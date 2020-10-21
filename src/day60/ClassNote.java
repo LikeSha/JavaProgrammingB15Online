@@ -80,6 +80,9 @@ public class ClassNote {
  *  public static void playWithFire throws GetBurnedException{
  *
  *      // some code here
+ *      //IS IT REQUIRED TO HAVE EXCEPTION OBJECT ACTUALLY GENERATED HERE ?
+ *      //NO ~! IT MIGHT HAPPEN OR IT MIGHT NOT HAPPEN, ANYONE WHO USE THIS CODE ,ASSUME THE WORST IS EXCEPTION HAPPEN,
+ *      //BUT IT IS NOT NECESSARY HAPPEN . IF IT HAPPEN ,HANDLE IT !
  *
  *  }
  *  this is the only place you will see throws keyword
@@ -88,6 +91,7 @@ public class ClassNote {
  *  Since throws are used to document it might throw an exception , can I DOCUMENT MORE THAN ONE TYPE? YES YOU CAN
  *  for example as below code:
  *
+ * //assuming these exceptions actually exists
  *  public void skyDiving() throws DiveTooDeepException,TooScaredException,ParachuteNotWorkingException{
  *
  *
@@ -103,6 +107,8 @@ public class ClassNote {
  *  What can you throw ????????????????
  *  ANYTHING IS-A Throwable, any object created from Throwable class or Sub class of Throwable class
  *  even the Error ( DO NOT TRY AT HOME!!)
+ *
+ *  -----------------------How to create custom Exception ?------------------------
  *
  *
  *
