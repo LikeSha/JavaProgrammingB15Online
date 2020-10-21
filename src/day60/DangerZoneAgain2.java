@@ -38,7 +38,7 @@ public class DangerZoneAgain2 {
         //readAllLines method declares (document) to throw IOException
         //IOException is a checked exception-->must be handled or decleared
 
-        // quick side bar : FileNotFoundExcepion is sub class of IOException
+        // quick side bar : FileNotFoundException is sub class of IOException
 
 
     }
