@@ -45,6 +45,69 @@ public class ClassNote {
  *     Just try to throw it using throw keyword, if compiler complains, it means its checked Exception
  *     if not ,then it is unchecked Exception.
  *
+ *     ------ MOST IMPORTANTLY Someone has to handle the exception object that created during the program run.
+ *
+ *             try catch
+ *             try catch catch catch
+ *             try catch ........finally
+ *
+ *             try{
+ *
+ *                 cliffDiving();
+ *                 gettingTheSleepingKidFromTheCar();
+ *
+ *             }catch(DiveTooDeepException e){
+ *
+ *                   hang on to the wire, told you so
+ *
+ *             }catch(CryingOutOfBoundException e){
+ *                   You cry too,ignore, pick the kid up,try to calm down,rock him to sleep again
+ *             }
+ *
+ *             }catch(Exception e){
+ *
+ *                 if anything else happen, come here!!
+ *
+ *             }finally{
+ *                 // no matter exception happen or caught or not happen at all
+ *                 // this is the place that always run
+ *             }
+ *
+ *  ----------------------- throw VS throws  ------------------------------------------------------
+ *
+ *  throws keyword is used to document a method might throw that type of exception
+ *
+ *  public static void playWithFire throws GetBurnedException{
+ *
+ *      // some code here
+ *
+ *  }
+ *  this is the only place you will see throws keyword
+ *  in (any) method declaration and is not used anywhere else.
+ *  We will not use new keyword after throws
+ *  Since throws are used to document it might throw an exception , can I DOCUMENT MORE THAN ONE TYPE? YES YOU CAN
+ *  for example as below code:
+ *
+ *  public void skyDiving() throws DiveTooDeepException,TooScaredException,ParachuteNotWorkingException{
+ *
+ *
+ *  }
+ *
+ *
+ *
+ *
+ *  throw keyword is used to actually programmatically throw the exception to the runtime system
+ *  just like actually breaking the glass rather than telling it might break
+ *  for example : throw new AnyTypeOfException( optional message here)
+ *
+ *  What can you throw ????????????????
+ *  ANYTHING IS-A Throwable, any object created from Throwable class or Sub class of Throwable class
+ *  even the Error ( DO NOT TRY AT HOME!!)
+ *
+ *
+ *
+ *
+ *
  * Scenario 1::
  * If I ask you tell me your state so I can store :
  *
