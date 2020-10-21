@@ -28,7 +28,6 @@ public class FileReading {
         try {
             List<String> allLines = Files.readAllLines(Paths.get("src/day60/note.txt"));
             System.out.println("allLines = " + allLines);
-
             for (String eachLine : allLines) {
                 System.out.println(eachLine);
             }
