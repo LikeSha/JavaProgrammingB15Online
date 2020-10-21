@@ -19,6 +19,10 @@ public class IteratingAnyCollection {
 
         // removing item using for each loop from Collection is a BIG NO!!!!
         //iterating over a collection object using iterator
+
+        // interview question : can you remove item from Collection using  for each loop ?
+        // NO! concurrent modification error will happen!
+        //Instead of using for each loop, we use Iterator to remove item from collections.
         Iterator<Integer> myIter = nums.iterator();
 
         while(myIter.hasNext()){
@@ -28,6 +32,7 @@ public class IteratingAnyCollection {
             }
 
         }
+        System.out.println("nums = " + nums);
 
 //        // hasNext()--> check whether you have next item
 //        System.out.println("myIter.hasNext() = " + myIter.hasNext());
@@ -48,7 +53,7 @@ public class IteratingAnyCollection {
 //        //System.out.println("myIter.next() = " + myIter.next());//java.util.NoSuchElementException
 //        System.out.println("myIter.hasNext() = " + myIter.hasNext());
 
-        System.out.println("nums = " + nums);
+
 
 
 
