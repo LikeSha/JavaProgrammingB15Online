@@ -1,6 +1,6 @@
 package day60;
 
-public class MyOwnCheckedException extends RuntimeException{
+public class MyOwnCheckedException extends Exception{
 
 
 }
