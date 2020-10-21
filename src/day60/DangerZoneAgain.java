@@ -8,6 +8,7 @@ public class DangerZoneAgain{
     // if you are sure the method will never actually throw the exception
     //it's good to just declare ti to go through compiler to make it happy
      // if there is actually a chance for the exception might left unhandled
+    //it's good to warp up under try catch
 
     public static void main(String[] args) throws InterruptedException { //FileNotFoundException
 
