@@ -12,8 +12,8 @@ public class BreakTimeException extends RuntimeException {
 
 //        throw new BreakTimeException();
             try {
-                throw new BreakTimeException();
-            } catch (BreakTimeException e) {
+                throw new MyOwnCheckedException();
+            } catch (MyOwnCheckedException e) {
                 System.out.println("WOLA MY OWN THING CAUGHT!!!");
             }
 
