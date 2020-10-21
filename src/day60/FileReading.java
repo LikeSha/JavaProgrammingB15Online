@@ -10,7 +10,7 @@ import java.util.List;
 public class FileReading {
 
     // First create a file by right clicking day60 package and select new --File
-    // name your file as not.txt
+    // name your file as note.txt
     //enter few line or text
     // close the file (it might ask you to save , if it did not it means it already saved )
     // then use
@@ -26,7 +26,7 @@ public class FileReading {
         // reading a file is one line of code as below
         // it return List of String as each line as element
         try {
-            List<String> allLines = Files.readAllLines(Paths.get("C:\\Users\\Owner\\IdeaProjects\\JavaProgrammingB15Online\\src\\day60\\note1.txt"));
+            List<String> allLines = Files.readAllLines(Paths.get("src/day60/note.txt"));
             System.out.println("allLines = " + allLines);
 
             for (String eachLine : allLines) {
