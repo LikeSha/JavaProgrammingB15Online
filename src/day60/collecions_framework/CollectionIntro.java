@@ -17,7 +17,7 @@ public class CollectionIntro {
 
 //     //List in Collection interface extends Collection interface
 //                //and ArrayList implements List interface
-//                // so we can safely say ArraysList
+//                // so we can safely say ArraysList IS-A Collection
                  // List is the only data structure that have index(order), none of the other data structure has index
 
 
@@ -56,6 +56,15 @@ public class CollectionIntro {
         names.forEach( each-> System.out.println("each = " + each) ); // this is how we can use forEach method to print out everything in one shot
 
         // go to module and watch Java short video  ,very useful
+
+        /*
+        The word Collection everywhere:
+        1.Collection Framework--> referring entire things, entire topic
+        2.Collection Interface--> one interface under the entire Collection Framework
+        3.Collections class--> ( it has s at the end, just like Array and Arrays)
+                           --> is a utility class with many static methods
+                           for example: Collections.sort(your collection object1)
+         */
 
 
 
