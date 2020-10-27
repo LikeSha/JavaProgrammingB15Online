@@ -24,6 +24,7 @@ public class SetOfUniqueStates_Deleting {
 
         // DO NOT USE FOR EACH LOOP AT ALL IN REMOVING METHOD ON Set collections.
 
+
         // remove all the states with letter A
         Iterator<String> stIter = states.iterator();
         // Iterator has 3 methods hasNext()  next() remove() works together
