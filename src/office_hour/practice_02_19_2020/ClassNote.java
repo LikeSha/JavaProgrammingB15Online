@@ -45,6 +45,20 @@ public class ClassNote{
  *   Iterator<Integer> numIter = lst.iterator();
  *   // 3 methods  available : hasNext(), next(),remove
  *
+ *   example :
+ *
+ *  Collection<Integer> nums = new ArrayList<>(Arrays.asList(10,4,5,22,88,13));
+ *
+ *  Iterator<Integer> myIter = nums.Iterator();
+ *    while(myIter.hasNext()){
+ *        if(myIter.next() < 10){
+ *            myIter.remove();
+ *        }
+ *    }
+ *    System.out.println("nums = ") + nums);
+ *
+ *
+ *
  *        we use length property  of Array object to count the items
  *        we use size() method of ArrayList to count the items
  *

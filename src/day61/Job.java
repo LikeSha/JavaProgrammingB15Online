@@ -9,6 +9,7 @@ package day61;
 
 public class Job implements Comparable<Job> {
 
+
     private String location;
     private double salary;
     private String companyName;
@@ -39,6 +40,8 @@ public class Job implements Comparable<Job> {
                 ", salary=" + salary +
                 ", companyName='" + companyName + '\'' +
                 '}';
+
+
     }
 
     public String getLocation() {

@@ -24,7 +24,7 @@ public class IteratorPractice {
 
    //     System.out.println("numIter.hasNext() to check if we have element at next position \n " + numIter.hasNext());
 
- //       System.out.println("numIter.next() will move pointer to the next element and get hte value \n " + numIter.next());
+ //       System.out.println("numIter.next() will move pointer to the next element and get the value \n " + numIter.next());
 
         // Now time to iterate over using the iterator
         // First thing first need to decide when we keep looping ?
