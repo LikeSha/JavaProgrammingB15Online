@@ -9,13 +9,22 @@ public class Day9_Jan_23_2020 {
      * when you talk about your team ,we use team terminology .
      * team--> PO,Scrum master , scrum team.
      * my tester team can finish user stories .
-     * who build product log ? PO
-     * How long is sprint cycle ? 4 weeks
+     *
+     *  who build product log ? PO
+     *
+     * How long is sprint cycle ? 2 weeks
+     *
      * Who accept all user stoRIes ? po
+     *
      * can you talk about scrum meeting ?
-     * explain the definition " ready" ?
-     * scrum ceremonies ?
-     * in general , all user stories updated ,point, sprint backlog
+     *
+     *  explain the "definition of ready" ?
+     * Answer : in general , all user stories updated ,points are given to user stories ,
+     * Nothing missing in Acceptance Cretira ,sprint backlog created.So we are ready to
+     * start sprint.
+     *
+     * What is scrum ceremonies ?
+     *
      *
      * explain your scrum team ?
      *
