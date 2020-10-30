@@ -43,8 +43,8 @@ public class GroceryActions {
         System.out.println("groceryPriceMap = " + groceryPriceMap); // NO ORDER WHEN PRITING (RANDOM ORDER)
 
         // double the price of Apple
-      //  groceryPriceMap.replace("Apple",1.89*2);
-        groceryPriceMap.replace("Apple",groceryPriceMap.get("Apple")*2);
+      //  groceryPriceMap.replace("Apple",1.89*2);//this is when you know the apple price
+        groceryPriceMap.replace("Apple",groceryPriceMap.get("Apple")*2);//this is when you don't know the price of apple
       //  double newPrice = groceryPriceMap.get("Apple") *2 ;
      //   groceryPriceMap.replace("Apple",newPrice);
 
