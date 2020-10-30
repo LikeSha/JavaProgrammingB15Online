@@ -33,7 +33,6 @@ public class GroceryActions {
         groceryPriceMap.put("Grape", 3.99);
         groceryPriceMap.put("Banana", 0.69);
         groceryPriceMap.put("Apple", 1.89);
-        groceryPriceMap.put("Fish", 12.99);
 
         groceryPriceMap.putIfAbsent("Fish",12.99);
         groceryPriceMap.putIfAbsent("Apple",100.0);
