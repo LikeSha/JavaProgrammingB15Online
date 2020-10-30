@@ -24,7 +24,7 @@ public class WordUtil {
         Map<String,Integer> wordFreMap = new HashMap<>();
         String[] allWords = str.split(" ");
 
-        for(String word : str.split(" ")){
+        for(String word : str.split(" ")){// for(String word : allWords){
 
             if(!wordFreMap.containsKey(word)){
                 wordFreMap.put(word,1);
