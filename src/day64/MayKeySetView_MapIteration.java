@@ -17,12 +17,18 @@ public class MayKeySetView_MapIteration {
         groceryPriceMap.put("Apple", 1.89);
 
         System.out.println("groceryPriceMap.get(\"Apple\") = " + groceryPriceMap.get("Apple"));
-
+              // Map view :
+               // keySet view , values view, entrySet view
+        // How do I store all the keys into a Collection ?
+        // what do you think the data type will be to store such collection ?
+        //---Set   because keys are unique
 
         //Map is not iterable so we can not directly iterate over them
         // we can get something iterable out of the map
         // for example keySet view will return a Set<String> and it's iterable
 
+
+        // we can use keySet() method of Map to get Set of Keys
         Set<String> allNames = groceryPriceMap.keySet();
 
         for(String eachName : allNames){
