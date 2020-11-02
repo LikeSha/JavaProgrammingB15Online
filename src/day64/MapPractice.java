@@ -23,6 +23,7 @@ public class MapPractice {
 
         groupMap.forEach( (groupCode,allMembers) -> System.out.println("groupCode = " + groupCode +"\n\t members : "+ allMembers ) );
 
+        // get Toyly, he is at index 3
         System.out.println(groupMap.get("Achievers").get(3));
         //check whether this map has Gulzina or not in BugHunter?
                          // get method from Map ,  | contains method is coming from list
