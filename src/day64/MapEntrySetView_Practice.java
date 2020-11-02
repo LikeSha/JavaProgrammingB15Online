@@ -36,7 +36,7 @@ public class MapEntrySetView_Practice {
 
         Set<Map.Entry<String, String>> entryView = employeeMap.entrySet();
 
-        for (Map.Entry<String, String> eachEmployee : entryView) {
+        for (Map.Entry<String, String> eachEmployee : employeeMap.entrySet()) {
 
             if (eachEmployee.getValue().equals("Female")) {
 
@@ -45,7 +45,7 @@ public class MapEntrySetView_Practice {
 
         }
         // Task 2 : update the Female to Queen and Male to King
-        for (Map.Entry<String, String> eachEmployee : entryView) {
+        for (Map.Entry<String, String> eachEmployee : employeeMap.entrySet()) {
 
             if (eachEmployee.getValue().equals("Female")) {
                 eachEmployee.setValue("Queen");
