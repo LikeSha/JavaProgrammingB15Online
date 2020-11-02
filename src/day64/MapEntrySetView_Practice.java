@@ -36,7 +36,8 @@ public class MapEntrySetView_Practice {
 
         Set<Map.Entry<String, String>> entryView = employeeMap.entrySet();
 
-        for (Map.Entry<String, String> eachEmployee : employeeMap.entrySet()) {
+        for (Map.Entry<String, String> eachEmployee : employeeMap.entrySet()) {// direct using employeeMap.entrySet() when you not store yet
+            //for (Map.Entry<String, String> eachEmployee : entryView) { <-- this works if you stored entryView first
 
             if (eachEmployee.getValue().equals("Female")) {
 
