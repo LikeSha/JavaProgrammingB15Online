@@ -2,6 +2,7 @@ package day64;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.SortedMap;
 import java.util.TreeMap;
 
 public class SortedMap_Practice {
@@ -12,7 +13,7 @@ public class SortedMap_Practice {
         // TreeMap is the implementation class
 
         // sort by natural order of the key data type   ---TreeMap<>();
-        Map<String, Double> groceryPriceMap = new TreeMap<>();
+        SortedMap<String, Double> groceryPriceMap = new TreeMap<>();
         groceryPriceMap.put("Tomato", 1.99);
         groceryPriceMap.put("Patato", 2.99);
         groceryPriceMap.put("Grape", 3.99);
