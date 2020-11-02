@@ -1,6 +1,7 @@
 package day64;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
@@ -30,6 +31,15 @@ public class MapContinue {
         System.out.println("allNames = " + allNames);
         allNames.remove("Tomato");
         System.out.println("allNames  no tomato = " + allNames);
+        System.out.println("groceryPriceMap = " + groceryPriceMap);
+
+        // WHAT IF WE DO NOT WANT SUCH RELATIONSHIP AND WE JUST WANT TO USE THE KEY SOMEWHERE ELSE?
+        // Dump the Set into a different Set by creating a new object!
+        // The solution is GET A COPY OF THE SET into different object
+
+        Set<String> namesCopy = new HashSet<>(allNames);
+        namesCopy.remove("Tomato");
+        System.out.println("namesCopy = " + namesCopy);
         System.out.println("groceryPriceMap = " + groceryPriceMap);
 
     }
