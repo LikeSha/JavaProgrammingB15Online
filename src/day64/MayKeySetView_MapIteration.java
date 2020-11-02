@@ -33,7 +33,7 @@ public class MayKeySetView_MapIteration {
 
         for(String eachName : allNames){
             System.out.println("eachName = " + eachName);
-            System.out.println("value is = " + groceryPriceMap.get(eachName));
+            System.out.println(" | value is = " + groceryPriceMap.get(eachName));
         }
 
     }
