@@ -104,7 +104,8 @@ public class Day11_02_06_2020 {
      *
      * 4.what do you do if the defect/bug is not reproducible ?\
      *
-     * Answer : reproducible means : repeat your steps find a same bug
+     * Answer : reproducible means : repeat your steps find a same bug, I can use the same test data to
+     * repeat my test steps or using different test environment to reproduce the same bug.
      * when we found a bug , we assign it to developers ,along with the proof , I have to take a  screenshot
      * or a video and send it to them ( under " Actual result " column )  ,
      * this is clear note in test step ,so they can easy to figure out
