@@ -78,7 +78,7 @@ public class Day11_02_06_2020 {
      *  bug .they can put it into backlog again and later on they create task to fix it .
      *
      * regression test purpose is : make sure that all existing and new functionalities working as expected.
-     * Re-testing purpose is : only focus on specific funtionality and make sure that bug is fixed.
+     * Re-testing purpose is : only focus on specific functionality and make sure that bug is fixed.
 
      *
      * 2.what tool are you using for bug report ? we are using Jira-Xray
