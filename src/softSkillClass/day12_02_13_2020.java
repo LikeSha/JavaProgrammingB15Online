@@ -8,7 +8,8 @@ public class day12_02_13_2020 {
      * keep in mind : development team only 3 characters : developers ,testers ,and business analysts( BA)
      * Scrum team including development team , scrum team member is dev team + scrum master, PO
      *
-     * 2. If I give you a requirement , what will be your approach to testing?
+     * 2. If I give you a requirement , what will be your approach to testing? ( this is software testing life cycle--STLC)
+     * Watch the power point on day 10 Software testing life cycle part2-2.pdf
      * 3. How you handle if you found a bug?
      * 4. What do you do if the bug is rejected by developers ?
      * 5. What do you do if the bug is not reproducible?
