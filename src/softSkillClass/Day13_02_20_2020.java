@@ -23,7 +23,10 @@ public class Day13_02_20_2020 {
      * I need anything. As a tester, most of time ,we are not generate those reports.
      *
      * whos creating user story in jira ? product owner created and assign to testers .
+     *
      * 3.what is the importance of labeling issue ?
+     * answer: the purpose of labeling issue is just categorize them , by categorizing them ,its easier for us
+     * by searching certain labels.
      *
      *
      *
