@@ -59,6 +59,7 @@ public class Day13_02_20_2020 {
      * go to your jira project and create test plan--> click on more --select link --> link on more -->
      * select link --> linked to your user story
      *
+     *
      * 3, create test case      test plan stays in backlog
      *
      * test plan : folder
