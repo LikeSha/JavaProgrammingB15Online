@@ -16,10 +16,12 @@ public class FindSameLetters {
 
          */
 
-        //solution 1 :
+
+
+        System.out.println(FindSameLetters.same("abc","cbb"));
 
     }
-
+    //solution 1 :
         public static boolean same(String a, String b){
 
 
