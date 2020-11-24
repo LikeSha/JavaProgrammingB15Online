@@ -19,6 +19,8 @@ public class SumOfDigitsInString {
         for(char each : allChars){
             if(Character.isDigit(each)){
                 sum+= Integer.valueOf(each+"");
+//                sum+=Integer.parseInt(each+"");<-- this line of code also works.
+
             }
         }
 
