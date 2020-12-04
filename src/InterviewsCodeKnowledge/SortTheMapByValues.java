@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class SortTheMapByValues {
+//public class SortTheMapByValues {
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//
+//
+//    }
 
-
-    }
-
-    public static Map<String, Integer>  sortByValue(Map<String, Integer> map){
+//    public static Map<String, Integer>  sortByValue(Map<String, Integer> map) {
 
 //        List<Entry<String, Integer>> list = new ArrayList(map.entrySet());
 //
@@ -26,6 +26,8 @@ public class SortTheMapByValues {
 //        }
 //
 //        return map;
+//
+//    }
 
-    }
-}
+
+//}
