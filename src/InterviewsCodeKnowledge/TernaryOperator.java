@@ -32,6 +32,8 @@ public class TernaryOperator {
         max = (n1>n2) ? n1 :n2;
         System.out.println("max = " + max);
 
+        System.out.println("####################################################");
+
         // lets see another example :
 
         String action;
@@ -53,7 +55,36 @@ public class TernaryOperator {
         action = (isGreen) ? "Can drive" : "Can't drive";
         System.out.println("action = " + action);
 
+        System.out.println("##################################################");
+
+        int bill = 1400;
+        int discount = (bill>2000) ? 15 :10;
+        System.out.println("discount = " + discount);
+
+
+        System.out.println("##### nested ternary conditional statement#############");
+
+        int billl = 2000;
+        int qty = 10;
+        int discountt = (bill>1000) ? (qty>11) ? 10:9:5;
+        System.out.println("discountt = " + discountt);
+
+        // lets convert above nested ternary conditional statement into if statement:
+
+        if(billl>1000){
+            if(qty>11){
+                discountt = 10;
+            }else {
+                discountt = 9;
+            }
+            }else{
+                discountt = 5;
+            }
+
+        System.out.println("discountt = " + discountt);
+        }
+
     }
 
 
-}
+
