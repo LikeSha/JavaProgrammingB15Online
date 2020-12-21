@@ -15,7 +15,7 @@ public class SortedMap_Practice {
         // sort by natural order of the key data type   ---TreeMap<>();
         SortedMap<String, Double> groceryPriceMap = new TreeMap<>();
         groceryPriceMap.put("Tomato", 1.99);
-        groceryPriceMap.put("Patato", 2.99);
+        groceryPriceMap.put("Potato", 2.99);
         groceryPriceMap.put("Grape", 3.99);
         groceryPriceMap.put("Banana", 1.99);
         groceryPriceMap.put("Apple", 1.89);
@@ -39,7 +39,30 @@ public class SortedMap_Practice {
          *             they are TWO COMPLETELY DIFFERENT DATA STRUCTURE !!!
          */
 
+        // SortedMap methods :
+        /*
+              K firstKey();
+              K lastKey();
+              SortedMap<K,V> subMap(K fromKey, K toKey);
+              SortedMap<K,V> headMap(K toKey);
+              SortedMap<K,V> tailMap(K toKey);
 
+
+         */
+        // firstKey();
+        System.out.println("first key of groceryPriceMap : " + groceryPriceMap.firstKey());
+
+        // lastKey();
+        System.out.println("last key of groceryPriceMap : " + groceryPriceMap.lastKey());
+
+        //  view : SortedMap<K,V> subMap(K fromKey, K toKey);
+        System.out.println(groceryPriceMap.subMap("Banana","Potato"));
+
+        // view : SortedMap<K,V> headMap(K toKey); everything from beginning to a certain key.
+        System.out.println(groceryPriceMap.headMap("Potato"));
+
+        // view : SortedMap<K,V> tailMap(K toKey); getting certain item to all the way the last item
+        System.out.println(groceryPriceMap.tailMap("Grape"));
 
     }
 }
