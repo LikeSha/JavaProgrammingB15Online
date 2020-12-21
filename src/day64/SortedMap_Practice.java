@@ -64,5 +64,10 @@ public class SortedMap_Practice {
         // view : SortedMap<K,V> tailMap(K toKey); getting certain item to all the way the last item
         System.out.println(groceryPriceMap.tailMap("Grape"));
 
+        SortedMap<String, Double> tailView = groceryPriceMap.tailMap("Grape");
+        tailView.replace("Grape",4.09);
+        System.out.println(tailView);
+        System.out.println(groceryPriceMap);
+
     }
 }
