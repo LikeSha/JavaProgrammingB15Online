@@ -11,7 +11,8 @@ public class FindHowManyCharacerInString {
         for (int i = 0; i < str.length(); i++) {
 
             if(check.contains(str.charAt(i) + ""))
-                continue;
+                continue;// continue means : go back the top loop start it again, just ignore the
+                         // rest of bottom part.in this case go back tgo line 3 and loop it again.
 
             int count = 0;
 
