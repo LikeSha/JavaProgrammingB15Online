@@ -24,19 +24,7 @@ public class PalindromeTest {
             System.out.println("Not Palindrome ");
         }
 
-        /*
-        Complete a method isPalindrome() that will check if number is a palindrome.
-        Print your result as a boolean (true or false).
-         Do not convert int into a string!
-         Example:
-          input: 1001
-          output: true
 
-         Example:
-         input: 1234
-         output: false
-        *
-         */
 
         System.out.println("------------method 2--------------------");
 
@@ -61,6 +49,20 @@ public class PalindromeTest {
 
 
     }
+
+     /*
+        Complete a method isPalindrome() that will check if number is a palindrome.
+        Print your result as a boolean (true or false).
+         Do not convert int into a string!
+         Example:
+          input: 1001
+          output: true
+
+         Example:
+         input: 1234
+         output: false
+        *
+         */
 
     public static void isPalindrome(int num){
         int reversedNumber = 0;
