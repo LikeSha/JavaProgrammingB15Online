@@ -38,6 +38,28 @@ public class PalindromeTest {
         *
          */
 
+        System.out.println("------------method 2--------------------");
+
+        String str = "abcdcba";
+        boolean check = true;
+
+        for (int i = 0; i < str.length()/2; i++) {
+            if(str.charAt(i) !=str.charAt(str.length()-1-i)){
+                check = false;
+                break;
+            }
+        }
+        System.out.println(check ? "Palindrome" :"Not Palindrome");
+        // or if we don't use above ternary statement , we can simply use below 4 lines code:
+        /*
+        if(check){
+            System.out.println("Palindrome");
+        }else{
+            System.out.println("Not Palindrome");
+        }
+         */
+
+
     }
 
     public static void isPalindrome(int num){
