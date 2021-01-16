@@ -12,7 +12,7 @@ public class PasswordValid {
 // */
     public static void main(String[] args) {
 
-        String password = "@$@$@$%@?";
+        String password = "@$@$8$%@?";
 
         boolean length = password.length() >=8;
         boolean lower = password.matches(".*[a-z].*");// .* means " including everything"
