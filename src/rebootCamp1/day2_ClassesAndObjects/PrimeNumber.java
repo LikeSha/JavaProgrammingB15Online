@@ -7,6 +7,9 @@ public class PrimeNumber {
     public static void main(String[] args) {
 
         printAllTo(100);
+        System.out.println(isPrime(100));
+
+
     }
 
     public static void printAllTo(int num) {
