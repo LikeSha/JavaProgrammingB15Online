@@ -30,7 +30,7 @@ public class CheckIfTwoStringsAnagrams {
             // the first character of a is "l", so we replace "l" in the string b.
             // then we loop second character of string a, which is "i" and replace "i" in the string b......
         }
-
+         // print(b.isEmpty() ? "Anagram" : "Not Anagram")
         if(b.isEmpty()){
             System.out.println("Anagram");
         }else{
