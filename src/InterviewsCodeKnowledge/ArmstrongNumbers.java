@@ -1,5 +1,7 @@
 package InterviewsCodeKnowledge;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class ArmstrongNumbers {
 
     /*
@@ -30,5 +32,43 @@ public class ArmstrongNumbers {
         }
 
         return false;
+
+
     }
+
+
+    public static boolean isArmstrong(int num){
+
+        String number = String.valueOf(num);
+        int power = number.length();
+        int sum = 0;
+
+        for (int i = 0; i < number.length(); i++) {
+
+            int digit = Integer.parseInt("" + number.charAt(i));
+            sum+=Math.pow(digit,power);
+        }
+        return sum == num;
+    }
+
+    public static boolean isArmstrong2(int num){
+
+        int digits = num;
+        int sum = 0;
+        int power = String.valueOf(num).length();
+
+        /// 153
+        // num % 10 --> last digit  %10 returns last digit of a number
+
+        while(digits !=0 ){
+
+            int each = digits % 10;
+            digits /= 10;
+
+            sum += Math.pow(each,power);
+        }
+        return sum == num;
+    }
+
+
 }
