@@ -27,6 +27,11 @@ public class CountLetters {
             map.put(key,map.get(key)+1);
         }
 
-        System.out.println(map);
+       // System.out.println(map); //we can print like this ,or we may print nicer as below :
+        for(Character key :map.keySet()){
+            System.out.println("key: " + key);
+            System.out.println("Value: " + map.get(key));
+            System.out.println();
+        }
     }
 }
