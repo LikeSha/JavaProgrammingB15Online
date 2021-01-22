@@ -19,10 +19,10 @@ public class SortNumberAndLetterInAString {
 
     public static String sortEach(String str){
 
-        String sorted = "";
-        String each = "";
+        String sorted = "";//where the final result is stored
+        String each = "";//where the substring of each part(digit/letter)
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < str.length(); i++) {//loops through the whole String
 
             each += str.charAt(i);
 
@@ -31,7 +31,7 @@ public class SortNumberAndLetterInAString {
                     // action1
                     sorted +=sortSubString(each);
                     each = "";// reassign my each back to nothing because I found everything and need to redo everything
-                }
+                } // i==str.length()-1 when we get to the last index, we forcing the substring part each to  be sorted
             }else{
                  if(i==str.length()-1 ||!Character.isDigit(str.charAt(i+1))){
                      //action2  // because action1 and action2 are pretty much similar, so we need a method to make it simple
