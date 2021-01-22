@@ -27,7 +27,7 @@ public class SortNumberAndLetterInAString {
             each += str.charAt(i);
 
             if(Character.isLetter(str.charAt(i))){
-                if(!Character.isLetter(str.charAt(i+1))){//checking if the next one is letter or number
+                if(i == str.length()-1 || !Character.isLetter(str.charAt(i+1))){//checking if the next one is letter or number
                     // action1
                     sorted +=sortSubString(each);
                     each = "";// reassign my each back to nothing because I found everything and need to redo everything
