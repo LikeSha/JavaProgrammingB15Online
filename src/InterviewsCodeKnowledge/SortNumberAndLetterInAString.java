@@ -6,6 +6,8 @@ import java.util.Arrays;
 Create a method that will take any String of letters and numbers and sort each substring of numbers and letters
 Ex:Input:  "DC501GCCCA098911"
    OutPut: "CD015ACCCG011899"
+
+   // solution explain is in rebootcamp 05/28/2020 Day 6 JAVA video
  */
 public class SortNumberAndLetterInAString {
 
