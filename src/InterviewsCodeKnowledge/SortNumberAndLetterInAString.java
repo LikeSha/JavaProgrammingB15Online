@@ -33,7 +33,7 @@ public class SortNumberAndLetterInAString {
                     each = "";// reassign my each back to nothing because I found everything and need to redo everything
                 }
             }else{
-                 if(!Character.isDigit(str.charAt(i+1))){
+                 if(i==str.length()-1 ||!Character.isDigit(str.charAt(i+1))){
                      //action2  // because action1 and action2 are pretty much similar, so we need a method to make it simple
                       // I need to take each part of substring and sort it.method name is "sortSubString"
                      sorted +=sortSubString(each);
