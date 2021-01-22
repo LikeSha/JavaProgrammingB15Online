@@ -50,7 +50,7 @@ public class SortNumberAndLetterInAString {
         String[] arr = str.split("");
         Arrays.sort(arr);
         return Arrays.toString(arr).replace("[","").replace("]","").
-                replace(",","");//converted my array into string
+                replace(", ","");//converted my array into string
     }
 
 }
