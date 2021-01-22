@@ -73,7 +73,7 @@ public class RemoveDuplicatesFromAString {
             }
             if (count2 == 1) {
                 System.out.println(array[j]);
-            }
+            } // another method is to put string [] into LinkedHashSet , See method in another class.
         }
         System.out.println("===============task 3=======================");
         // 3. Write a program that can find the second max number from an int array
