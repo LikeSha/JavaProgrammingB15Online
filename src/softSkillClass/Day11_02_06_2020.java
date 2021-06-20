@@ -2,7 +2,8 @@ package softSkillClass;
 
 public class Day11_02_06_2020 {
 
-    // today's inter view question good ! all employees answered very good ,need to watch again , Feb 6,2020 video
+
+     // today's inter view question good ! all employees answered very good ,need to watch again , Feb 6,2020 video
     /**
      *
      * test case and test scenario difference ?
@@ -262,7 +263,6 @@ public class Day11_02_06_2020 {
      *
      *      what is IPIC ? IPIC is " big user story"
      *      *
-     *
      *
      *
      *

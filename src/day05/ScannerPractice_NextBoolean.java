@@ -12,7 +12,9 @@ public class ScannerPractice_NextBoolean {
 
         // asking user are you recording
         System.out.println("are you recording ?");
+//        System.out.println("input true or false");
         boolean isRecording = input.nextBoolean();
+
 
         // The result of concatenating a string to any data type --->> String
         System.out.println("We are recording " + isRecording );
