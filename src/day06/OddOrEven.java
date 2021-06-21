@@ -13,6 +13,7 @@ public class OddOrEven {
         System.out.println("youNumber Remainder of dividing by 2 :" + yourNumber%2 );
 
         System.out.println("adding my number to your number :" + yourNumber + myNumber);
+        //anything concatinated with String become a string , the result is 1110
 
         System.out.println("adding my number to your number :" + (yourNumber + myNumber) );
 
