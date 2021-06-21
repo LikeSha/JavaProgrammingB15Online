@@ -39,7 +39,7 @@ public class EvenOddFinder {
 
         int remainder = myNumber%2 ;
 
-        Scanner scan = new Scanner(System.in);
+//        Scanner scan = new Scanner(System.in);
 
         System.out.println("Is your number an odd number or an even number ?");
 
