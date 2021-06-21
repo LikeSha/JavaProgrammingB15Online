@@ -19,7 +19,7 @@ public class Calculator_V2 {
                 System.out.println( num1 + num2);
                 break;
             case '-' :
-                System.out.println( num1 +-num2);
+                System.out.println( num1 - num2);
                 break;
             case '*' :
                 System.out.println( num1 * num2);
