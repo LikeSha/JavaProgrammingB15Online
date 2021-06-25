@@ -38,11 +38,11 @@ public class FidingTheCountOfSomething {
                     ++countOfA;
 
                 }
-                System.out.println("countOfA = " + countOfA);
+
 
             }
 
-
+        System.out.println("countOfA = " + countOfA);
 
 
 
